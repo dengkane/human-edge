@@ -10,6 +10,9 @@
 | Meta-skill | 元能力 | Skills about skills |
 | Average beauty | 平均美 | AI-generated mediocrity |
 | MVP (Minimum Viable Product) | 最小可行性产品 | — |
+| Codified knowledge | 编码知识 | Ch. 01. Textbook/procedural — what AI reproduces cheaply |
+| Tacit knowledge | 隐性知识 | Ch. 01. Earned through experience — what AI cannot replicate |
+| Experience premium | 经验溢价 | Ch. 01. Gap between entry-level and experienced pay |
 | Filter bubble | 信息茧房 | — |
 | Sparring partner | 陪练 | AI as training partner |
 | Human edge | 人类优势 | The core thesis of this book |
