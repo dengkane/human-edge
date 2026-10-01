@@ -9,7 +9,7 @@
 | 章节 | 标题 | 状态 | 英文对应 |
 |------|------|------|----------|
 | 01 | AI 照妖镜：哪些"伪能力"正在被淘汰？ | draft | `../en/ch01-the-mirror.md` |
-| 02 | AI 的盲区：机器永远学不会的四件事 | planned | `../en/ch02-ais-blind-spots.md` |
+| 02 | AI 的盲区：机器永远学不会的四件事 | draft | `../en/ch02-ais-blind-spots.md` |
 | 03 | 审美力：在"平均美"时代建立判断力 | planned | `../en/ch03-taste-beyond-average-beauty.md` |
 | 04 | 故事与情感：AI 能写情书，但写不出心跳 | planned | `../en/ch04-story-and-emotion.md` |
 | 05 | 跨领域思维：AI 只会内插，不会连接 | planned | `../en/ch05-cross-domain-thinking.md` |
