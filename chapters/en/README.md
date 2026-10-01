@@ -22,7 +22,7 @@ change with it.
 | 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | draft |
 | 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | II — Building Your Moat | yes | draft |
 | 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | II — Building Your Moat | yes | draft |
-| 07 | Deep Thinking: Breaking Out of the Filter Bubble | III — Thinking With a Machine | yes | planned |
+| 07 | Deep Thinking: Breaking Out of the Filter Bubble | III — Thinking With a Machine | yes | draft |
 | 08 | Prompting as Thinking: From Searcher to Commander | III — Thinking With a Machine | yes | planned |
 | 09 | Your Second Brain and Your First Brain | IV — Systems and Their Costs | yes | planned |
 | 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | IV — Systems and Their Costs | yes | planned |
