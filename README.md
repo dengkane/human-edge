@@ -49,7 +49,7 @@ Four capabilities, one per blind spot in Ch. 02 — the four this book promises 
 | 03 | Taste: Developing Judgment in an Age of "Average Beauty" | ✍️ Drafting |
 | 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | ✍️ Drafting |
 | 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | ✍️ Drafting |
-| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | 📋 Planned |
+| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | ✍️ Drafting |
 
 ### Part III: Thinking With a Machine
 

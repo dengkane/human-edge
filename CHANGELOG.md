@@ -57,6 +57,14 @@ and warns if a new chapter arrives without one.
   research then shows humans get trapped too (experts performing three standard deviations below
   skill), so the moat is not ability: it is that a reframe has to be paid for.
 
+- **Ch. 06, *Judgment Without a Right Answer*** — 3,324 words of body, 5 independent sources, 11 sourced
+  claims. Closes Part II ("no commitment"). Research **reversed the chapter's instinct**: the intuition
+  is "with no right answer, judge me on the outcome" — but the evidence says process accountability
+  improves judgment quality while outcome accountability degrades it, pushing people into heuristic
+  processing. A second finding (Sheridan & Reingold, PLOS ONE) added the half the first draft lacked:
+  people abandon a course of action on a **blunder** but not on a slow disappointment, which is exactly
+  what "no right answer" looks like from inside.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
