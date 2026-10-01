@@ -140,7 +140,7 @@ cp templates/chapter-template.md chapters/en/ch01-the-mirror.md
 ```
 
 The filename convention is enforced by the linter: `ch<NN>-<kebab-case-slug>.md`. The filename for
-each of the ten chapters is already fixed in the index table at the top of
+each of the thirteen chapters is already fixed in the index table at the top of
 [`chapters/en/README.md`](chapters/en/README.md) — copy it from there rather than inventing one, so
 that the index, the file, and the research notes agree on the first try. **The examples in this
 document use Ch. 01**, the first chapter anyone writes, and one whose number can never move.
@@ -167,7 +167,7 @@ Target **~3500 words of body**, inside the 2,500–5,000-word range non-fiction 
 - **named after their arguments**, not "Section 2";
 - finishes with `## The honest caveats` and `## Do this today`.
 
-Ch. 10 is an epilogue and is deliberately shorter. The linter's length warnings are calibrated for
+Ch. 13 is an epilogue and is deliberately shorter. The linter's length warnings are calibrated for
 body chapters, so a deliberate ~1500-word epilogue will warn — note the reason in the front matter so
 the next person does not "fix" it.
 

@@ -1,7 +1,7 @@
 # Project Instructions
 
 **The Human Edge** — a living book on building what AI cannot copy, by using AI itself.
-Ten chapters in four parts, English-first, then translated into Chinese. Co-authored with AI,
+Thirteen chapters in five parts, English-first, then translated into Chinese. Co-authored with AI,
 human-edited, published in public and updated continuously — so a write-it-once, print-it-and-ship
 mindset does not apply: chapters change after release.
 
@@ -33,8 +33,8 @@ them.
 things to know up front.
 
 - **~3500 words of body.** Warns below 2500 or above 4500. That is the middle of the non-fiction
-  convention, and what makes ten chapters a short book rather than a pamphlet — not a target to pad
-  to. (Ch. 10 is an epilogue and is deliberately shorter; see the note in
+  convention, and what makes thirteen chapters a short book rather than a pamphlet — not a target to
+  pad to. (Ch. 13 is an epilogue and is deliberately shorter; see the note in
   `chapters/en/README.md`.)
 - **Two or three body sections of 900–1200 words**, named after their arguments ("A species, not a
   screwdriver"), never "Section 2".
@@ -89,11 +89,16 @@ Parts are grouped by what the reader needs next, not by number:
 | Part | Chapters | Note |
 |---|---|---|
 | I — Cognitive Awakening | 01–02 | 01 is the diagnosis; 02 is the theory of what machines cannot learn |
-| II — Building Your Moat | 03–05 | exactly three, one per blind spot in 02: taste, deep thinking, story & emotion |
-| III — Human–AI Collaboration Systems | 06–08 | how to ask, how to remember, how to act |
-| IV — The Future of Growth | 09–10 | sustaining it, and the closing argument |
+| II — Building Your Moat | 03–06 | exactly four, one per blind spot named in 02 — the four capabilities `README.md` promises |
+| III — Thinking With a Machine | 07–08 | method: reasoning alone, then reasoning with a model |
+| IV — Systems and Their Costs | 09–11 | how to remember, how to act, and what the system takes in return |
+| V — The Future of Growth | 12–13 | sustaining it, and the closing argument |
 
-**All ten chapters are open source.** The paid tier is the *Premium Pack* — case studies, the prompt
+Part II is the one to watch. Its chapter count is locked to the number in Ch. 02's title, and to the
+four capabilities `README.md` promises on its first page. Adding or removing a Part II chapter means
+changing Ch. 02's title in the same commit.
+
+**All thirteen chapters are open source.** The paid tier is the *Premium Pack* — case studies, the prompt
 template library, the workbook, video walkthroughs — which lives in `/paid/` and is not tracked in
 this repository. See `README.md`.
 

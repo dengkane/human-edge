@@ -9,15 +9,18 @@
 | 章节 | 标题 | 状态 | 英文对应 |
 |------|------|------|----------|
 | 01 | AI 照妖镜：哪些"伪能力"正在被淘汰？ | planned | `../en/ch01-the-mirror.md` |
-| 02 | AI 的盲区：机器永远学不会的三件事 | planned | `../en/ch02-ais-blind-spots.md` |
+| 02 | AI 的盲区：机器永远学不会的四件事 | planned | `../en/ch02-ais-blind-spots.md` |
 | 03 | 审美力：在"平均美"时代建立判断力 | planned | `../en/ch03-taste-beyond-average-beauty.md` |
-| 04 | 深度思考力：打破信息茧房 | planned | `../en/ch04-deep-thinking-beyond-the-filter-bubble.md` |
-| 05 | 故事与情感：AI 能写情书，但写不出心跳 | planned | `../en/ch05-story-and-emotion.md` |
-| 06 | 提问力：从"搜索者"到"指挥官" | planned | `../en/ch06-prompting-as-thinking.md` |
-| 07 | 第二大脑与第一大脑 | planned | `../en/ch07-second-brain-first-brain.md` |
-| 08 | MVP 思维：让 AI 负责"想"，你负责"试" | planned | `../en/ch08-mvp-thinking.md` |
-| 09 | 终身成长 2.0：把 AI 当私教 | planned | `../en/ch09-lifelong-learning-2-0.md` |
-| 10 | 结语：做那个按下回车键的人 | planned | `../en/ch10-be-the-one-who-presses-enter.md` |
+| 04 | 故事与情感：AI 能写情书，但写不出心跳 | planned | `../en/ch04-story-and-emotion.md` |
+| 05 | 跨领域思维：AI 只会内插，不会连接 | planned | `../en/ch05-cross-domain-thinking.md` |
+| 06 | 没有正确答案时的判断力：数据沉默时如何下注 | planned | `../en/ch06-judgment-without-a-right-answer.md` |
+| 07 | 深度思考力：打破信息茧房 | planned | `../en/ch07-deep-thinking-beyond-the-filter-bubble.md` |
+| 08 | 提问力：从"搜索者"到"指挥官" | planned | `../en/ch08-prompting-as-thinking.md` |
+| 09 | 第二大脑与第一大脑 | planned | `../en/ch09-second-brain-first-brain.md` |
+| 10 | MVP 思维：让 AI 负责"想"，你负责"试" | planned | `../en/ch10-mvp-thinking.md` |
+| 11 | 外包思考的代价：当 AI 替你思考，你失去了什么 | planned | `../en/ch11-the-cost-of-offloading.md` |
+| 12 | 终身成长 2.0：把 AI 当私教 | planned | `../en/ch12-lifelong-learning-2-0.md` |
+| 13 | 结语：做那个按下回车键的人 | planned | `../en/ch13-be-the-one-who-presses-enter.md` |
 
 中文文件的**文件名与英文完全一致**（`ch01-the-mirror.md`、`ch02-ais-blind-spots.md`……），只是所在目录不同。这样两版的对应关系一眼可见，`scripts/check-chapter.sh` 也能照常校验。
 

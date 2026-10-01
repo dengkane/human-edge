@@ -38,34 +38,44 @@ AI generates → You judge → You refine → You internalize → You level up
 | Chapter | Title | Status |
 |---------|-------|--------|
 | 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | 📋 Planned |
-| 02 | AI's Blind Spots: Three Things Machines Can't Learn | 📋 Planned |
+| 02 | AI's Blind Spots: Four Things Machines Can't Learn | 📋 Planned |
 
 ### Part II: Building Your Moat
 
-Three capabilities, one per blind spot in Ch. 02.
+Four capabilities, one per blind spot in Ch. 02 — the four this book promises on its first page.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
 | 03 | Taste: Developing Judgment in an Age of "Average Beauty" | 📋 Planned |
-| 04 | Deep Thinking: Breaking Out of the Filter Bubble | 📋 Planned |
-| 05 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | 📋 Planned |
+| 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | 📋 Planned |
+| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | 📋 Planned |
+| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | 📋 Planned |
 
-### Part III: Human-AI Collaboration Systems
+### Part III: Thinking With a Machine
 
-How to ask, how to remember, how to act.
-
-| Chapter | Title | Status |
-|---------|-------|--------|
-| 06 | Prompting as Thinking: From Searcher to Commander | 📋 Planned |
-| 07 | Your Second Brain and Your First Brain | 📋 Planned |
-| 08 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | 📋 Planned |
-
-### Part IV: The Future of Growth
+The method — reasoning on your own, then reasoning with a model.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 09 | Lifelong Learning 2.0: AI as Your Personal Trainer | 📋 Planned |
-| 10 | Epilogue: Be the One Who Presses Enter | 📋 Planned |
+| 07 | Deep Thinking: Breaking Out of the Filter Bubble | 📋 Planned |
+| 08 | Prompting as Thinking: From Searcher to Commander | 📋 Planned |
+
+### Part IV: Systems and Their Costs
+
+How to remember, how to act — and what the system takes from you in return.
+
+| Chapter | Title | Status |
+|---------|-------|--------|
+| 09 | Your Second Brain and Your First Brain | 📋 Planned |
+| 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | 📋 Planned |
+| 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | 📋 Planned |
+
+### Part V: The Future of Growth
+
+| Chapter | Title | Status |
+|---------|-------|--------|
+| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | 📋 Planned |
+| 13 | Epilogue: Be the One Who Presses Enter | 📋 Planned |
 
 ---
 
@@ -73,7 +83,7 @@ How to ask, how to remember, how to act.
 
 | Layer | What's Included | Access |
 |-------|----------------|--------|
-| **L1: Open Source** | All ten chapters, the framework, core concepts, mental models | Free on GitHub (this repo) |
+| **L1: Open Source** | All thirteen chapters, the framework, core concepts, mental models | Free on GitHub (this repo) |
 | **L2: Premium Pack** | Full case studies, prompt template library, workbook, video walkthroughs | [Gumroad](https://your-gumroad-link.com) · [爱发电](https://your-afdian-link.com) |
 | **L3: Community** | Private Discord/WeChat, monthly live Q&A, 1-on-1 diagnostics | [GitHub Sponsors](https://github.com/sponsors/your-username) |
 

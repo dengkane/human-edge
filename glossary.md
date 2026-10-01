@@ -6,7 +6,7 @@
 | Taste | 审美 / 品味 | Context-dependent |
 | Second brain | 第二大脑 | Kept as-is |
 | First brain | 第一大脑 | Refers to biological cognition |
-| Fuzzy decision-making | 模糊决策 | — |
+| Fuzzy decision-making | 模糊决策 | Ch. 06. Deciding with no defensible answer |
 | Meta-skill | 元能力 | Skills about skills |
 | Average beauty | 平均美 | AI-generated mediocrity |
 | MVP (Minimum Viable Product) | 最小可行性产品 | — |
@@ -14,5 +14,8 @@
 | Sparring partner | 陪练 | AI as training partner |
 | Human edge | 人类优势 | The core thesis of this book |
 | AI-proof | 防 AI 淘汰 | Adjective: resistant to AI replacement |
-| Cross-domain thinking | 跨领域思维 | — |
-| Emotional resonance | 情感共鸣 | — |
+| Cross-domain thinking | 跨领域思维 | Ch. 05. Carrying a structure across fields |
+| Interpolation | 内插 | What AI does instead of connecting — the mechanism behind Ch. 05 |
+| Emotional resonance | 情感共鸣 | Ch. 04 |
+| Cognitive offloading | 认知外包 | Ch. 11. Handing thinking to a tool and losing the capacity |
+| Judgment without a right answer | 没有正确答案时的判断力 | Ch. 06 — fuzzy decision-making in plain terms |

@@ -6,32 +6,59 @@ disagree, English wins and the Chinese gets corrected — see [../zh/README.md](
 
 ## Chapter index
 
-Ten chapters in four parts. Flip a chapter's status here when it moves; this table is the working
+Thirteen chapters in five parts. Flip a chapter's status here when it moves; this table is the working
 record, and `README.md` at the repo root is the public-facing summary of the same thing.
+
+Part II is the moat: four capabilities, one for each of the four blind spots Ch. 02 names. The pairing
+is deliberate and mirrors the four capabilities `README.md` promises — taste, emotional resonance,
+cross-domain thinking, judgment. If Part II ever gains or loses a chapter, Ch. 02's title has to
+change with it.
 
 | # | Title | Part | Free? | Status |
 |---|-------|------|-------|--------|
 | 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | I — Cognitive Awakening | yes | planned |
-| 02 | AI's Blind Spots: Three Things Machines Can't Learn | I — Cognitive Awakening | yes | planned |
+| 02 | AI's Blind Spots: Four Things Machines Can't Learn | I — Cognitive Awakening | yes | planned |
 | 03 | Taste: Developing Judgment in an Age of "Average Beauty" | II — Building Your Moat | yes | planned |
-| 04 | Deep Thinking: Breaking Out of the Filter Bubble | II — Building Your Moat | yes | planned |
-| 05 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | planned |
-| 06 | Prompting as Thinking: From Searcher to Commander | III — Human–AI Collaboration Systems | yes | planned |
-| 07 | Your Second Brain and Your First Brain | III — Human–AI Collaboration Systems | yes | planned |
-| 08 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | III — Human–AI Collaboration Systems | yes | planned |
-| 09 | Lifelong Learning 2.0: AI as Your Personal Trainer | IV — The Future of Growth | yes | planned |
-| 10 | Epilogue: Be the One Who Presses Enter | IV — The Future of Growth | yes | planned |
+| 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | planned |
+| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | II — Building Your Moat | yes | planned |
+| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | II — Building Your Moat | yes | planned |
+| 07 | Deep Thinking: Breaking Out of the Filter Bubble | III — Thinking With a Machine | yes | planned |
+| 08 | Prompting as Thinking: From Searcher to Commander | III — Thinking With a Machine | yes | planned |
+| 09 | Your Second Brain and Your First Brain | IV — Systems and Their Costs | yes | planned |
+| 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | IV — Systems and Their Costs | yes | planned |
+| 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | IV — Systems and Their Costs | yes | planned |
+| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | V — The Future of Growth | yes | planned |
+| 13 | Epilogue: Be the One Who Presses Enter | V — The Future of Growth | yes | planned |
 
 No chapter file exists yet. That is why everything reads `planned` — an entry stops being a plan the
 moment a file lands in this directory, not when it is decided on.
 
-**All ten chapters are open source**, which is why the "Free?" column is uniform. The paid tier is
-the *Premium Pack* (case studies, the prompt template library, the workbook, video walkthroughs),
+**All thirteen chapters are open source**, which is why the "Free?" column is uniform. The paid tier
+is the *Premium Pack* (case studies, the prompt template library, the workbook, video walkthroughs),
 which lives in `/paid/` and is not part of this repository. If that split ever changes, this table is
 where it is recorded.
 
-`part:` in front matter must match one of the four names above exactly — the linter reads them from
+`part:` in front matter must match one of the five names above exactly — the linter reads them from
 the same list.
+
+### Why thirteen, and why these five parts
+
+Three chapters were added after the outline was first drafted, each closing a gap that the repo's own
+documents had already opened:
+
+- **05 Cross-Domain Thinking** and **06 Judgment Without a Right Answer** — `README.md` promises the
+  reader four capabilities (*judgment, taste, emotional resonance, cross-domain thinking*) and
+  `glossary.md` defines all four, but only two had a chapter. Part II now mirrors the promise exactly.
+- **11 The Cost of Offloading** — every other chapter argues that AI makes you stronger. A book that
+  only argues one direction reads as advocacy; 11 is the counterweight, and it is what makes 09–10
+  advice rather than a sales pitch.
+
+Deep Thinking (07) moved out of Part II at the same time. It is not a blind spot — it is a method for
+thinking *alongside* a machine — so it belongs with prompting in Part III. Part II is now strictly
+"what a machine cannot do"; Part III is "how you work with one."
+
+Part IV carries the two build-a-system chapters plus their cost, because the cost only exists once
+there is a system to offload into.
 
 ## Filenames
 
@@ -47,13 +74,16 @@ assignment is:
 | 01 | `ch01-the-mirror.md` |
 | 02 | `ch02-ais-blind-spots.md` |
 | 03 | `ch03-taste-beyond-average-beauty.md` |
-| 04 | `ch04-deep-thinking-beyond-the-filter-bubble.md` |
-| 05 | `ch05-story-and-emotion.md` |
-| 06 | `ch06-prompting-as-thinking.md` |
-| 07 | `ch07-second-brain-first-brain.md` |
-| 08 | `ch08-mvp-thinking.md` |
-| 09 | `ch09-lifelong-learning-2-0.md` |
-| 10 | `ch10-be-the-one-who-presses-enter.md` |
+| 04 | `ch04-story-and-emotion.md` |
+| 05 | `ch05-cross-domain-thinking.md` |
+| 06 | `ch06-judgment-without-a-right-answer.md` |
+| 07 | `ch07-deep-thinking-beyond-the-filter-bubble.md` |
+| 08 | `ch08-prompting-as-thinking.md` |
+| 09 | `ch09-second-brain-first-brain.md` |
+| 10 | `ch10-mvp-thinking.md` |
+| 11 | `ch11-the-cost-of-offloading.md` |
+| 12 | `ch12-lifelong-learning-2-0.md` |
+| 13 | `ch13-be-the-one-who-presses-enter.md` |
 
 **A chapter that has shipped keeps its number.** Numbers appear in filenames, in cross-references
 inside the book, and in public links to the repo. A published chapter whose subject turns out to be
@@ -65,10 +95,10 @@ commit, because nothing checks it for you.
 
 ### Length
 
-**~3500 words of body.** The linter warns below 2500 and above 4500. Ten chapters at 3500 is about
-35,000 words — a short book, and the right size for ten distinct arguments. It is deliberately *not*
-a quota: length is a consequence of having two or three real arguments, each with its own example
-and its own limits. A chapter stretching one idea to 3500 words is a chapter missing an argument, not
+**~3500 words of body.** The linter warns below 2500 and above 4500. Thirteen chapters at 3500 is
+about 45,000 words — a short book, the length of a sustained argument rather than a survey. It is
+deliberately *not* a quota: length is a consequence of having two or three real arguments, each with
+its own example and its own limits. A chapter stretching one idea to 3500 words is a chapter missing an argument, not
 missing 1200 words. See the LENGTH note at the bottom of
 [`../../templates/chapter-template.md`](../../templates/chapter-template.md).
 
@@ -90,7 +120,7 @@ caught.
   does it break down. Admitting the limits is what makes the rest credible. `Do this today` is three
   actions — one under 30 minutes, one this week, one this quarter.
 - **End with `## Further reading`** that links other chapters of *this book* by number. Pointing at
-  the chapter that precedes or extends this one is what makes ten files read as a sequence.
+  the chapter that precedes or extends this one is what makes thirteen files read as a sequence.
 
 Use the template. **Never hand-roll front matter or the disclosure footer** — `check-chapter.sh`
 validates both, and the footer's four lines are matched literally.
@@ -99,9 +129,9 @@ validates both, and the footer's four lines are matched literally.
 
 The book's loop is `AI generates → You judge → You refine → You internalize → You level up`. The
 "you judge" beat is the one that fails quietly in practice: a confidently wrong answer, a citation
-that does not exist, an argument that reads well and says nothing. Ch. 04 (Deep Thinking) carries this
+that does not exist, an argument that reads well and says nothing. Ch. 07 (Deep Thinking) carries this
 as a named section rather than a chapter of its own — catching the model out is a skill exercised
-while reasoning, and Ch. 04 is where reasoning-under-uncertainty already lives. Ch. 07 covers storing
+while reasoning, and Ch. 07 is where reasoning-under-uncertainty already lives. Ch. 09 covers storing
 what you concluded; neither covers noticing that the conclusion was never true.
 
 This is also why the research rules below are strict about *opening* a source rather than trusting a
@@ -173,26 +203,34 @@ paywalled or refuses extraction, say so in the notes and cite something a reader
 
 ## Chapter boundaries
 
-Ten chapters about one thesis overlap if nobody says where the seams are. These are the seams.
+Thirteen chapters about one thesis overlap if nobody says where the seams are. These are the seams.
+The pairs that are easiest to confuse come first.
 
 | Pair | The line between them |
 |------|-----------------------|
 | 01 ↔ 02 | 01 is the diagnosis: which "skills" the reader was proud of are quietly worthless now. 02 is the argument: what machines cannot learn, and therefore why there is somewhere to stand. 01 raises the problem, 02 answers it. Neither proceeds without the other. |
-| 02 ↔ 03–05 | 02 is the theory — three blind spots. Part II is exactly three chapters, one capability per blind spot: 03 taste, 04 deep thinking, 05 story & emotion. If one of them does not trace back to a specific blind spot in 02, it is in the wrong part — and 02's title promises a number the reader will count. |
-| 03 ↔ 05 | 03 is **taste** (what is worth making). 05 is **resonance** (why anyone should care). Taste selects; emotion connects. A chapter about "quality writing" belongs in 03; a chapter about "writing that moves someone" belongs in 05. |
-| 04 ↔ 05 | 04 is judgement exercised **outside** a model's presence — reasoning that resists the filter bubble. 05 is judgement about **what a human audience responds to**. 04 asks "is this true and is this my own conclusion"; 05 asks "does this land". |
-| 04 ↔ 09 | 04 is a practice; 09 is the habit of maintaining practices. 09 must not re-teach 04 — it should assume it and address what happens over years: decay, plateaus, and changing what you are learning for. |
-| 02 ↔ 06 | 02 is what machines **cannot** do. 06 is what you do **with** them — the interface, turning a search into a briefing. 06 opens Part III because the reader has to drive before Part III's systems make sense; it is not a fourth blind spot. |
-| 06 ↔ 07–08 | All three are "using AI on purpose", the difference is what you are building. 06 is the **instrument** (how to ask). 07 is **accumulation** (memory, notes, a second brain). 08 is **action** (MVP thinking, shipping, cheap experiments). A chapter about organising information is 07; a chapter about acting on it is 08. |
-| 09 ↔ 10 | 10 introduces no new framework. It closes the argument and hands the reader the last move. If you find yourself building a model in 10, it belongs in 09. |
+| 02 ↔ 03–06 | 02 names four blind spots. Part II is exactly four chapters, one capability per blind spot: 03 taste, 04 story & emotion, 05 cross-domain thinking, 06 judgment. If one of Part II's chapters does not trace back to a specific blind spot in 02, it is in the wrong part — and 02's title promises a number the reader will count. |
+| 03 ↔ 05 | Both are about connecting things, which is why they are the easiest pair in the book to blur. 03 is **taste** — knowing that two things belong together because they share a quality, inside one domain. 05 is **cross-domain** — carrying a structure from a field where it is obvious to a field where nobody has tried it. Taste selects; cross-domain transplants. A chapter about "knowing good work when you see it" is 03; a chapter about "borrowing the immune system's logic to fix a supply chain" is 05. |
+| 03 ↔ 04 | 03 is **taste** (what is worth making). 04 is **resonance** (why anyone should care). Taste selects; emotion connects. A chapter about "quality writing" belongs in 03; a chapter about "writing that moves someone" belongs in 04. |
+| 06 ↔ 02 | The sharpest overlap in the book, because "machines can't judge" sounds like a blind spot and is one. The split: 02 states that machines do not bear consequences; 06 teaches the reader what to *do* about it — how to decide when the data is silent, who owns the outcome, and how to act without a defensible answer. 02 is the theory; 06 is the practice. 06 must not re-argue 02. |
+| 06 ↔ 07 | Judicial versus generative reasoning. 06 is deciding **when you must choose anyway** — commitment under no right answer. 07 is thinking **clearly before you choose** — resisting the filter bubble, forming your own view. 06 is a deadline; 07 is a discipline. |
+| 07 ↔ 08 | Both sit in Part III, and both are method. 07 is judgement exercised **outside** a model's presence. 08 is the interface **with** one — turning a search into a briefing. 08 without 07 produces a well-briefed person who cannot decide anything; 07 without 08 wastes the tool. |
+| 07 ↔ 12 | 07 is a practice; 12 is the habit of maintaining practices. 12 must not re-teach 07 — it should assume it and address what happens over years: decay, plateaus, and changing what you are learning for. |
+| 08 ↔ 09–10 | All three are "using AI on purpose"; the difference is what you are building. 08 is the **instrument** (how to ask). 09 is **accumulation** (memory, notes, a second brain). 10 is **action** (MVP thinking, shipping, cheap experiments). A chapter about organising information is 09; a chapter about acting on it is 10. |
+| 09–10 ↔ 11 | 09 and 10 build the system; 11 prices it. **11 is the only chapter that argues against the book's own advice**, and it must not read as a disclaimer. It has to be as concrete as the chapters it qualifies: a worked case where offloading cost someone a capability they did not notice losing. 11 does not retract 09–10 — it says which parts of the system you must keep doing by hand. If 11 could be summarised as "but be careful", it has failed. |
+| 11 ↔ 12 | 11 is the **cost** of offloading; 12 is the **response** to it. 11 diagnoses what decays; 12 is how you keep training the thing that decays. 12 should open by assuming 11's case, not restating it. |
+| 12 ↔ 13 | 13 introduces no new framework. It closes the argument and hands the reader the last move. If you find yourself building a model in 13, it belongs in 12. |
 
-This is the only place the arrangement is argued for. It was changed once, before anything was
-written: prompting started in Part II, which left 02 promising three blind spots and the structure
-delivering four capabilities, and put the interface with the model next to the things the model cannot
-do. Part II is now three-for-three, and 06 opens Part III where "how to ask" belongs. Both READMEs,
-the filename table, and the part lists were updated in the same pass — see the git history.
+The arrangement was revised twice before anything was written. The first pass moved prompting out of
+Part II, which had four capabilities against Ch. 02's promise of three blind spots. The second pass
+resolved that in the other direction: Ch. 02 now names **four** blind spots, Part II has four chapters
+that mirror the four capabilities `README.md` promises, and Deep Thinking moved to Part III where
+method belongs. Three chapters were added at the same time — 05 and 06 to close the gap between the
+promise and the outline, and 11 because a book that only argues one direction is advocacy. Both
+READMEs, the filename table, the part lists, and the length arithmetic were updated in the same pass —
+see the git history.
 
-Not a boundary, but worth stating: 10 is an epilogue and is shorter than the rest. The linter's
+Not a boundary, but worth stating: 13 is an epilogue and is shorter than the rest. The linter's
 length warnings are calibrated for body chapters — a deliberate ~1500-word epilogue will warn, and
 that warning is expected. Note the reason in the chapter's own front matter so the next person does
 not "fix" it.

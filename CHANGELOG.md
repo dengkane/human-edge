@@ -21,17 +21,30 @@ and warns if a new chapter arrives without one.
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
   tooling and the documentation agree.
-- Homepages now state that **all ten chapters are open source**; the paid tier is the Premium Pack
-  rather than a set of withheld chapters.
-- **Outline revised before anything was written** (no chapter file existed, so no number had shipped):
-  - Ch. 03 *Prompting as Thinking* moved from Part II to open Part III. Part II had four capabilities
-    against Ch. 02's promise of three blind spots, and prompting is the interface *with* a model
-    rather than something a model cannot do.
-  - Renumbered accordingly: 03 Taste, 04 Deep Thinking, 05 Story & Emotion, 06 Prompting as Thinking.
-    Ch. 07–10 keep their numbers; every part is now contiguous in reading order.
-  - Part II is now exactly three chapters, one per blind spot named in Ch. 02.
-  - Ch. 04 gains a named section on **verifying what a model tells you** — the "you judge" beat of the
-    book's loop, which previously had no home.
+- Homepages now state that **all thirteen chapters are open source**; the paid tier is the Premium
+  Pack rather than a set of withheld chapters.
+- **Outline revised twice before anything was written** (no chapter file existed, so no number had
+  shipped). The first pass moved prompting out of Part II; the second resolved the counting problem in
+  the other direction and added three chapters:
+  - **Ch. 02 now names four blind spots, not three**, and Part II has exactly four chapters mirroring
+    the four capabilities `README.md` promises on its first page: *judgment, taste, emotional
+    resonance, cross-domain thinking*. Previously only taste and emotion had a chapter, so two of the
+    book's own promises had no home — `glossary.md` defined all four.
+  - **05 Cross-Domain Thinking** (new) — AI interpolates within what it has seen; it does not carry a
+    structure from one field to another. The missing third blind spot.
+  - **06 Judgment Without a Right Answer** (new) — deciding when the data is silent. Where
+    `Fuzzy decision-making` from `glossary.md` finally lands.
+  - **11 The Cost of Offloading** (new) — the only chapter that argues against the book's own advice.
+    Twelve chapters arguing one direction would read as advocacy; this is the counterweight that makes
+    09-10 advice rather than a pitch.
+  - Deep Thinking moved 04 -> 07 and prompting 06 -> 08, into Part III *Thinking With a Machine*:
+    neither is something a machine cannot do, so neither belonged in Part II.
+  - Parts went from 4 to 5; Ch. 12-13 keep their numbers (was 09-10).
+- Ch. 07 (Deep Thinking) gains a named section on **verifying what a model tells you** — the "you
+  judge" beat of the book's loop, which previously had no home.
+- `glossary.md` gains `Cognitive offloading`, `Interpolation`, and a plain-language entry for
+  `Judgment without a right answer`; `Cross-domain thinking`, `Fuzzy decision-making`, and `Emotional
+  resonance` now point at the chapters they belong to.
 
 ---
 
@@ -42,4 +55,4 @@ the working record. No chapter has been drafted yet.
 
 | Chapter | Status |
 |---------|--------|
-| 01–10 | 📋 Planned |
+| 01–13 | 📋 Planned |

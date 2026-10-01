@@ -18,9 +18,9 @@ tags: []
   See WORKFLOW.md for the drafting → review → publish flow.
 
   Target length: ~3500 words, the middle of what non-fiction chapters normally
-  run (2,500–5,000). Ten chapters at that length is a short book rather than a
-  long one, so the length is a floor on seriousness, not a size to hit. See
-  "Length" at the bottom of this file for the arithmetic.
+  run (2,500–5,000). Thirteen chapters at that length is a short book rather
+  than a long one, so the length is a floor on seriousness, not a size to hit.
+  See "Length" at the bottom of this file for the arithmetic.
 
   This comment sits AFTER the front matter on purpose. check-chapter.sh
   requires the file to start with '---', so anything above it breaks the
@@ -146,11 +146,11 @@ tags: []
   4,000. 3500 sits in the middle of that convention. At roughly 230 words a
   minute, it is a fifteen-minute read.
 
-  The other half of the reason is the book as a whole. Ten chapters at 3500
-  words is roughly 35,000 words — a short non-fiction book, the length of a
+  The other half of the reason is the book as a whole. Thirteen chapters at
+  3500 words is roughly 45,000 words — a short non-fiction book, the length of a
   focused argument rather than a survey. That is the right size for this book's
-  ten claims, but it does mean every chapter has to carry weight: there is no
-  room for a chapter that restates the one before it.
+  thirteen claims, but it does mean every chapter has to carry weight: there is
+  no room for a chapter that restates the one before it.
 
   What not to do to reach the target: restate the heading, open with "with the
   development of AI", or pad the caveats. Length is not the goal. A chapter

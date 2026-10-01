@@ -16,7 +16,7 @@ human-edge/
 ├── chapters/
 │   ├── en/                      # English chapters — THE SOURCE OF TRUTH
 │   │   ├── README.md            # Index, writing standards, factual-claims rules, chapter boundaries
-│   │   ├── ch01-the-mirror.md   # ...through ch10, added as they are written
+│   │   ├── ch01-the-mirror.md   # ...through ch13, added as they are written
 │   │   └── research/
 │   │       ├── README.md        # Research-note format, source tiers
 │   │       └── ch01-notes.md    # One per chapter, committed alongside it
@@ -58,7 +58,7 @@ human-edge/
 
 - **`chapters/en/` is the source of truth.** `chapters/zh/` is translated from it, never the reverse.
   Fix the English first, then sync the Chinese — see [`chapters/zh/README.md`](chapters/zh/README.md).
-- **All ten chapters are open source.** The paid tier is the *Premium Pack* (case studies, prompt
+- **All thirteen chapters are open source.** The paid tier is the *Premium Pack* (case studies, prompt
   template library, workbook, video walkthroughs), which is why `/paid/` is gitignored rather than
   holding half the book.
 - Chapter filenames are `ch<NN>-<slug>.md` and are **identical in both languages** — only the
