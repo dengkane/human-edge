@@ -16,13 +16,13 @@ human-edge/
 ├── chapters/
 │   ├── en/                      # English chapters — THE SOURCE OF TRUTH
 │   │   ├── README.md            # Index, writing standards, factual-claims rules, chapter boundaries
-│   │   ├── ch01-the-mirror.md   # ...through ch13, added as they are written
+│   │   ├── ch01-the-mirror.md   # ...through ch13 — all 13 chapters drafted
 │   │   └── research/
 │   │       ├── README.md        # Research-note format, source tiers
 │   │       └── ch01-notes.md    # One per chapter, committed alongside it
 │   └── zh/                      # Chinese edition, translated FROM en/ (never the reverse)
 │       ├── README.md            # Translation standard, progress table, pre-handoff checklist
-│       ├── ch01-the-mirror.md   # Same filenames as en/, different directory
+│       ├── ch01-the-mirror.md   # Same filenames as en/, translated from en/
 │       └── research/
 │           └── README.md
 │

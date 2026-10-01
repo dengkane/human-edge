@@ -29,3 +29,14 @@
 | Emotional resonance | 情感共鸣 | Ch. 04 |
 | Cognitive offloading | 认知外包 | Ch. 09 (introduced — the perform-vs-remember trade). Ch. 11 prices the cost. Handing thinking to a tool and losing the capacity |
 | Judgment without a right answer | 没有正确答案时的判断力 | Ch. 06 — fuzzy decision-making in plain terms |
+| Searcher / Commander | 搜索者 / 指挥官 | Ch. 08. The two ways to use a model — state a task vs. state a purpose |
+| Briefing | 简报 | Ch. 08. Four parts: intent, context, constraints, standard of done |
+| Standard of done | 完成的标准 | Ch. 08. What you will check the output against, written before you look |
+| Metacognitive laziness | 元认知懒惰 | Ch. 12. The supervising layer going idle; from Fan et al. 2024 |
+| Transfer | 迁移 | Ch. 12. Whether learning moves to new contexts. Distinct from performance (产出表现) |
+| Deliberate practice | 刻意练习 | Ch. 12. Sir Ericsson's construct; note the measured limits |
+| Physical skill | 物理技能 | Ch. 11. The durable layer — hand-eye, routine |
+| Cognitive skill | 认知技能 | Ch. 11. The layer under the task — the one that decays unnoticed |
+| Deskilling | 去技能化 | Ch. 11. Losing a capability through disuse, not decision |
+| Inaction / Action | 不作为 / 作为 | Ch. 13. The regret asymmetry; not 不行动/行动 |
+| Counterfactual thinking | 反事实思维 | Ch. 13. Why a hypothetical outcome never stops the comparison |
