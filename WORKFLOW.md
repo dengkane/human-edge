@@ -243,9 +243,11 @@ against `word_target` — because it counts words by whitespace and Chinese has 
 limitation of the tool, not a sign the translation is thin; `chapters/zh/README.md` says what to check
 instead.
 
-To ship a translation, publish the Chinese file with the same script — the branch is derived from the
-filename, so `chapters/zh/ch01-the-mirror.md` gets its own `draft/ch01-the-mirror`
-branch and PR:
+To ship a translation, publish the Chinese file with the same script. The branch is derived from the
+path, not just the filename: both languages use the *same* chapter filename by design, so the language
+segment is what keeps them apart — `chapters/zh/ch01-the-mirror.md` gets `draft/zh/ch01-the-mirror`
+while the English file gets `draft/en/ch01-the-mirror`. Without it, publishing a translation while the
+English PR was still open would commit into the English PR.
 
 ```bash
 ./scripts/publish-chapter.sh chapters/zh/ch01-the-mirror.md
@@ -266,7 +268,7 @@ progress table is **not** staged by the script; update it by hand with the Chine
 This does, in order:
 
 1. lints the chapter — aborts on errors;
-2. creates or reuses the branch `draft/<filename-stem>`;
+2. creates or reuses the branch `draft/<lang>/<filename-stem>` (`lang` is `en` or `zh`);
 3. commits as `draft(ch01): <title>` (or `revise(...)` if the file is already tracked);
 4. pushes over SSH;
 5. opens a draft PR through the REST API, if a token is available — titled with the same
@@ -286,7 +288,7 @@ that branch, `pr-create.sh` reports it rather than opening a second one.
 Single-author repo: read your own diff, then
 
 ```bash
-./scripts/pr-merge.sh draft/ch01-the-mirror
+./scripts/pr-merge.sh draft/en/ch01-the-mirror
 ```
 
 That marks the draft PR ready (the API refuses to merge a draft, and there is no REST endpoint to
@@ -297,7 +299,7 @@ Doing it by hand instead:
 
 ```bash
 # mark the PR ready for review in the GitHub UI first — drafts cannot be merged
-git checkout main && git pull && git branch -d draft/ch01-the-mirror
+git checkout main && git pull && git branch -d draft/en/ch01-the-mirror
 ```
 
 ---

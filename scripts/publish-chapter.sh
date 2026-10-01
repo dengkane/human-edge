@@ -48,9 +48,28 @@ bad()  { printf '  \033[31m✗\033[0m %s\n' "$1"; }
 # The chapter may already be committed on its draft branch, in which case it does
 # not exist in the working tree while you are on main. Deriving the branch name
 # from the argument and switching first makes both cases work.
+#
+# The branch is namespaced by language, because the English and Chinese files for
+# a chapter have the *same* filename by design (ch01-the-mirror.md in both
+# chapters/en/ and chapters/zh/). Without the language segment, publishing the
+# translation while the English PR is still open would check out the English
+# branch and commit the Chinese file into that PR.
 stem="$(basename "$file" .md)"
 chapter_tag="${stem%%-*}"          # ch01
-branch="draft/${stem}"
+
+# Derive the language from the path: .../en/... or .../zh/...
+lang=""
+case "$file" in
+  */en/*|en/*) lang="en" ;;
+  */zh/*|zh/*) lang="zh" ;;
+esac
+if [[ -z "$lang" ]]; then
+  echo "publish-chapter.sh: cannot tell the language from '$file'" >&2
+  echo "                   expected a path containing /en/ or /zh/" >&2
+  exit 2
+fi
+
+branch="draft/${lang}/${stem}"
 
 current="$(git rev-parse --abbrev-ref HEAD)"
 step "1. Branch"
