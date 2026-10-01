@@ -58,7 +58,7 @@ The method — reasoning on your own, then reasoning with a model.
 | Chapter | Title | Status |
 |---------|-------|--------|
 | 07 | Deep Thinking: Breaking Out of the Filter Bubble | ✍️ Drafting |
-| 08 | Prompting as Thinking: From Searcher to Commander | 📋 Planned |
+| 08 | Prompting as Thinking: From Searcher to Commander | ✍️ Drafting |
 
 ### Part IV: Systems and Their Costs
 
