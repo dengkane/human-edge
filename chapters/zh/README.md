@@ -19,7 +19,7 @@
 | 09 | 第二大脑与第一大脑 | draft | `../en/ch09-second-brain-first-brain.md` |
 | 10 | MVP 思维：让 AI 负责"想"，你负责"试" | draft | `../en/ch10-mvp-thinking.md` |
 | 11 | 外包思考的代价：当 AI 替你思考，你失去了什么 | draft | `../en/ch11-the-cost-of-offloading.md` |
-| 12 | 终身成长 2.0：把 AI 当私教 | planned | `../en/ch12-lifelong-learning-2-0.md` |
+| 12 | 终身成长 2.0：把 AI 当私教 | draft | `../en/ch12-lifelong-learning-2-0.md` |
 | 13 | 结语：做那个按下回车键的人 | planned | `../en/ch13-be-the-one-who-presses-enter.md` |
 
 中文文件的**文件名与英文完全一致**（`ch01-the-mirror.md`、`ch02-ais-blind-spots.md`……），只是所在目录不同。这样两版的对应关系一眼可见，`scripts/check-chapter.sh` 也能照常校验。

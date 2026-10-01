@@ -74,7 +74,7 @@ How to remember, how to act — and what the system takes from you in return.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | 📋 Planned |
+| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | ✍️ Drafting |
 | 13 | Epilogue: Be the One Who Presses Enter | 📋 Planned |
 
 ---
