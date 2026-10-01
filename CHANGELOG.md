@@ -76,6 +76,16 @@ and warns if a new chapter arrives without one.
   structural. Delivers the section `chapters/en/README.md` assigned here — verifying what a model tells
   you.
 
+- **Ch. 08, *Prompting as Thinking*** — 3,368 words of body, 6 independent sources, 11 sourced claims.
+  Closes Part III. The chapter most likely to become a tips listicle, and the research killed that
+  version: prompt **reformatting that preserves meaning swings accuracy by up to 76 points** (Sclar et
+  al., ICLR 2024), which makes "the right wording" incoherent; chain-of-thought helps **mainly on math
+  and logic** (Sprague et al., ICLR 2025); and the field's best survey catalogues **58 techniques**
+  (Schulhoff et al.), which is an argument against memorising them, not for it. So the thesis became the
+  opposite of a listicle — *wording is unstable; the thinking is what transfers* — and the chapter
+  delivers the four parts of a briefing (intent, context, constraints, standard of done), each
+  demonstrated on a worked example.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
