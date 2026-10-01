@@ -178,6 +178,8 @@ rules applied to inputs. So can a paralegal's document review. A financial advis
 what happens when the rules run out and a human being is frightened about their future — which is why
 "robo-advisors" have competed for years and human advisors are still projected to grow 17.1%.
 
+<!-- verified 2026-10-01 — source: https://www.bls.gov/opub/ted/2025/ai-impacts-in-bls-employment-projections.htm -->
+
 This gives you a way to audit your own work that has nothing to do with job titles. Take the tasks you
 did last week. For each one, ask: **could a competent stranger produce this from a written
 description, without ever having done it?** If yes, it is codified, and it is on the block. If no —
@@ -317,6 +319,8 @@ rebounded.
 decline was 13%, from the November 2025 version of the Stanford paper. After a methodological
 revision, the same data vintage reads 15%, and the current headline is 19%. The 13%→15% change is a
 methodology fix, not new data. If you see "13%" presented as current, the source is out of date.
+
+<!-- verified 2026-10-01 — source: https://digitaleconomy.stanford.edu/news/canariesaug26/ -->
 
 **And one source I could not read.** Yale's Budget Lab reportedly finds "no discernible disruption"
 in the labour market — a direct challenge to this chapter's framing. Every attempt to open it failed;
