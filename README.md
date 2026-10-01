@@ -37,8 +37,8 @@ AI generates → You judge → You refine → You internalize → You level up
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | ✅ Draft complete |
-| 02 | AI's Blind Spots: Four Things Machines Can't Learn | ✅ Draft complete |
+| 01 | [The Mirror: Which "Pseudo-Skills" Are Being Exposed?](chapters/en/ch01-the-mirror.md) | ✅ Draft complete |
+| 02 | [AI's Blind Spots: Four Things Machines Can't Learn](chapters/en/ch02-ais-blind-spots.md) | ✅ Draft complete |
 
 ### Part II: Building Your Moat
 
@@ -46,10 +46,10 @@ Four capabilities, one per blind spot in Ch. 02 — the four this book promises 
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 03 | Taste: Developing Judgment in an Age of "Average Beauty" | ✅ Draft complete |
-| 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | ✅ Draft complete |
-| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | ✅ Draft complete |
-| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | ✅ Draft complete |
+| 03 | [Taste: Developing Judgment in an Age of "Average Beauty"](chapters/en/ch03-taste-beyond-average-beauty.md) | ✅ Draft complete |
+| 04 | [Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat](chapters/en/ch04-story-and-emotion.md) | ✅ Draft complete |
+| 05 | [Cross-Domain Thinking: Why AI Interpolates but Never Connects](chapters/en/ch05-cross-domain-thinking.md) | ✅ Draft complete |
+| 06 | [Judgment Without a Right Answer: Deciding When the Data Is Silent](chapters/en/ch06-judgment-without-a-right-answer.md) | ✅ Draft complete |
 
 ### Part III: Thinking With a Machine
 
@@ -57,8 +57,8 @@ The method — reasoning on your own, then reasoning with a model.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 07 | Deep Thinking: Breaking Out of the Filter Bubble | ✅ Draft complete |
-| 08 | Prompting as Thinking: From Searcher to Commander | ✅ Draft complete |
+| 07 | [Deep Thinking: Breaking Out of the Filter Bubble](chapters/en/ch07-deep-thinking-beyond-the-filter-bubble.md) | ✅ Draft complete |
+| 08 | [Prompting as Thinking: From Searcher to Commander](chapters/en/ch08-prompting-as-thinking.md) | ✅ Draft complete |
 
 ### Part IV: Systems and Their Costs
 
@@ -66,16 +66,16 @@ How to remember, how to act — and what the system takes from you in return.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 09 | Your Second Brain and Your First Brain | ✅ Draft complete |
-| 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | ✅ Draft complete |
-| 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | ✅ Draft complete |
+| 09 | [Your Second Brain and Your First Brain](chapters/en/ch09-second-brain-first-brain.md) | ✅ Draft complete |
+| 10 | [MVP Thinking: Let AI Do the "Thinking," You Do the Trying](chapters/en/ch10-mvp-thinking.md) | ✅ Draft complete |
+| 11 | [The Cost of Offloading: What You Lose When AI Does Your Thinking](chapters/en/ch11-the-cost-of-offloading.md) | ✅ Draft complete |
 
 ### Part V: The Future of Growth
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | ✅ Draft complete |
-| 13 | Epilogue: Be the One Who Presses Enter | ✅ Draft complete |
+| 12 | [Lifelong Learning 2.0: AI as Your Personal Trainer](chapters/en/ch12-lifelong-learning-2-0.md) | ✅ Draft complete |
+| 13 | [Epilogue: Be the One Who Presses Enter](chapters/en/ch13-be-the-one-who-presses-enter.md) | ✅ Draft complete |
 
 ---
 
