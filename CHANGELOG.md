@@ -22,7 +22,8 @@ and warns if a new chapter arrives without one.
   chapter**: the draft was going to claim that pay has shifted toward judgment, and no source supports
   that — the evidence supports an *employment* shift only. The chapter says so and documents the
   counter-evidence (including the Denmark null result and the support-agent finding where AI helped
-  novices most) rather than burying it.
+  novices most) rather than burying it. The Chinese edition ships with it — 27 source markers carried
+  across one-for-one, written as Chinese rather than translated word for word.
 
 ### Changed
 
