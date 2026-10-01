@@ -40,6 +40,14 @@ and warns if a new chapter arrives without one.
   making collective output more similar. Its two honest gaps — no peer-reviewed study of taste training,
   and the 44% figure cited second-hand — are stated in the caveats.
 
+- **Ch. 04, *Story & Emotion*** — 3,457 words of body, 6 independent sources, 16 sourced claims. The
+  "no experience" capability. Research forced the chapter away from its obvious form: AI-written empathy
+  was rated **more compassionate than expert human crisis responders**, so "AI can't do emotion" is
+  refuted. The chapter instead splits two questions — *is this good empathy?* (the machine often wins)
+  from *is someone there?* (it cannot be) — grounded in nine studies / 6,000+ participants where
+  identical text was rated more resonant when attributed to a human. Second half adds story *structure*,
+  which the title promised and the first draft omitted.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
