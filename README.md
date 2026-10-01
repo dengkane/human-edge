@@ -37,8 +37,8 @@ AI generates → You judge → You refine → You internalize → You level up
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | ✍️ Drafting |
-| 02 | AI's Blind Spots: Four Things Machines Can't Learn | ✍️ Drafting |
+| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | ✅ Draft complete |
+| 02 | AI's Blind Spots: Four Things Machines Can't Learn | ✅ Draft complete |
 
 ### Part II: Building Your Moat
 
@@ -46,10 +46,10 @@ Four capabilities, one per blind spot in Ch. 02 — the four this book promises 
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 03 | Taste: Developing Judgment in an Age of "Average Beauty" | ✍️ Drafting |
-| 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | ✍️ Drafting |
-| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | ✍️ Drafting |
-| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | ✍️ Drafting |
+| 03 | Taste: Developing Judgment in an Age of "Average Beauty" | ✅ Draft complete |
+| 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | ✅ Draft complete |
+| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | ✅ Draft complete |
+| 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | ✅ Draft complete |
 
 ### Part III: Thinking With a Machine
 
@@ -57,8 +57,8 @@ The method — reasoning on your own, then reasoning with a model.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 07 | Deep Thinking: Breaking Out of the Filter Bubble | ✍️ Drafting |
-| 08 | Prompting as Thinking: From Searcher to Commander | ✍️ Drafting |
+| 07 | Deep Thinking: Breaking Out of the Filter Bubble | ✅ Draft complete |
+| 08 | Prompting as Thinking: From Searcher to Commander | ✅ Draft complete |
 
 ### Part IV: Systems and Their Costs
 
@@ -66,15 +66,15 @@ How to remember, how to act — and what the system takes from you in return.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 09 | Your Second Brain and Your First Brain | ✍️ Drafting |
-| 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | ✍️ Drafting |
-| 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | ✍️ Drafting |
+| 09 | Your Second Brain and Your First Brain | ✅ Draft complete |
+| 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | ✅ Draft complete |
+| 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | ✅ Draft complete |
 
 ### Part V: The Future of Growth
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | ✍️ Drafting |
+| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | ✅ Draft complete |
 | 13 | Epilogue: Be the One Who Presses Enter | ✅ Draft complete |
 
 ---
