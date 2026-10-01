@@ -32,6 +32,14 @@ and warns if a new chapter arrives without one.
   below chance) forced the experience claim to be narrowed to "a model cannot give you a reason to care
   that came from having been there", and the counter-evidence is stated rather than buried.
 
+- **Ch. 03, *Taste*** — 3,340 words of body, 6 independent sources, 14 sourced claims. The first
+  Part II capability. Research again redirected the chapter: the instinctive version ("AI output is
+  generic") is false — web design converged 44% between 2010 and 2019 with no generative AI in the loop.
+  The chapter relocates the claim onto the mechanism both human and model share (processing fluency /
+  beauty-in-averageness) and on the Science Advances finding that AI raises individual creativity while
+  making collective output more similar. Its two honest gaps — no peer-reviewed study of taste training,
+  and the 44% figure cited second-hand — are stated in the caveats.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
