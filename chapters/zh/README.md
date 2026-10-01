@@ -16,7 +16,7 @@
 | 06 | 没有正确答案时的判断力：数据沉默时如何下注 | draft | `../en/ch06-judgment-without-a-right-answer.md` |
 | 07 | 深度思考力：打破信息茧房 | draft | `../en/ch07-deep-thinking-beyond-the-filter-bubble.md` |
 | 08 | 提问力：从"搜索者"到"指挥官" | draft | `../en/ch08-prompting-as-thinking.md` |
-| 09 | 第二大脑与第一大脑 | planned | `../en/ch09-second-brain-first-brain.md` |
+| 09 | 第二大脑与第一大脑 | draft | `../en/ch09-second-brain-first-brain.md` |
 | 10 | MVP 思维：让 AI 负责"想"，你负责"试" | planned | `../en/ch10-mvp-thinking.md` |
 | 11 | 外包思考的代价：当 AI 替你思考，你失去了什么 | planned | `../en/ch11-the-cost-of-offloading.md` |
 | 12 | 终身成长 2.0：把 AI 当私教 | planned | `../en/ch12-lifelong-learning-2-0.md` |
