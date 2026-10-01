@@ -27,5 +27,5 @@
 | Accountability | 问责 | Distinct from culpability (过错) |
 | Interpolation | 内插 | What AI does instead of connecting — the mechanism behind Ch. 05 |
 | Emotional resonance | 情感共鸣 | Ch. 04 |
-| Cognitive offloading | 认知外包 | Ch. 11. Handing thinking to a tool and losing the capacity |
+| Cognitive offloading | 认知外包 | Ch. 09 (introduced — the perform-vs-remember trade). Ch. 11 prices the cost. Handing thinking to a tool and losing the capacity |
 | Judgment without a right answer | 没有正确答案时的判断力 | Ch. 06 — fuzzy decision-making in plain terms |
