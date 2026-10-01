@@ -28,7 +28,7 @@ change with it.
 | 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | IV — Systems and Their Costs | yes | draft |
 | 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | IV — Systems and Their Costs | yes | draft |
 | 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | V — The Future of Growth | yes | draft |
-| 13 | Epilogue: Be the One Who Presses Enter | V — The Future of Growth | yes | planned |
+| 13 | Epilogue: Be the One Who Presses Enter | V — The Future of Growth | yes | draft |
 
 No chapter file exists yet. That is why everything reads `planned` — an entry stops being a plan the
 moment a file lands in this directory, not when it is decided on.
