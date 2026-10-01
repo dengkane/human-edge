@@ -66,7 +66,7 @@ How to remember, how to act — and what the system takes from you in return.
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 09 | Your Second Brain and Your First Brain | 📋 Planned |
+| 09 | Your Second Brain and Your First Brain | ✍️ Drafting |
 | 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | 📋 Planned |
 | 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | 📋 Planned |
 

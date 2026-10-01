@@ -24,7 +24,7 @@ change with it.
 | 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | II — Building Your Moat | yes | draft |
 | 07 | Deep Thinking: Breaking Out of the Filter Bubble | III — Thinking With a Machine | yes | draft |
 | 08 | Prompting as Thinking: From Searcher to Commander | III — Thinking With a Machine | yes | draft |
-| 09 | Your Second Brain and Your First Brain | IV — Systems and Their Costs | yes | planned |
+| 09 | Your Second Brain and Your First Brain | IV — Systems and Their Costs | yes | draft |
 | 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | IV — Systems and Their Costs | yes | planned |
 | 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | IV — Systems and Their Costs | yes | planned |
 | 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | V — The Future of Growth | yes | planned |

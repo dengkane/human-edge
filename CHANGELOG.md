@@ -86,6 +86,16 @@ and warns if a new chapter arrives without one.
   delivers the four parts of a briefing (intent, context, constraints, standard of done), each
   demonstrated on a worked example.
 
+- **Ch. 09, *Your Second Brain and Your First Brain*** — 3,327 words of body, 6 independent sources,
+  10 sourced claims. Opens Part IV. Research **inverted the chapter**: the "second brain" pitch says
+  externalise your memory; the evidence says offloading **raises immediate performance and lowers memory
+  for the offloaded content** (Grinschgl et al., QJEP 2021) — and being *aware* of a coming test did not
+  protect the memory. But their third experiment found the cost **almost fully reversible**, which
+  reframed the chapter from a warning into a design problem. Result: three rules for building a second
+  brain that serves the first — capture the **pointer, not the content**; make the system **ask, not
+  tell**; **space reviews by retention horizon**. Boundary honoured: the cost thesis is **Ch. 11's**, and
+  09 explicitly declines it rather than pre-empting it.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
