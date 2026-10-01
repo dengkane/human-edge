@@ -96,6 +96,19 @@ and warns if a new chapter arrives without one.
   tell**; **space reviews by retention horizon**. Boundary honoured: the cost thesis is **Ch. 11's**, and
   09 explicitly declines it rather than pre-empting it.
 
+- **Ch. 10, *MVP Thinking*** — 3,351 words of body, 6 independent sources, 10 sourced claims. Third
+  "using AI on purpose" chapter. The title's advice ("let AI do the thinking, you do the trying") is
+  **inverted by the research**: an RCT found founders trained to test explicit hypotheses "perform
+  better," and the mechanism is **precision** — fewer false positives *and* fewer false negatives, i.e.
+  the thinking is what makes the trying informative. The larger replication complicated it: a
+  **nonlinear** effect on pivots, so the lesson is neither "pivot more" nor "never pivot." Flyvbjerg's
+  split — **optimism bias vs strategic misrepresentation** — is used to show where a model helps (the
+  outside view) and where it cannot (your incentives).
+
+  **A citation defect was caught mechanically before publish:** a marker's DOI was mistyped
+  (`…3241` vs `…3249`), and both resolve — the wrong one to an unrelated paper on hiring discrimination.
+  Every DOI in the chapter now verifies to its expected title.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
