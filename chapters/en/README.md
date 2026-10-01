@@ -17,7 +17,7 @@ change with it.
 | # | Title | Part | Free? | Status |
 |---|-------|------|-------|--------|
 | 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | I — Cognitive Awakening | yes | draft |
-| 02 | AI's Blind Spots: Four Things Machines Can't Learn | I — Cognitive Awakening | yes | planned |
+| 02 | AI's Blind Spots: Four Things Machines Can't Learn | I — Cognitive Awakening | yes | draft |
 | 03 | Taste: Developing Judgment in an Age of "Average Beauty" | II — Building Your Moat | yes | planned |
 | 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | planned |
 | 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | II — Building Your Moat | yes | planned |
