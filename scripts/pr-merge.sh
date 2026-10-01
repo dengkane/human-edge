@@ -177,7 +177,34 @@ ok "merged PR #$pr_num"
 # --- clean up ---------------------------------------------------------------
 info "cleaning up local state"
 git checkout -q main
-git pull --ff-only -q origin main 2>/dev/null || info "could not fast-forward main; pull manually"
+
+# Get local main onto the merge commit the server just created.
+#
+# A plain `git pull --ff-only` is not enough. The branch was usually cut from
+# main *before* other commits landed, and the squash replays the branch's whole
+# content as a single new commit — so when main has any local-only commit, the
+# merge commit is not a descendant of local main and the fast-forward fails,
+# leaving the two histories diverged. That is the common case, not an edge case:
+# a chapter branch is often created from an unpushed maintenance commit.
+#
+# The safe order is: fetch, try fast-forward, and if that fails accept the
+# server's version *only after proving nothing local would be lost*. Dumping
+# local commits silently is how work disappears, so this refuses loudly instead.
+git fetch -q origin main
+if git merge-base --is-ancestor main origin/main; then
+  git merge --ff-only -q origin/main
+  ok "main fast-forwarded to $(git rev-parse --short main)"
+elif git diff --quiet main origin/main; then
+  # Histories diverged but trees are identical: the local-only commits were
+  # already squashed into the remote commit. Repointing loses no content.
+  git reset --hard -q origin/main
+  ok "main repointed to $(git rev-parse --short main) (content was identical)"
+else
+  info "local main and origin/main have diverged, and their contents differ."
+  info "left as-is; resolve by hand:"
+  echo "     git log --oneline --left-right main...origin/main"
+  echo "     git diff main origin/main"
+fi
 
 if $keep_branch; then
   info "--keep-branch given; local branch $branch retained"
