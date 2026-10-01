@@ -124,7 +124,12 @@ fi
 # --- 2. derive names --------------------------------------------------------
 # Read front matter from $lint_target: in dry-run the real file may only exist on
 # the branch, which is why the copy was made above.
-title="$(awk 'NR==1 && $0=="---"{inside=1;next} inside && $0=="---"{exit} inside && /^title:/{sub(/^title: */,"");gsub(/^"|"$/,"");print;exit}' "$lint_target")"
+#
+# The title is stripped of its YAML quoting in two steps: the surrounding quotes,
+# then any backslash-escaped quotes inside it. Chapter titles in this book contain
+# quoted words ("Pseudo-Skills"), and without the second step the escape leaks into
+# the commit subject and the PR title as a literal backslash.
+title="$(awk 'NR==1 && $0=="---"{inside=1;next} inside && $0=="---"{exit} inside && /^title:/{sub(/^title: */,"");gsub(/^"|"$/,"");gsub(/\\"/,"\"");print;exit}' "$lint_target")"
 [[ -n "$title" ]] || title="$stem"
 
 status="$(awk 'NR==1 && $0=="---"{inside=1;next} inside && $0=="---"{exit} inside && /^status:/{sub(/^status: */,"");gsub(/^"|"$/,"");print;exit}' "$lint_target")"

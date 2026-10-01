@@ -16,7 +16,7 @@ change with it.
 
 | # | Title | Part | Free? | Status |
 |---|-------|------|-------|--------|
-| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | I — Cognitive Awakening | yes | planned |
+| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | I — Cognitive Awakening | yes | draft |
 | 02 | AI's Blind Spots: Four Things Machines Can't Learn | I — Cognitive Awakening | yes | planned |
 | 03 | Taste: Developing Judgment in an Age of "Average Beauty" | II — Building Your Moat | yes | planned |
 | 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | planned |
@@ -201,6 +201,52 @@ The linter cross-checks the two files, one way on purpose:
 **Open every source before citing it.** A search snippet is a lead, not a source. If a page is
 paywalled or refuses extraction, say so in the notes and cite something a reader can check.
 
+## The four blind spots
+
+Ch. 02 names four things machines cannot learn. The count is load-bearing: Part II has exactly four
+chapters, one per blind spot, and each mirrors a capability `README.md` promises the reader on its
+first page — *judgment, taste, emotional resonance, cross-domain thinking*. Change this list and
+Ch. 02's title and Part II's contents change in the same commit.
+
+| # | Blind spot | What it means | Chapter |
+|---|-----------|---------------|---------|
+| 1 | **No preference** | The model knows what is *common* — the mode of what it was trained on. Nothing in that makes anything *good*, and "good" is a claim a person makes and can be wrong about. | 03 Taste |
+| 2 | **No experience** | It has read every account of grief and has never lost anyone. Resonance comes from *who is speaking* — someone who could have been hurt — not from how the sentence is assembled. | 04 Story & Emotion |
+| 3 | **No outside** | It optimises inside the frame it was given. Seeing that the frame *is* the problem, or that another field's frame fits better, means standing outside it — and nothing in training rewards that. | 05 Cross-Domain Thinking |
+| 4 | **No commitment** | It can list the options and rank them. It cannot want one, and when the choice turns out wrong it is not the one who pays. | 06 Judgment Without a Right Answer |
+
+### All four are the same claim
+
+Stated once here rather than repeated across four chapters: **a model's output costs it nothing.** No
+preference, no experience, no outside, no commitment are four faces of that one fact. This is why Part
+II is an argument rather than a list — and why each of the four chapters has to show a *different*
+consequence of it, not restate the root. If two of them land on the same consequence, they are one
+chapter.
+
+### The test, applied
+
+`AGENTS.md` sets the test for any claim about AI's limits: *if this limit disappeared, would it be
+because a model got better, or because people agreed to something?* Machine-side limits erode on a
+curve; human-side limits get decided. Each of the four, run through it:
+
+| Blind spot | It would vanish only because... | Verdict |
+|---|---|---|
+| No preference | ...people stopped asking who gets to say what is good. | human-side — no expiry |
+| No experience | ...we agreed that a description of grief is the same as having grieved. | human-side — decided, not discovered |
+| No outside | ...someone built a model rewarded for reframing the problem rather than answering it. | **machine-side — contested, see below** |
+| No commitment | ...responsibility for a decision stopped attaching to a person. | human-side — no expiry |
+
+**No outside is the one to keep honest.** "A model cannot think beyond its training distribution" is
+exactly the kind of claim that gets cheaper every year, and a book that stakes its third moat on it
+will read as dated within a release cycle or two. So Ch. 05 must argue the human side instead: *a
+connection is worth making because someone decided to spend time on it, and a model's output arrives
+with no such cost attached.* Put that way the chapter survives a better model — the claim was never
+that machines cannot connect, only that the connection that matters is the one you commit to. If that
+argument does not hold up when Ch. 05 is researched, the chapter changes, not the sentence.
+
+Corollary for drafting: any sentence in 03–06 shaped like "AI is currently bad at X" is a bug. Write
+the structural version or cut it.
+
 ## Chapter boundaries
 
 Thirteen chapters about one thesis overlap if nobody says where the seams are. These are the seams.
@@ -208,8 +254,8 @@ The pairs that are easiest to confuse come first.
 
 | Pair | The line between them |
 |------|-----------------------|
-| 01 ↔ 02 | 01 is the diagnosis: which "skills" the reader was proud of are quietly worthless now. 02 is the argument: what machines cannot learn, and therefore why there is somewhere to stand. 01 raises the problem, 02 answers it. Neither proceeds without the other. |
-| 02 ↔ 03–06 | 02 names four blind spots. Part II is exactly four chapters, one capability per blind spot: 03 taste, 04 story & emotion, 05 cross-domain thinking, 06 judgment. If one of Part II's chapters does not trace back to a specific blind spot in 02, it is in the wrong part — and 02's title promises a number the reader will count. |
+| 01 ↔ 02 | 01 is the diagnosis: which "skills" the reader was proud of are quietly worthless now, and how to tell the difference between knowledge you can look up and knowledge you have to earn. 02 is the argument: four things machines cannot learn, and therefore why there is somewhere to stand. 01 raises the problem and gives the reader a way to test themselves; 02 explains why the problem has a floor under it. Neither proceeds without the other. |
+| 02 ↔ 03–06 | 02 names four blind spots — no preference, no experience, no outside, no commitment — and Part II is exactly four chapters, one capability per blind spot: 03 taste, 04 story & emotion, 05 cross-domain thinking, 06 judgment. They are four consequences of one root (a model's output costs it nothing), so each chapter must show a *different* consequence, not restate the root. The full table is in [The four blind spots](#the-four-blind-spots). |
 | 03 ↔ 05 | Both are about connecting things, which is why they are the easiest pair in the book to blur. 03 is **taste** — knowing that two things belong together because they share a quality, inside one domain. 05 is **cross-domain** — carrying a structure from a field where it is obvious to a field where nobody has tried it. Taste selects; cross-domain transplants. A chapter about "knowing good work when you see it" is 03; a chapter about "borrowing the immune system's logic to fix a supply chain" is 05. |
 | 03 ↔ 04 | 03 is **taste** (what is worth making). 04 is **resonance** (why anyone should care). Taste selects; emotion connects. A chapter about "quality writing" belongs in 03; a chapter about "writing that moves someone" belongs in 04. |
 | 06 ↔ 02 | The sharpest overlap in the book, because "machines can't judge" sounds like a blind spot and is one. The split: 02 states that machines do not bear consequences; 06 teaches the reader what to *do* about it — how to decide when the data is silent, who owns the outcome, and how to act without a defensible answer. 02 is the theory; 06 is the practice. 06 must not re-argue 02. |
