@@ -20,7 +20,7 @@ change with it.
 | 02 | AI's Blind Spots: Four Things Machines Can't Learn | I — Cognitive Awakening | yes | draft |
 | 03 | Taste: Developing Judgment in an Age of "Average Beauty" | II — Building Your Moat | yes | draft |
 | 04 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | draft |
-| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | II — Building Your Moat | yes | planned |
+| 05 | Cross-Domain Thinking: Why AI Interpolates but Never Connects | II — Building Your Moat | yes | draft |
 | 06 | Judgment Without a Right Answer: Deciding When the Data Is Silent | II — Building Your Moat | yes | planned |
 | 07 | Deep Thinking: Breaking Out of the Filter Bubble | III — Thinking With a Machine | yes | planned |
 | 08 | Prompting as Thinking: From Searcher to Commander | III — Thinking With a Machine | yes | planned |

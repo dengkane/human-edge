@@ -12,7 +12,7 @@
 | 02 | AI 的盲区：机器永远学不会的四件事 | draft | `../en/ch02-ais-blind-spots.md` |
 | 03 | 审美力：在"平均美"时代建立判断力 | draft | `../en/ch03-taste-beyond-average-beauty.md` |
 | 04 | 故事与情感：AI 能写情书，但写不出心跳 | draft | `../en/ch04-story-and-emotion.md` |
-| 05 | 跨领域思维：AI 只会内插，不会连接 | planned | `../en/ch05-cross-domain-thinking.md` |
+| 05 | 跨领域思维：AI 只会内插，不会连接 | draft | `../en/ch05-cross-domain-thinking.md` |
 | 06 | 没有正确答案时的判断力：数据沉默时如何下注 | planned | `../en/ch06-judgment-without-a-right-answer.md` |
 | 07 | 深度思考力：打破信息茧房 | planned | `../en/ch07-deep-thinking-beyond-the-filter-bubble.md` |
 | 08 | 提问力：从"搜索者"到"指挥官" | planned | `../en/ch08-prompting-as-thinking.md` |

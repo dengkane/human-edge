@@ -48,6 +48,15 @@ and warns if a new chapter arrives without one.
   identical text was rated more resonant when attributed to a human. Second half adds story *structure*,
   which the title promised and the first draft omitted.
 
+- **Ch. 05, *Cross-Domain Thinking*** — 3,211 words of body, 5 independent sources, 10 sourced claims.
+  The "no outside" capability, and the book's most exposed claim. `chapters/en/README.md` had
+  pre-committed: if the human-side argument did not hold up, "the chapter changes, not the sentence."
+  It held — and the evidence supplied it independently. LLMs fail far transfer to an unfamiliar domain
+  (Stevenson et al., TACL) yet produce 90-173% more diverse solutions when prompted for cross-domain
+  analogies (Shen et al.) — so the obstacle is the *decision to look*, not capacity. The Einstellung
+  research then shows humans get trapped too (experts performing three standard deviations below
+  skill), so the moat is not ability: it is that a reframe has to be paid for.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
