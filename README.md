@@ -37,7 +37,7 @@ AI generates → You judge → You refine → You internalize → You level up
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | 📋 Planned |
+| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | ✍️ Drafting |
 | 02 | AI's Blind Spots: Four Things Machines Can't Learn | 📋 Planned |
 
 ### Part II: Building Your Moat

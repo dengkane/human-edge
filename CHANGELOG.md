@@ -15,7 +15,14 @@ and warns if a new chapter arrives without one.
 
 - Repository scaffolding: `AGENTS.md`, `WORKFLOW.md`, `chapters/{en,zh}/README.md`, research-note
   standards, the `scripts/` publishing toolchain, and the chapter and research-note templates.
-  Adapted from a comparable book project and re-pointed at this one's ten-chapter structure.
+  Adapted from a comparable book project and re-pointed at this one's structure.
+
+- **Ch. 01, *The Mirror*** — first chapter drafted, with `chapters/en/research/ch01-notes.md`.
+  3,290 words of body, 15 independent sources, 25 sourced claims. Research ran first and **changed the
+  chapter**: the draft was going to claim that pay has shifted toward judgment, and no source supports
+  that — the evidence supports an *employment* shift only. The chapter says so and documents the
+  counter-evidence (including the Denmark null result and the support-agent finding where AI helped
+  novices most) rather than burying it.
 
 ### Changed
 
