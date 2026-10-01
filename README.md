@@ -42,17 +42,21 @@ AI generates → You judge → You refine → You internalize → You level up
 
 ### Part II: Building Your Moat
 
+Three capabilities, one per blind spot in Ch. 02.
+
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 03 | Prompting as Thinking: From Searcher to Commander | 📋 Planned |
-| 04 | Taste: Developing Judgment in an Age of "Average Beauty" | 📋 Planned |
-| 05 | Deep Thinking: Breaking Out of the Filter Bubble | 📋 Planned |
-| 06 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | 📋 Planned |
+| 03 | Taste: Developing Judgment in an Age of "Average Beauty" | 📋 Planned |
+| 04 | Deep Thinking: Breaking Out of the Filter Bubble | 📋 Planned |
+| 05 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | 📋 Planned |
 
 ### Part III: Human-AI Collaboration Systems
 
+How to ask, how to remember, how to act.
+
 | Chapter | Title | Status |
 |---------|-------|--------|
+| 06 | Prompting as Thinking: From Searcher to Commander | 📋 Planned |
 | 07 | Your Second Brain and Your First Brain | 📋 Planned |
 | 08 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | 📋 Planned |
 

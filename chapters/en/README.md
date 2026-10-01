@@ -13,10 +13,10 @@ record, and `README.md` at the repo root is the public-facing summary of the sam
 |---|-------|------|-------|--------|
 | 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | I — Cognitive Awakening | yes | planned |
 | 02 | AI's Blind Spots: Three Things Machines Can't Learn | I — Cognitive Awakening | yes | planned |
-| 03 | Prompting as Thinking: From Searcher to Commander | II — Building Your Moat | yes | planned |
-| 04 | Taste: Developing Judgment in an Age of "Average Beauty" | II — Building Your Moat | yes | planned |
-| 05 | Deep Thinking: Breaking Out of the Filter Bubble | II — Building Your Moat | yes | planned |
-| 06 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | planned |
+| 03 | Taste: Developing Judgment in an Age of "Average Beauty" | II — Building Your Moat | yes | planned |
+| 04 | Deep Thinking: Breaking Out of the Filter Bubble | II — Building Your Moat | yes | planned |
+| 05 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | II — Building Your Moat | yes | planned |
+| 06 | Prompting as Thinking: From Searcher to Commander | III — Human–AI Collaboration Systems | yes | planned |
 | 07 | Your Second Brain and Your First Brain | III — Human–AI Collaboration Systems | yes | planned |
 | 08 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | III — Human–AI Collaboration Systems | yes | planned |
 | 09 | Lifelong Learning 2.0: AI as Your Personal Trainer | IV — The Future of Growth | yes | planned |
@@ -46,10 +46,10 @@ assignment is:
 |---|----------|
 | 01 | `ch01-the-mirror.md` |
 | 02 | `ch02-ais-blind-spots.md` |
-| 03 | `ch03-prompting-as-thinking.md` |
-| 04 | `ch04-taste-beyond-average-beauty.md` |
-| 05 | `ch05-deep-thinking-beyond-the-filter-bubble.md` |
-| 06 | `ch06-story-and-emotion.md` |
+| 03 | `ch03-taste-beyond-average-beauty.md` |
+| 04 | `ch04-deep-thinking-beyond-the-filter-bubble.md` |
+| 05 | `ch05-story-and-emotion.md` |
+| 06 | `ch06-prompting-as-thinking.md` |
 | 07 | `ch07-second-brain-first-brain.md` |
 | 08 | `ch08-mvp-thinking.md` |
 | 09 | `ch09-lifelong-learning-2-0.md` |
@@ -94,6 +94,19 @@ caught.
 
 Use the template. **Never hand-roll front matter or the disclosure footer** — `check-chapter.sh`
 validates both, and the footer's four lines are matched literally.
+
+### Verifying what a model tells you
+
+The book's loop is `AI generates → You judge → You refine → You internalize → You level up`. The
+"you judge" beat is the one that fails quietly in practice: a confidently wrong answer, a citation
+that does not exist, an argument that reads well and says nothing. Ch. 04 (Deep Thinking) carries this
+as a named section rather than a chapter of its own — catching the model out is a skill exercised
+while reasoning, and Ch. 04 is where reasoning-under-uncertainty already lives. Ch. 07 covers storing
+what you concluded; neither covers noticing that the conclusion was never true.
+
+This is also why the research rules below are strict about *opening* a source rather than trusting a
+snippet. The book asks the reader to do something the tooling has to be honest about, and a
+`verified` marker used loosely is the same failure the chapter warns against.
 
 ### Voice
 
@@ -165,12 +178,19 @@ Ten chapters about one thesis overlap if nobody says where the seams are. These 
 | Pair | The line between them |
 |------|-----------------------|
 | 01 ↔ 02 | 01 is the diagnosis: which "skills" the reader was proud of are quietly worthless now. 02 is the argument: what machines cannot learn, and therefore why there is somewhere to stand. 01 raises the problem, 02 answers it. Neither proceeds without the other. |
-| 02 ↔ 03–06 | 02 is the theory — three blind spots. 03–06 are one capability each, mapped to those blind spots. If a chapter in 03–06 does not trace back to one of 02's three, it is in the wrong book. |
-| 03 ↔ 05 | 03 is about **asking** — the interface with a model, turning a search into a briefing. 05 is about **thinking** — the judgement you exercise when no model is in the room. 03 without 05 produces a well-briefed person who cannot decide anything. |
-| 04 ↔ 06 | 04 is **taste** (what is worth making). 06 is **resonance** (why anyone should care). Taste selects; emotion connects. A chapter about "quality writing" belongs in 04; a chapter about "writing that moves someone" belongs in 06. |
-| 05 ↔ 09 | 05 is a practice; 09 is the habit of maintaining practices. 09 must not re-teach 05 — it should assume it and address what happens over years: decay, plateaus, and changing what you are learning for. |
-| 07 ↔ 08 | Both are systems. 07 is **accumulation** — memory, notes, a second brain. 08 is **action** — MVP thinking, shipping, cheap experiments. A chapter about organising information is 07; a chapter about acting on it is 08. |
+| 02 ↔ 03–05 | 02 is the theory — three blind spots. Part II is exactly three chapters, one capability per blind spot: 03 taste, 04 deep thinking, 05 story & emotion. If one of them does not trace back to a specific blind spot in 02, it is in the wrong part — and 02's title promises a number the reader will count. |
+| 03 ↔ 05 | 03 is **taste** (what is worth making). 05 is **resonance** (why anyone should care). Taste selects; emotion connects. A chapter about "quality writing" belongs in 03; a chapter about "writing that moves someone" belongs in 05. |
+| 04 ↔ 05 | 04 is judgement exercised **outside** a model's presence — reasoning that resists the filter bubble. 05 is judgement about **what a human audience responds to**. 04 asks "is this true and is this my own conclusion"; 05 asks "does this land". |
+| 04 ↔ 09 | 04 is a practice; 09 is the habit of maintaining practices. 09 must not re-teach 04 — it should assume it and address what happens over years: decay, plateaus, and changing what you are learning for. |
+| 02 ↔ 06 | 02 is what machines **cannot** do. 06 is what you do **with** them — the interface, turning a search into a briefing. 06 opens Part III because the reader has to drive before Part III's systems make sense; it is not a fourth blind spot. |
+| 06 ↔ 07–08 | All three are "using AI on purpose", the difference is what you are building. 06 is the **instrument** (how to ask). 07 is **accumulation** (memory, notes, a second brain). 08 is **action** (MVP thinking, shipping, cheap experiments). A chapter about organising information is 07; a chapter about acting on it is 08. |
 | 09 ↔ 10 | 10 introduces no new framework. It closes the argument and hands the reader the last move. If you find yourself building a model in 10, it belongs in 09. |
+
+This is the only place the arrangement is argued for. It was changed once, before anything was
+written: prompting started in Part II, which left 02 promising three blind spots and the structure
+delivering four capabilities, and put the interface with the model next to the things the model cannot
+do. Part II is now three-for-three, and 06 opens Part III where "how to ask" belongs. Both READMEs,
+the filename table, and the part lists were updated in the same pass — see the git history.
 
 Not a boundary, but worth stating: 10 is an epilogue and is shorter than the rest. The linter's
 length warnings are calibrated for body chapters — a deliberate ~1500-word epilogue will warn, and

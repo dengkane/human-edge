@@ -89,8 +89,8 @@ Parts are grouped by what the reader needs next, not by number:
 | Part | Chapters | Note |
 |---|---|---|
 | I — Cognitive Awakening | 01–02 | 01 is the diagnosis; 02 is the theory of what machines cannot learn |
-| II — Building Your Moat | 03–06 | one capability each: prompting, taste, deep thinking, story & emotion |
-| III — Human–AI Collaboration Systems | 07–08 | turning capability into a system: memory, then action |
+| II — Building Your Moat | 03–05 | exactly three, one per blind spot in 02: taste, deep thinking, story & emotion |
+| III — Human–AI Collaboration Systems | 06–08 | how to ask, how to remember, how to act |
 | IV — The Future of Growth | 09–10 | sustaining it, and the closing argument |
 
 **All ten chapters are open source.** The paid tier is the *Premium Pack* — case studies, the prompt

@@ -10,10 +10,10 @@
 |------|------|------|----------|
 | 01 | AI 照妖镜：哪些"伪能力"正在被淘汰？ | planned | `../en/ch01-the-mirror.md` |
 | 02 | AI 的盲区：机器永远学不会的三件事 | planned | `../en/ch02-ais-blind-spots.md` |
-| 03 | 提问力：从"搜索者"到"指挥官" | planned | `../en/ch03-prompting-as-thinking.md` |
-| 04 | 审美力：在"平均美"时代建立判断力 | planned | `../en/ch04-taste-beyond-average-beauty.md` |
-| 05 | 深度思考力：打破信息茧房 | planned | `../en/ch05-deep-thinking-beyond-the-filter-bubble.md` |
-| 06 | 故事与情感：AI 能写情书，但写不出心跳 | planned | `../en/ch06-story-and-emotion.md` |
+| 03 | 审美力：在"平均美"时代建立判断力 | planned | `../en/ch03-taste-beyond-average-beauty.md` |
+| 04 | 深度思考力：打破信息茧房 | planned | `../en/ch04-deep-thinking-beyond-the-filter-bubble.md` |
+| 05 | 故事与情感：AI 能写情书，但写不出心跳 | planned | `../en/ch05-story-and-emotion.md` |
+| 06 | 提问力：从"搜索者"到"指挥官" | planned | `../en/ch06-prompting-as-thinking.md` |
 | 07 | 第二大脑与第一大脑 | planned | `../en/ch07-second-brain-first-brain.md` |
 | 08 | MVP 思维：让 AI 负责"想"，你负责"试" | planned | `../en/ch08-mvp-thinking.md` |
 | 09 | 终身成长 2.0：把 AI 当私教 | planned | `../en/ch09-lifelong-learning-2-0.md` |

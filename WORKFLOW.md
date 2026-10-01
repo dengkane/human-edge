@@ -112,7 +112,7 @@ produces claims that fit the prose, which is backwards. See
 [`chapters/en/research/README.md`](chapters/en/research/README.md) for the format and the reasoning.
 
 ```bash
-cp templates/research-notes-template.md chapters/en/research/ch03-notes.md
+cp templates/research-notes-template.md chapters/en/research/ch01-notes.md
 ```
 
 Work through it:
@@ -136,13 +136,14 @@ The result is `chapters/en/research/ch<NN>-notes.md`, committed alongside the ch
 ### 2. Start from the template
 
 ```bash
-cp templates/chapter-template.md chapters/en/ch03-prompting-as-thinking.md
+cp templates/chapter-template.md chapters/en/ch01-the-mirror.md
 ```
 
 The filename convention is enforced by the linter: `ch<NN>-<kebab-case-slug>.md`. The filename for
 each of the ten chapters is already fixed in the index table at the top of
 [`chapters/en/README.md`](chapters/en/README.md) — copy it from there rather than inventing one, so
-that the index, the file, and the research notes agree on the first try.
+that the index, the file, and the research notes agree on the first try. **The examples in this
+document use Ch. 01**, the first chapter anyone writes, and one whose number can never move.
 
 ### 3. Draft in `.scratch/` if you want
 
@@ -194,7 +195,7 @@ and becomes an **error** at `review`. See
 ### 6. Check it
 
 ```bash
-./scripts/check-chapter.sh chapters/en/ch03-prompting-as-thinking.md
+./scripts/check-chapter.sh chapters/en/ch01-the-mirror.md
 ```
 
 Errors block publishing. Warnings are judgement calls. The check covers filename, front matter,
@@ -213,9 +214,9 @@ English first, then update the translation. Never patch the Chinese to say somet
 not, and never let the two drift.
 
 ```bash
-cp chapters/en/ch03-prompting-as-thinking.md  chapters/zh/ch03-prompting-as-thinking.md
+cp chapters/en/ch01-the-mirror.md  chapters/zh/ch01-the-mirror.md
 # ...write it as Chinese, not as a translation...
-./scripts/check-chapter.sh  chapters/zh/ch03-prompting-as-thinking.md
+./scripts/check-chapter.sh  chapters/zh/ch01-the-mirror.md
 ```
 
 The Chinese filename is **identical** to the English one; only the directory differs.
@@ -243,11 +244,11 @@ limitation of the tool, not a sign the translation is thin; `chapters/zh/README.
 instead.
 
 To ship a translation, publish the Chinese file with the same script — the branch is derived from the
-filename, so `chapters/zh/ch03-prompting-as-thinking.md` gets its own `draft/ch03-prompting-as-thinking`
+filename, so `chapters/zh/ch01-the-mirror.md` gets its own `draft/ch01-the-mirror`
 branch and PR:
 
 ```bash
-./scripts/publish-chapter.sh chapters/zh/ch03-prompting-as-thinking.md
+./scripts/publish-chapter.sh chapters/zh/ch01-the-mirror.md
 ```
 
 Because `publish-chapter.sh` stages files by path, a translation PR carries the Chinese file, plus any
@@ -259,17 +260,17 @@ progress table is **not** staged by the script; update it by hand with the Chine
 ### 8. Publish
 
 ```bash
-./scripts/publish-chapter.sh chapters/en/ch03-prompting-as-thinking.md
+./scripts/publish-chapter.sh chapters/en/ch01-the-mirror.md
 ```
 
 This does, in order:
 
 1. lints the chapter — aborts on errors;
 2. creates or reuses the branch `draft/<filename-stem>`;
-3. commits as `draft(ch03): <title>` (or `revise(...)` if the file is already tracked);
+3. commits as `draft(ch01): <title>` (or `revise(...)` if the file is already tracked);
 4. pushes over SSH;
 5. opens a draft PR through the REST API, if a token is available — titled with the same
-   `draft(ch03): <title>` string as the commit, so the PR list and `main`'s history agree.
+   `draft(ch01): <title>` string as the commit, so the PR list and `main`'s history agree.
    (`pr-create.sh` only reports an existing PR, so this applies when the PR is first opened —
    re-running `publish-chapter.sh` on an already-open PR pushes to it without renaming it.)
 
@@ -285,7 +286,7 @@ that branch, `pr-create.sh` reports it rather than opening a second one.
 Single-author repo: read your own diff, then
 
 ```bash
-./scripts/pr-merge.sh draft/ch03-prompting-as-thinking
+./scripts/pr-merge.sh draft/ch01-the-mirror
 ```
 
 That marks the draft PR ready (the API refuses to merge a draft, and there is no REST endpoint to
@@ -296,7 +297,7 @@ Doing it by hand instead:
 
 ```bash
 # mark the PR ready for review in the GitHub UI first — drafts cannot be merged
-git checkout main && git pull && git branch -d draft/ch03-prompting-as-thinking
+git checkout main && git pull && git branch -d draft/ch01-the-mirror
 ```
 
 ---
