@@ -118,7 +118,7 @@ AI 生成 → 你判断 → 你打磨 → 你内化 → 你升级
 
 - ⭐ **Star 这个仓库** — 让更多人看到
 - 💬 **分享** — 发推、写博客、告诉朋友
-- 💰 **赞助** — 通过 [GitHub Sponsors](https://github.com/sponsors/your-username) 或购买[付费包](https://your-gumroad-link.com)
+- 💰 **赞助** — 通过 [GitHub Sponsors](https://github.com/sponsors/dengkane) 或购买[付费包](待定)
 
 ---
 
@@ -131,11 +131,11 @@ AI 生成 → 你判断 → 你打磨 → 你内化 → 你升级
 
 ## 关于作者
 
-你好，我是 [你的名字]。我关注 AI、人类能力与未来工作的交叉领域。这本书是我对"在人工智能时代，如何保持人性？"这个问题的回答。
+你好，我是 Ken。我关注 AI、人类能力与未来工作的交叉领域。这本书是我对"在人工智能时代，如何保持人性？"这个问题的回答。
 
-- Twitter/X：[@yourhandle](https://twitter.com/yourhandle)
-- 博客：[your-blog.com](https://your-blog.com)
-- 邮箱：hello@your-domain.com
+- Twitter/X: [@dengkane](https://twitter.com/dengkane)
+- Blog: [www.geeyo.com](https://www.geeyo.com)
+- Email: dengqs@gmail.com
 
 ---
 
