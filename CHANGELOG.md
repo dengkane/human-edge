@@ -121,6 +121,19 @@ and warns if a new chapter arrives without one.
   Satisfies the strict contract: a worked case (the cockpit), no retraction of 09–10, and an explicit
   refusal to end on "be careful."
 
+- **Ch. 12, *Lifelong Learning 2.0*** — 3,348 words of body, 6 independent sources, 17 sourced claims.
+  Opens Part V, and answers Ch. 11's diagnosis. Research corrected the chapter's premise twice: the
+  famous **"two-sigma"** tutoring result does not survive the controlled experiments (human tutoring is
+  **d=0.79**, not 2.0 — and intelligent tutoring systems had already matched it in 2011), and the
+  Harvard AI-tutor RCT that beat active learning did so because **"pedagogical best practices must be
+  explicitly and carefully built into each such application"** — the model was the pipe, not the
+  pedagogy. The hinge is the randomized "metacognitive laziness" finding: **essay scores up, knowledge
+  gain and transfer flat** — Ch. 11's hand/head split in education. Also repaired the practice doctrine:
+  deliberate practice explains **<1%** of performance variance in professions.
+
+  **A malformed marker URL (`https://10.3102/...`, missing `doi.org/`) was caught by the linter** before
+  publish, and Bloom's two-sigma claim was given its own proper attribution marker.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the

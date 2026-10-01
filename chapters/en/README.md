@@ -27,7 +27,7 @@ change with it.
 | 09 | Your Second Brain and Your First Brain | IV — Systems and Their Costs | yes | draft |
 | 10 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | IV — Systems and Their Costs | yes | draft |
 | 11 | The Cost of Offloading: What You Lose When AI Does Your Thinking | IV — Systems and Their Costs | yes | draft |
-| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | V — The Future of Growth | yes | planned |
+| 12 | Lifelong Learning 2.0: AI as Your Personal Trainer | V — The Future of Growth | yes | draft |
 | 13 | Epilogue: Be the One Who Presses Enter | V — The Future of Growth | yes | planned |
 
 No chapter file exists yet. That is why everything reads `planned` — an entry stops being a plan the
