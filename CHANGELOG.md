@@ -134,6 +134,13 @@ and warns if a new chapter arrives without one.
   **A malformed marker URL (`https://10.3102/...`, missing `doi.org/`) was caught by the linter** before
   publish, and Bloom's two-sigma claim was given its own proper attribution marker.
 
+- **Ch. 13, *Epilogue: Be the One Who Presses Enter*** — 2,249 words of body, 5 independent sources,
+  7 sourced claims. **The book is drafted in full.** Obeys the strictest structural contract: introduces
+  **no new framework** — it closes the argument and hands the reader the last move. Carries the regret
+  evidence (Gilovich & Medvec) as the one external support for the closing claim, and is honest that the
+  effect replicates "with weaker effects" and failed in one of four studies. Declared length is
+  deliberately short for an epilogue; the remaining linter warning is the documented, expected one.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
