@@ -117,7 +117,7 @@ If this project helps you think differently about AI and your own growth:
 
 - ⭐ **Star this repo** — it helps others discover it
 - 💬 **Share it** — tweet, blog, or tell a friend
-- 💰 **Sponsor** — via [GitHub Sponsors](https://github.com/sponsors/your-username) or buy the [Premium Pack](https://your-gumroad-link.com)
+- 💰 **Sponsor** — via [GitHub Sponsors](https://github.com/sponsors/dengkane) or buy the [Premium Pack](https://your-gumroad-link.com)
 
 ---
 
@@ -130,11 +130,11 @@ Premium content is proprietary and not covered by this license.
 
 ## About the Author
 
-Hi, I'm [Your Name]. I write about the intersection of AI, human capability, and the future of work. This book is my attempt to answer the question: *How do we stay human in an age of artificial intelligence?*
+Hi, I'm Ken. I write about the intersection of AI, human capability, and the future of work. This book is my attempt to answer the question: *How do we stay human in an age of artificial intelligence?*
 
-- Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
-- Blog: [your-blog.com](https://your-blog.com)
-- Email: hello@your-domain.com
+- Twitter/X: [@dengkane](https://twitter.com/dengkane)
+- Blog: [www.geeyo.com](https://www.geeyo.com)
+- Email: dengqs@gmail.com
 
 ---
 
