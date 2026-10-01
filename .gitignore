@@ -1,16 +1,46 @@
-# Paid content (not tracked in public repo)
+# --- Paid content (deliberately not tracked) ---
 /paid/
 
-# OS files
+# --- Secrets and credentials — NEVER commit these ---
+# GitHub token used to open PRs from automated/sandboxed sessions.
+# See scripts/github-token.sh.
+.secrets/
+# Repo-local SSH private key, wired up as core.sshCommand by scripts/setup-ssh.sh.
+.git-ssh/
+secrets.json
+credentials.json
+*.pem
+*.key
+.env
+
+# --- Scratch space for drafts you do not want to commit yet ---
+.scratch/
+
+# --- Reference material copied from other projects ---
+# Input to this repo's setup, not part of the book.
+ref-docs/
+
+# --- Local tool state (e.g. the gh config fallback in scripts/gh.sh) ---
+.tools/
+
+# --- Build output (generated, never tracked) ---
+dist/
+build/
+*.tmp
+*.log
+
+# --- Python (tooling uses python3 for JSON) ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# --- OS ---
 .DS_Store
 Thumbs.db
 
-# Editor
+# --- Editor ---
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Temporary
-*.tmp
-*.log

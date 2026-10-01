@@ -37,31 +37,31 @@ AI generates → You judge → You refine → You internalize → You level up
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | ✍️ Drafting |
-| 02 | AI's Blind Spots: Three Things Machines Can't Learn | ✍️ Drafting |
+| 01 | The Mirror: Which "Pseudo-Skills" Are Being Exposed? | 📋 Planned |
+| 02 | AI's Blind Spots: Three Things Machines Can't Learn | 📋 Planned |
 
 ### Part II: Building Your Moat
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 03 | Prompting as Thinking: From Searcher to Commander | ✍️ Drafting |
-| 04 | Taste: Developing Judgment in an Age of "Average Beauty" | ✍️ Drafting |
-| 05 | Deep Thinking: Breaking Out of the Filter Bubble | ✍️ Drafting |
-| 06 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | ✍️ Drafting |
+| 03 | Prompting as Thinking: From Searcher to Commander | 📋 Planned |
+| 04 | Taste: Developing Judgment in an Age of "Average Beauty" | 📋 Planned |
+| 05 | Deep Thinking: Breaking Out of the Filter Bubble | 📋 Planned |
+| 06 | Story & Emotion: Why AI Can Write a Love Letter but Not a Heartbeat | 📋 Planned |
 
 ### Part III: Human-AI Collaboration Systems
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 07 | Your Second Brain and Your First Brain | ✍️ Drafting |
-| 08 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | ✍️ Drafting |
+| 07 | Your Second Brain and Your First Brain | 📋 Planned |
+| 08 | MVP Thinking: Let AI Do the "Thinking," You Do the Trying | 📋 Planned |
 
 ### Part IV: The Future of Growth
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 09 | Lifelong Learning 2.0: AI as Your Personal Trainer | ✍️ Drafting |
-| 10 | Epilogue: Be the One Who Presses Enter | ✍️ Drafting |
+| 09 | Lifelong Learning 2.0: AI as Your Personal Trainer | 📋 Planned |
+| 10 | Epilogue: Be the One Who Presses Enter | 📋 Planned |
 
 ---
 
@@ -69,7 +69,7 @@ AI generates → You judge → You refine → You internalize → You level up
 
 | Layer | What's Included | Access |
 |-------|----------------|--------|
-| **L1: Open Source** | Book framework, core concepts, selected chapters, mental models | Free on GitHub (this repo) |
+| **L1: Open Source** | All ten chapters, the framework, core concepts, mental models | Free on GitHub (this repo) |
 | **L2: Premium Pack** | Full case studies, prompt template library, workbook, video walkthroughs | [Gumroad](https://your-gumroad-link.com) · [爱发电](https://your-afdian-link.com) |
 | **L3: Community** | Private Discord/WeChat, monthly live Q&A, 1-on-1 diagnostics | [GitHub Sponsors](https://github.com/sponsors/your-username) |
 
@@ -85,8 +85,8 @@ This book is written in **English first**, then translated into **Chinese**.
 Both versions are maintained in this repo:
 
 ```
-/book
-  /en    ← English chapters
+/chapters
+  /en    ← English chapters (source of truth)
   /zh    ← Chinese translations
 /paid
   /en    ← Premium content (English)
