@@ -109,6 +109,18 @@ and warns if a new chapter arrives without one.
   (`…3241` vs `…3249`), and both resolve — the wrong one to an unrelated paper on hiring discrimination.
   Every DOI in the chapter now verifies to its expected title.
 
+- **Ch. 11, *The Cost of Offloading*** — 3,495 words of body, 6 independent sources, 12 sourced claims.
+  The book's own counter-argument, and the best-sourced chapter in it: **three of the five key findings
+  were read in full text**, not from abstracts (Bainbridge 1983, Casner et al. 2014, Dahmani & Bohbot
+  2020), via `pypdf` extraction of openly-hosted PDFs. The chapter's finding is a *split*: automating a
+  task preserves the **physical** skill and costs the **cognitive** layer underneath it (Casner: hand
+  skills "mostly intact," cognitive tasks degraded) — which is why nobody notices. Dahmani & Bohbot answer
+  Ch. 09's demand for better-than-correlational evidence by explicitly ruling out reverse causation. The
+  AI-specific MIT study is cited **together with its published methodological critique**, and the chapter
+  states plainly that its weakest evidence is the AI evidence and its strongest is forty years old.
+  Satisfies the strict contract: a worked case (the cockpit), no retraction of 09–10, and an explicit
+  refusal to end on "be careful."
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
