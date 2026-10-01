@@ -65,6 +65,17 @@ and warns if a new chapter arrives without one.
   people abandon a course of action on a **blunder** but not on a slow disappointment, which is exactly
   what "no right answer" looks like from inside.
 
+- **Ch. 07, *Deep Thinking*** — 3,656 words of body, 9 independent sources, 17 sourced claims. Opens
+  Part III. Research **inverted the chapter a second time**: the title promises escaping the filter
+  bubble, and the Reuters Institute's literature review finds the strong filter-bubble claim
+  unsupported. The chapter therefore makes the harder claim — the pull toward agreement is *internal*
+  and not fixed by changing the information supply — and then lands Stanovich & Toplak's paradox as its
+  spine: actively open-minded thinking predicts good reasoning on nearly everything **except the
+  avoidance of myside thinking**, which they call the concept's own quintessence. So "be more
+  open-minded" is documented not to work on the failure this chapter is about, and the fix has to be
+  structural. Delivers the section `chapters/en/README.md` assigned here — verifying what a model tells
+  you.
+
 ### Changed
 
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
