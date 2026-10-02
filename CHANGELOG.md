@@ -94,7 +94,8 @@ and warns if a new chapter arrives without one.
   reframed the chapter from a warning into a design problem. Result: three rules for building a second
   brain that serves the first — capture the **pointer, not the content**; make the system **ask, not
   tell**; **space reviews by retention horizon**. Boundary honoured: the cost thesis is **Ch. 11's**, and
-  09 explicitly declines it rather than pre-empting it.
+  09 explicitly declines it rather than pre-empting it. Rewritten to the *story first* standard (opens on
+  reading your own summary six weeks later, and remembering only where to look a year after that).
 
 - **Ch. 10, *MVP Thinking*** — 3,351 words of body, 6 independent sources, 10 sourced claims. Third
   "using AI on purpose" chapter. The title's advice ("let AI do the thinking, you do the trying") is
