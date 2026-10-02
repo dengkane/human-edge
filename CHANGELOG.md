@@ -74,7 +74,8 @@ and warns if a new chapter arrives without one.
   avoidance of myside thinking**, which they call the concept's own quintessence. So "be more
   open-minded" is documented not to work on the failure this chapter is about, and the fix has to be
   structural. Delivers the section `chapters/en/README.md` assigned here — verifying what a model tells
-  you.
+  you. Rewritten to the *story first* standard (opens on a late-night scroll where every link confirms
+  what you already believed, and it feels like being informed).
 
 - **Ch. 08, *Prompting as Thinking*** — 3,368 words of body, 6 independent sources, 11 sourced claims.
   Closes Part III. The chapter most likely to become a tips listicle, and the research killed that
