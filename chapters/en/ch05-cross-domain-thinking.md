@@ -5,10 +5,10 @@ part: "Part II — Building Your Moat"
 status: draft
 language: en
 created: 2026-10-01
-last_updated: 2026-10-01
+last_updated: 2026-10-02
 assisted_by: "DeepSeek + Reasonix"
 edited_by: "Ken Deng"
-word_target: 3500
+word_target: 3400
 tags: [cross-domain, analogical-reasoning, reframing, einstellung, transfer]
 ---
 
@@ -17,51 +17,62 @@ tags: [cross-domain, analogical-reasoning, reframing, einstellung, transfer]
 > **The one thing to take away:** the machine is good at connection and bad at deciding to look — and
 > so are you. What separates you is who pays for the reframe.
 
+Picture a chess master at the board. The position in front of her has two winning moves: one she has
+seen a hundred times, and one better that she has never seen at all.
+
+She plays the familiar one. Not because she is tired, or careless. Because she looked at the board, and
+the first good idea arrived, and it was good enough to stop her looking for a better one.
+
+Eye-tracking later showed she never really stopped searching. She kept scanning the board. But her eyes
+kept returning to the squares that fit the familiar plan — while she believed, sincerely, that she was
+still open to alternatives.
+
+This chapter starts there because it is not about AI. It is about you.
+
 ## Why this matters now
 
-Start with a chess problem, because it is about you and not about AI.
-
-Researchers gave chess players a position and asked for the fastest win. The position contained two
-solutions: one familiar and good, one better and less obvious. The familiar one was enough to make
-players stop looking. It **reduced experts' problem-solving ability to roughly that of players three
-standard deviations below them in skill.**
+Researchers gave chess players a position with two solutions — one familiar and good, one better and
+less obvious — and asked for the fastest win. The familiar one was enough to make players stop looking.
+It **reduced experts' problem-solving ability to roughly that of players three standard deviations
+below them in skill.**
 
 <!-- verified 2026-10-01 — source: https://pubmed.ncbi.nlm.nih.gov/17418112/ -->
 
-Three standard deviations. That is not a small distraction; it is an expert performing like a strong
-amateur because the first good idea arrived and blocked the better one.
+Three standard deviations. That is not a small distraction. It is an expert performing like a strong
+amateur, because the first good idea arrived and blocked the better one.
 
-The mechanism is the part that should bother you. Eye-tracking showed that players kept looking at the
+And here is the part that should bother you. The eye-tracking showed players kept looking at the
 squares associated with the familiar solution — **even while they believed they were searching for
-alternatives.** Their attention was biased toward evidence that fit the first idea and away from
+alternatives.** Their attention was pulled toward evidence that fit the first idea, and away from
 evidence that would break it, below the level of their own awareness.
 
 <!-- verified 2026-10-01 — source: https://cognition.aau.at/download/Publikationen/Bilalic/Bilalic_etal_2008a.pdf -->
 
-This is the Einstellung effect, and I am opening a chapter about AI's third blind spot with it because
-we need to kill something before we start.
+That is the Einstellung effect. And I am opening a chapter about AI's third blind spot with a chess
+problem because we need to kill something before we start.
 
-Because the easy version of this chapter goes like this: *machines optimise inside the frame they're
-given. They can't step outside it. You can. So your moat is the ability to reframe problems.*
+The easy version of this chapter goes like this: *machines optimise inside the frame they're given.
+They can't step outside it. You can. So your moat is the ability to reframe problems.*
 
 Every part of that is wrong or useless. You cannot step outside frames as a standing capability — the
-chess masters just demonstrated it. And "your moat is reframing" is not advice; it is a compliment you
+chess masters just showed you that. And "your moat is reframing" is not advice; it is a compliment you
 are hoping to deserve.
 
 The honest version is stranger, harder, and much more useful. **Both you and the machine get stuck
 inside a frame — for different reasons, and with a different exit.** Neither gets out for free. What
 you have that the machine does not is not the ability. It is the **stake**: you are the one who pays
-when the reframe turns out to be wrong, and that turns out to be what makes it worth doing at all.
+when the reframe turns out to be wrong — and that turns out to be the thing that makes it worth doing
+at all.
 
 ## Two ways to get stuck
 
-Chapter 02 put it as *no outside* — a model optimises within the frame it was given and does not notice
-that the frame is the problem. That claim is true and, on its own, almost worthless, because it is the
-kind of thing that expires: someone will build a system rewarded for questioning premises, and the
-chapter will read as dated.
+Chapter 02 called this the *no outside* blind spot: a model optimises within the frame it was given and
+does not notice that the frame is the problem. That claim is true, and on its own almost worthless,
+because it is the kind that expires. Someone will build a system rewarded for questioning premises, and
+the chapter will read as dated.
 
-So let me state the machine's version and your version side by side, because comparing them is the
-whole argument.
+So put the machine's version and your version side by side, because comparing them is the whole
+argument.
 
 | | The machine | You |
 |---|---|---|
@@ -70,8 +81,8 @@ whole argument.
 | **How it ends** | When someone hands it a different frame to optimise within. | When something forces attention back — usually a failure, a deadline, or another person. |
 
 Read the middle row again. The machine's blind spot is invisible because it is not experiencing
-anything. **Yours is invisible because it disguises itself as working hard.** That is the worse
-failure mode, and it is the reason this chapter is about you rather than about AI.
+anything. **Yours is invisible because it disguises itself as working hard.** That is the worse failure
+mode, and it is why this chapter is about you rather than about AI.
 
 The chess research makes the point sharper than I could. The experts who found the optimal move were
 not smarter or more open. Eye-tracking showed they were the ones able to **gradually disengage** their
@@ -84,7 +95,7 @@ Sit with that. The experts who escaped did so because something made the first a
 enough to abandon. Not because they were more creative. Because the familiar move was bad enough to
 push them out.
 
-Which means the whole skill is not "thinking outside the box". It is **noticing that you are in one**,
+Which means the whole skill is not "thinking outside the box". It is **noticing that you are in one** —
 and you will not notice by trying harder inside it.
 
 ## What the machine can actually do
@@ -98,7 +109,7 @@ easily. The models did not.**
 
 <!-- verified 2026-10-01 — source: https://arxiv.org/abs/2411.02348 -->
 
-That is the far-transfer failure: the machine can work the structure while the surface is familiar, and
+That is a far-transfer failure: the machine can work the structure while the surface is familiar, and
 loses it when the surface changes.
 
 Here is where the naive reading goes wrong, so follow closely. That result is *not* "machines cannot do
@@ -113,22 +124,22 @@ the time, mostly recycling semantically similar answers.
 Then they changed one thing. Instead of asking for solutions, they prompted the model to **generate
 cross-domain analogies first** — to find a problem in another field that shares the same relational
 structure — and to use those analogies to search for solutions. Diversity improved by **90–173%**, and
-the novel-solution rate went from 1.6% to **over 50%**. Four of the proposed approaches were implemented
-on real biomedical problems, with consistent gains.
+the novel-solution rate went from 1.6% to **over 50%**. Four of the proposed approaches were
+implemented on real biomedical problems, with consistent gains.
 
 <!-- verified 2026-10-01 — source: https://arxiv.org/html/2605.11258v1 -->
 
 So the machine can transplant structure across fields. It can do it well. What it could not do was
-**decide to**. Asked to solve the problem, it solved the problem — and the frame stayed where it was.
+**decide to.** Asked to solve the problem, it solved the problem — and the frame stayed where it was.
 Asked to look somewhere else, it looked, and found things.
 
-Put the two studies together and the blind spot is precise and much narrower than Chapter 02 made it
+Put the two studies together and the blind spot is precise, and much narrower than Chapter 02 made it
 sound:
 
-> **The machine does not fail at connection. It fails at the decision to look — and the decision is
-> not something it can supply, because it is not the one who pays for it.**
+> **The machine does not fail at connection. It fails at the decision to look — and the decision is not
+> something it can supply, because it is not the one who pays for it.**
 
-Which is the version of this chapter that survives a better model. If someone builds a system that
+That is the version of this chapter that survives a better model. If someone builds a system that
 questions its own premises, it will still be working on the problem *it was asked* to work on, and
 someone still has to decide that the problem was wrong.
 
@@ -136,10 +147,10 @@ someone still has to decide that the problem was wrong.
 
 Here is what that decision costs, stated concretely, because it is the whole chapter.
 
-When I say a reframe has to be paid for, I mean four real things, all of them falling on a person:
+When I say a reframe has to be paid for, I mean four real things, and all of them land on a person.
 
 **You have to abandon work.** The frame you are leaving was probably something you built. Reframing is
-not adding a perspective; it is writing off the progress you made inside the old one.
+not adding a perspective. It is writing off the progress you made inside the old one.
 
 **You have to be wrong out loud.** The machine can produce a reframe with no exposure. You have to say,
 in front of people who watched you commit, that the thing you all agreed to build is the wrong thing.
@@ -148,15 +159,15 @@ in front of people who watched you commit, that the thing you all agreed to buil
 where you have the cost and not yet the benefit, and no metric on the dashboard rewards you for it.
 
 **You have to accept the risk of it failing.** Sometimes the reframe is wrong, and you are the one who
-cannot deflect the consequence. As Chapter 02 put it: the output costs the machine nothing.
+cannot deflect the consequence. Chapter 02's line again: the output costs the machine nothing.
 
 That is what the machine's reframe, when you get one, arrives without. Not the insight — you can get
 the insight, and the analogy research says it will often be good. The **liability**.
 
 And here is the payoff of the whole argument. **That liability is not a tax on the skill. It is the
-thing that makes the skill real.** A reframe that nobody has staked anything on is not a reframe, it is
-a suggestion. What makes it a decision is that someone had to weigh the abandonment, the exposure, the
-quarter and the risk, and chose anyway.
+thing that makes the skill real.** A reframe nobody has staked anything on is not a reframe; it is a
+suggestion. What makes it a decision is that someone had to weigh the abandonment, the exposure, the
+quarter and the risk — and chose anyway.
 
 A model cannot weigh those. Which means the capacity that matters is not the ability to have the idea —
 that is now cheap, and getting cheaper. It is **the willingness to act on a reframe you cannot prove**,
@@ -168,12 +179,12 @@ None of this makes the tool useless, and I do not want you to read it that way. 
 a specific part of this, and knowing which part is the difference between a colleague and a crutch.
 
 **Use it to generate the candidate frames you would never have thought of.** That is the analogy result:
-ask for cross-domain structural analogues and you get 90–173% more diversity. This is a real
-capability and you should be extracting value from it every week.
+ask for cross-domain structural analogues and you get 90–173% more diversity. This is a real capability,
+and you should be extracting value from it every week.
 
 **Do not use it to choose.** The choosing is where the abandonment, the exposure and the risk live, and
-it is exactly the part that cannot be delegated, because delegating it does not transfer the
-consequence — it just leaves you holding it without having thought about it.
+it is exactly the part that cannot be delegated — because delegating it does not transfer the
+consequence. It just leaves you holding it without having thought about it.
 
 There is a sharper way to put the division. The machine can tell you **what** the frame is like. It
 cannot tell you whether it is **worth** leaving, because "worth it" is a comparison of two costs it can
@@ -201,9 +212,9 @@ where frames hide.
 **Import from a field that has your structure.** This is the one the machine is genuinely good at, and
 the analogy research gives the method: describe the *relational structure* of your problem — what
 connects to what, not what it is made of — and ask for domains where that same structure appears. Not
-"how do other companies do onboarding". "What other systems face a one-shot trust decision with
-unrecoverable failure?" That second question gets you floods, parachutes and dating, and one of them
-will be useful.
+"how do other companies do onboarding". Ask instead: "What other systems face a one-shot trust decision
+with unrecoverable failure?" That second question gets you floods, parachutes and dating, and one of
+them will be useful.
 
 **Get the counter-argument from someone who pays for being wrong.** This is the cheapest exit and the
 most reliable. Someone with a different stake will see your frame instantly — not because they are
@@ -221,9 +232,9 @@ There is a fifth, and it is the one that separates people who have this skill fr
 about it.
 
 **Keep the reframe you rejected.** When you generate candidate frames — with the machine, with a
-colleague, alone — you will regularly get one that is genuinely better and that you decide not to
-take, because the timing is wrong or the organisation will not survive it. Write it down, with the
-reason you declined.
+colleague, alone — you will regularly get one that is genuinely better and that you decide not to take,
+because the timing is wrong or the organisation will not survive it. Write it down, with the reason you
+declined.
 
 Two things happen. First, you build a record of frames that were right too early, which is the raw
 material for the next decision. Second, and less comfortably, you build a record of **how often you
@@ -236,7 +247,7 @@ The machine will never have that list. It has nothing to decline, and nothing it
 ## The honest caveats
 
 **The strongest counter-evidence is that AI does cross-domain work well.** Prompted for structural
-analogies, models produced 90–173% more diverse solutions and novel approaches more than half the time
+analogies, models produced 90–173% more diverse solutions, and novel approaches more than half the time
 on real biomedical problems, several of which were implemented successfully.
 
 <!-- verified 2026-10-01 — source: https://arxiv.org/html/2605.11258v1 -->
@@ -251,7 +262,7 @@ symbol set where children succeeded.
 <!-- verified 2026-10-01 — source: https://arxiv.org/abs/2411.02348 -->
 
 That is a 2024–25 result about specific models, and it is exactly the kind of claim this book warns
-against elsewhere. I am citing it as a dated observation, not as a structural limit, and the chapter's
+against elsewhere. I am citing it as a dated observation, not a structural limit, and the chapter's
 argument does not depend on it. If it falls, the argument still stands.
 
 **The dial is not stuck.** The same chess research found the Einstellung effect **weakened with greater
@@ -270,18 +281,17 @@ better."
 
 <!-- verified 2026-10-01 — source: https://arxiv.org/abs/2401.13481 -->
 
-I am not going to pretend to reconcile them. The two studies differ in task, design and what they
-measure — Ch. 03 used a fixed task with a fixed prompt; this one used a dynamic design where each
-participant saw prior participants' ideas, and it measures divergence under exposure. The honest
-reading is that "AI homogenises creativity" is **context-dependent**, not a law, and I have stated it
-too confidently in the chapter where it appears.
+I will not pretend to reconcile them. The two studies differ in task, design and what they measure —
+Ch. 03 used a fixed task with a fixed prompt; this one used a dynamic design where each participant saw
+prior participants' ideas, and it measures divergence under exposure. The honest reading is that "AI
+homogenises creativity" is **context-dependent**, not a law — and I have stated it too confidently in
+the chapter where it appears.
 
 **And the limit on the sources themselves.** The single most relevant study — a direct comparison of LLM
-and human analogical reasoning on strategic decisions — was unreachable to me (Cloudflare), so it is
-not cited. The Einstellung figures are read from the paper's abstract. Both are noted in the research
-notes.
+and human analogical reasoning on strategic decisions — was unreachable to me (Cloudflare), so it is not
+cited. The Einstellung figures are read from the paper's abstract. Both are noted in the research notes.
 
-**Finally, the structural caveat, which is the one to hold.** Of the four blind spots in Chapter 02,
+**Finally, the structural caveat, and it is the one to hold.** Of the four blind spots in Chapter 02,
 this is the one whose machine-side version expires. "A model cannot think beyond its frame" is a claim
 that gets cheaper every year, and I have deliberately not rested the chapter on it. What the chapter
 rests on is that **a reframe has to be paid for** — and if that ever stops being true, it will not be
@@ -291,11 +301,11 @@ is a different book entirely.
 ## Do this today
 
 1. **Under 30 minutes.** Write the problem you are currently working on as one sentence a stranger
-   could disagree with. Then list the three assumptions inside that sentence. You will find the frame
-   in the second or third one.
-2. **This week.** Take the constraint you have never questioned. Write one paragraph on what the
-   problem becomes without it. You do not have to act on it — the point is to see that you had a
-   choice you had stopped perceiving.
+   could disagree with. Then list the three assumptions inside that sentence. The frame is in the
+   second or third one.
+2. **This week.** Take the constraint you have never questioned. Write one paragraph on what the problem
+   becomes without it. You do not have to act on it — the point is to see that you had a choice you had
+   stopped perceiving.
 3. **This quarter.** Start the rejected-reframe log. Every time you or your team consider a different
    framing and decline it, write down the frame and the reason. At the end of the quarter, read the
    reasons. Separate the ones that were about being *wrong* from the ones that were about being
@@ -320,7 +330,7 @@ is a different book entirely.
   <https://arxiv.org/abs/2411.02348>
 
 ---
-📅 Last updated: 2026-10-01
+📅 Last updated: 2026-10-02
 🤖 Assisted by: DeepSeek + Reasonix
 ✍️  Edited by: Human (that's me)
 ⚠️  Verify critical facts yourself — AI moves fast, I do my best.
