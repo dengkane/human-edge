@@ -5,10 +5,10 @@ part: "Part II — Building Your Moat"
 status: draft
 language: en
 created: 2026-10-01
-last_updated: 2026-10-01
+last_updated: 2026-10-02
 assisted_by: "DeepSeek + Reasonix"
 edited_by: "Ken Deng"
-word_target: 3500
+word_target: 3400
 tags: [judgment, decision-making, accountability, satisficing, commitment]
 ---
 
@@ -17,18 +17,27 @@ tags: [judgment, decision-making, accountability, satisficing, commitment]
 > **The one thing to take away:** when there is no right answer, what improves your judgment is being
 > answerable for *how* you decided — not for how it turned out.
 
+The deadline is Thursday. You have read everything there is to read, and it has not settled anything.
+Two options, each with a real case. The data stops exactly where the decision starts.
+
+So you open a chat window, describe the situation, and ask the model what to do. It gives you a clear
+recommendation, well-reasoned, with a confidence that feels steady.
+
+You close the window feeling decided. And you never notice what just happened: you handed away the
+thing this whole book is about, and took back a feeling instead.
+
 ## Why this matters now
 
 This is the last chapter about the four blind spots, and it is about the one that hurts.
 
 Chapter 02 said machines bear no consequences. Chapter 05 said a reframe has to be paid for, and that
-you are the one who pays. Both of those described a gap. This chapter is what you actually do standing
-next to it, at the moment the deadline arrives and the data has not settled anything.
+you are the one who pays. Both described a gap. This chapter is what you actually do standing next to
+it, at the moment the deadline arrives and the data has not settled anything.
 
-Because that moment is not rare — it is the normal condition of anything that matters. If the data had
-already settled it, the decision would have been made for you; a calculation is not a judgment. The
-decisions that shape a career, a product or a life are precisely the ones where the information runs
-out before the choice does.
+That moment is not rare. It is the normal condition of anything that matters. If the data had already
+settled it, the decision would have been made for you — a calculation is not a judgment. The decisions
+that shape a career, a product or a life are precisely the ones where the information runs out before
+the choice does.
 
 And here is the trap this chapter exists to disarm. Faced with that, almost everyone reaches for the
 same coping strategy, and it is the wrong one: **"Since there's no right answer, judge me on the
@@ -38,12 +47,12 @@ outcome."** It sounds like courage. It is the thing that will make you decide wo
 
 Researchers ran three judgment studies comparing two ways of being held to account.
 
-**Outcome accountability**: you are answerable for the result. Did it work out?
+**Outcome accountability:** you are answerable for the result. Did it work out?
 
-**Process accountability**: you are answerable for the reasoning. Can you show how you decided?
+**Process accountability:** you are answerable for the reasoning. Can you show how you decided?
 
-The finding was consistent across all three: **process accountability improved judgment quality;
-outcome accountability did not.**
+The finding held across all three: **process accountability improved judgment quality; outcome
+accountability did not.**
 
 <!-- verified 2026-10-01 — source: https://www.colorado.edu/business/sites/default/files/attached-files/obhdp_2011_de_langhe_van_osselaer_wierenga.pdf -->
 
@@ -55,7 +64,7 @@ processing** — shortcuts, gut calls, whatever produces a defensible-looking an
 Sit with why that happens, because it is uncomfortably familiar. When you know you will be judged by
 the result, you stop trying to be right and start trying to be **defensible**. You pick the option
 nobody will blame you for. You hedge the part that could be pinned on you. You optimise for the
-post-mortem instead of the outcome — which is exactly how you end up with the average answer, the
+post-mortem instead of the outcome — which is exactly how you arrive at the average answer, the
 consensus answer, the one that was safe and wrong.
 
 This is Chapter 03's attractor arriving by a different road. Earlier it was fluency pulling you toward
@@ -66,7 +75,7 @@ So the first practical instruction of this chapter is a reversal of the instinct
 > **Judged on outcomes, you will quietly stop thinking. Judged on process, you will actually think.**
 > Ask to be held to the reasoning.
 
-That is not a way of dodging responsibility. It is the opposite — it is asking to be inspected on the
+That is not a way of dodging responsibility. It is the opposite. It is asking to be inspected on the
 part you actually control, because the outcome was never fully yours.
 
 ### No right answer does not mean no method
@@ -81,18 +90,18 @@ simulation fails, they adjust or move to the next idea.
 
 <!-- verified 2026-10-01 — source: https://www.gary-klein.com/rpd -->
 
-This is the Recognition-Primed Decision model, and the first thing it destroys is the assumption that
+That is the Recognition-Primed Decision model, and the first thing it destroys is the assumption that
 rigour means comparison. The experts were not comparing four options and ranking them. They recognised
-the situation and simulated one response — and they were fast and usually right.
+the situation and simulated one response — and they were fast, and usually right.
 
 **What makes that work is that they had been there before.** Recognition is not a shortcut around
 expertise; it is what expertise *is*. The pattern-matching is built out of prior decisions and their
-consequences, which is a thing the machine also cannot acquire cheaply and, more to the point here, is
-the reason your own judgment compounds.
+consequences — a thing the machine also cannot acquire cheaply, and, more to the point here, the reason
+your own judgment compounds.
 
 The second thing it destroys is the idea that "no right answer" means "no method". Recognition and
-simulation are a method. The chapter's problem is not a shortage of technique; it is which technique
-applies when the option space is genuinely open.
+simulation are a method. The problem is not a shortage of technique; it is which technique applies when
+the option space is genuinely open.
 
 ## Satisficing is not settling
 
@@ -112,7 +121,7 @@ experiments — precisely when the constraints were **unmodelled**: time, resour
 
 Read the condition carefully, because everything depends on it. The near-optimal algorithms lost **when
 the model was wrong** — when the world contained constraints nobody had written down. That is not a
-failure of optimisation. That is the definition of the situation this chapter is about.
+failure of optimisation. It is the definition of the situation this chapter is about.
 
 Look at the third row of that table and hold it against what you believe about careful analysis:
 
@@ -132,13 +141,13 @@ default, on a timetable you did not choose.**
 
 ### Set the bar before you look at the options
 
-There is one technique that follows directly from the satisficing research, and it is the most useful
-thing in this chapter.
+One technique follows directly from the satisficing research, and it is the most useful thing in this
+chapter.
 
 Thresholds set **after** you see the options get corrupted by the options. You will find yourself
 adjusting the bar to admit the one you already prefer — and you will not notice, because every
-adjustment will feel reasonable. This is the same mechanism as Ch. 03's fluency trap and Ch. 05's
-frame trap: invisible from inside, plausible from inside.
+adjustment will feel reasonable. It is the same mechanism as Ch. 03's fluency trap and Ch. 05's frame
+trap: invisible from inside, plausible from inside.
 
 So write the threshold **before** the options exist. Concretely:
 
@@ -146,61 +155,61 @@ So write the threshold **before** the options exist. Concretely:
   written down, before you look.
 - **What would make me reject a candidate immediately?** The disqualifiers, also written first.
 - **What is the deadline?** A satisficing decision needs a stopping rule, and "when I feel sure" is not
-  one, because you will not feel sure and that is the condition you are in.
+  one, because you will not feel sure, and that is the condition you are in.
 
 Then take the first option that clears the bar, and write down which conditions it cleared.
 
 The writing-down is not bureaucracy. It is the process accountability the research says improves
-judgment — you have made your reasoning inspectable, by yourself, before you knew how it would turn
-out. Which brings us to the part everyone skips.
+judgment: you have made your reasoning inspectable, by yourself, before you knew how it would turn out.
+Which brings us to the part everyone skips.
 
 ### Separate the decision from the outcome, in writing
 
 Here is why process accountability works, stated as a mechanism rather than a slogan.
 
 An outcome tells you almost nothing about a decision, because it carries one sample. A good decision
-with a bad outcome is common and does not mean you decided badly. A bad decision with a good outcome is
-also common and does not mean you decided well. **If you update your judgment on outcomes alone, you
-will learn from noise** — and worse, you will absorb the lesson that the safe-looking option was right,
-which is precisely the pressure the accountability research identified.
+with a bad outcome is common, and does not mean you decided badly. A bad decision with a good outcome
+is also common, and does not mean you decided well. **If you update your judgment on outcomes alone,
+you will learn from noise** — and worse, you will absorb the lesson that the safe-looking option was
+right, which is exactly the pressure the accountability research identified.
 
-So the practice is to record two things separately, at the moment of deciding:
+So record two things separately, at the moment of deciding.
 
 **What you decided, and why.** The reasoning, with the threshold. Written before the outcome exists.
 
 **What you predicted would happen, and how confident you were.** Not a feeling — a claim. "I think this
 will work, maybe 70%, and the thing I'm most unsure about is X."
 
-Then, when the outcome arrives, you score the **reasoning**, not the result. Was X actually where it
-went wrong, or somewhere you were confident? Did you clear the bar for the reasons you expected? Over
-enough decisions, this is the only feedback that tells you whether your judgment is improving or
-whether you have simply been lucky in a way that is about to end.
+Then, when the outcome arrives, score the **reasoning**, not the result. Was X actually where it went
+wrong, or somewhere you were confident? Did you clear the bar for the reasons you expected? Over enough
+decisions, this is the only feedback that tells you whether your judgment is improving, or whether you
+have simply been lucky in a way that is about to end.
 
-Nobody does this. It takes two minutes and it is the highest-return habit in this book.
+Nobody does this. It takes two minutes, and it is the highest-return habit in this book.
 
 ### The decision you already made is the harder one
 
-Everything above is about choosing. But most decisions with no right answer are not one-off events — they
-are **commitments you have to keep making**, weekly, while the evidence stays ambiguous. And there the
-failure mode is different and worse.
+Everything above is about choosing. But most decisions with no right answer are not one-off events.
+They are **commitments you have to keep making**, weekly, while the evidence stays ambiguous. And there
+the failure mode is different, and worse.
 
-The chess research found a boundary condition worth knowing about. When the familiar course of action
-was merely **suboptimal but attractive**, players who took it kept looking at it for the whole trial —
-they never disengaged. But when the familiar move was a clear **blunder**, even the novices pulled away:
+The chess research found a boundary condition worth knowing. When the familiar course of action was
+merely **suboptimal but attractive**, players who took it kept looking at it for the whole trial — they
+never disengaged. But when the familiar move was a clear **blunder**, even the novices pulled away:
 "both the experts and novices gradually disengaged their attention."
 
 <!-- verified 2026-10-01 — source: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075796 -->
 
-That is the difference between a decision you can revise and one you cannot, and it maps directly onto
+That is the difference between a decision you can revise and one you cannot, and it maps straight onto
 your situation. **You disengage when the signal is unambiguous. You stay stuck when it is merely
 disappointing** — which is what "no right answer" almost always looks like from inside.
 
 So the failure mode for commitments is not stubbornness in general. It is this specific one: you keep
-going not because the reasoning still holds, but because the evidence against it is *soft*, and soft
+going, not because the reasoning still holds, but because the evidence against it is *soft*, and soft
 evidence is easy to absorb. A blunder tells you to stop. A slow decline lets you explain.
 
 The protection is question 4, applied on a schedule rather than once. You named the observation that
-would tell you your reasoning failed and the date you would check. **Actually check on that date, and
+would tell you your reasoning failed, and the date you would check. **Actually check on that date, and
 hold yourself to the observation you named** — not to the fuzzier thing you can see now. If you wrote
 "if we haven't reached X by March, the model was wrong", then March is not the moment to discover a
 good reason why X was the wrong metric.
@@ -213,24 +222,24 @@ longer exists.
 
 ## The four questions for a decision with no right answer
 
-Pulling it together into something you can run under pressure. These are ordered deliberately — each
-one is designed to catch a specific failure the research identified.
+Pulling it together into something you can run under pressure. These are ordered deliberately — each is
+designed to catch a specific failure the research identified.
 
 **1. Can I make this reversible?** Before deciding, ask whether the decision can be structured as a
-trial rather than a commitment. Often it can: a pilot instead of a launch, a term instead of a
-contract, a version instead of a rebuild. Reversibility does not remove the judgment, it *moves* it —
-to the question of whether the reversible version is a real test or a way of avoiding the decision.
-(That is the question to ask, and it is where most "let's pilot it" plans fail: the pilot was designed
-to be safe rather than to be informative.)
+trial rather than a commitment. Often it can: a pilot instead of a launch, a term instead of a contract,
+a version instead of a rebuild. Reversibility does not remove the judgment, it *moves* it — to the
+question of whether the reversible version is a real test or a way of avoiding the decision. That is
+where most "let's pilot it" plans fail: the pilot was designed to be safe rather than to be
+informative.
 
-**2. What is my bar, written down?** The satisficing threshold, set before you look. If you have
-already looked at the options, say so honestly and set the bar from a principle rather than from the
-field — "what would this need to do for me to be able to defend it on the reasoning", not "which of
-these is least bad".
+**2. What is my bar, written down?** The satisficing threshold, set before you look. If you have already
+looked at the options, say so honestly and set the bar from a principle rather than from the field —
+"what would this need to do for me to be able to defend it on the reasoning", not "which of these is
+least bad".
 
 **3. Who pays if this is wrong?** Not rhetorically — concretely, and by name. This is Chapter 05's
 question, and it is a check on whether you are actually deciding or merely recommending. If the answer
-is "nobody, really", then this is not a decision with a stake and question 4 does not apply. If the
+is "nobody, really", then this is not a decision with a stake, and question 4 does not apply. If the
 answer is "I do", you now know what you are spending, and that is the thing that makes it a decision.
 
 **4. What would make me admit I was wrong, and when will I check?** A decision without a falsifier is
@@ -242,20 +251,20 @@ look. This is the single move that converts an opinion into something you can le
 
 Consistent with everything in Part II: use it for the parts that are true regardless of who is deciding.
 
-**It is good at:** generating the disqualifiers you did not think of; stress-testing the threshold by
+**It is good at** generating the disqualifiers you did not think of; stress-testing the threshold by
 arguing against it; simulating the branch you are least confident about; hunting for the evidence that
-would falsify your reasoning in question 4. This is real leverage and it is cheap.
+would falsify your reasoning in question 4. This is real leverage, and it is cheap.
 
-**It is useless for:** telling you your bar is set too low, because a helpful model will help you clear
+**It is useless for** telling you your bar is set too low, because a helpful model will help you clear
 whatever bar you set. And it cannot answer question 3 at all — not because it would answer dishonestly,
-but because the answer is a fact about you and it has no way to be wrong about it in the way that
+but because the answer is a fact about you, and it has no way to be wrong about it in the way that
 matters.
 
-The temptation to be named explicitly, because it is the specific failure mode of this chapter: **you
+The temptation deserves naming explicitly, because it is this chapter's specific failure mode: **you
 will be tempted to let the model make the call and then adopt its confidence as your own.** That is
 outcome accountability turned inward — you are about to be judged by a result, and the model offers a
-warm feeling of having decided. What you have actually done is taken a decision with no right answer
-and converted it into a decision with no author. When it goes wrong there will be nobody to learn from,
+warm feeling of having decided. What you have actually done is take a decision with no right answer and
+convert it into a decision with no author. When it goes wrong, there will be nobody to learn from,
 including you.
 
 ## The honest caveats
@@ -330,7 +339,7 @@ best-supported efforts, and where the evidence is thin I have said so rather tha
   <https://pmc.ncbi.nlm.nih.gov/articles/PMC11589672/>
 
 ---
-📅 Last updated: 2026-10-01
+📅 Last updated: 2026-10-02
 🤖 Assisted by: DeepSeek + Reasonix
 ✍️  Edited by: Human (that's me)
 ⚠️  Verify critical facts yourself — AI moves fast, I do my best.
