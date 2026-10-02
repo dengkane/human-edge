@@ -23,6 +23,9 @@ ref-docs/
 # --- Local tool state (e.g. the gh config fallback in scripts/gh.sh) ---
 .tools/
 
+# --- Reasonix agent runtime state (per-task event logs / snapshots / locks) ---
+/.reasonix/
+
 # --- Build output (generated, never tracked) ---
 dist/
 build/
