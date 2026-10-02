@@ -55,7 +55,8 @@ and warns if a new chapter arrives without one.
   (Stevenson et al., TACL) yet produce 90-173% more diverse solutions when prompted for cross-domain
   analogies (Shen et al.) — so the obstacle is the *decision to look*, not capacity. The Einstellung
   research then shows humans get trapped too (experts performing three standard deviations below
-  skill), so the moat is not ability: it is that a reframe has to be paid for.
+  skill), so the moat is not ability: it is that a reframe has to be paid for. Rewritten to the *story
+  first* standard (opens on a chess player playing the familiar move and never really re-searching).
 
 - **Ch. 06, *Judgment Without a Right Answer*** — 3,324 words of body, 5 independent sources, 11 sourced
   claims. Closes Part II ("no commitment"). Research **reversed the chapter's instinct**: the intuition
