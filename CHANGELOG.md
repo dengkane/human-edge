@@ -129,7 +129,9 @@ and warns if a new chapter arrives without one.
   explicitly and carefully built into each such application"** — the model was the pipe, not the
   pedagogy. The hinge is the randomized "metacognitive laziness" finding: **essay scores up, knowledge
   gain and transfer flat** — Ch. 11's hand/head split in education. Also repaired the practice doctrine:
-  deliberate practice explains **<1%** of performance variance in professions.
+  deliberate practice explains **<1%** of performance variance in professions. Rewritten to the *story
+  first* standard (opens on a three-hour session that produced a proud finished piece — and the question
+  of whether you could do it again next week without the model).
 
   **A malformed marker URL (`https://10.3102/...`, missing `doi.org/`) was caught by the linter** before
   publish, and Bloom's two-sigma claim was given its own proper attribution marker.
