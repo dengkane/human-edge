@@ -139,7 +139,8 @@ and warns if a new chapter arrives without one.
   **no new framework** — it closes the argument and hands the reader the last move. Carries the regret
   evidence (Gilovich & Medvec) as the one external support for the closing claim, and is honest that the
   effect replicates "with weaker effects" and failed in one of four studies. Declared length is
-  deliberately short for an epilogue; the remaining linter warning is the documented, expected one.
+  deliberately short for an epilogue. Rewritten to the *story first* standard (opens on a document you
+  have improved for weeks and never sent).
 
 ### Changed
 
