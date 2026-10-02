@@ -5,10 +5,10 @@ part: "Part IV — Systems and Their Costs"
 status: draft
 language: en
 created: 2026-10-01
-last_updated: 2026-10-01
+last_updated: 2026-10-02
 assisted_by: "DeepSeek + Reasonix"
 edited_by: "Ken Deng"
-word_target: 3500
+word_target: 3350
 tags: [mvp, experimentation, hypotheses, forecasting, action]
 ---
 
@@ -17,22 +17,30 @@ tags: [mvp, experimentation, hypotheses, forecasting, action]
 > **The one thing to take away:** the thinking is not the part you hand over. The thinking is what makes
 > the trying worth doing.
 
+You spend the week building. A landing page, a deck, a prototype, a market brief. By Friday all of it is
+polished, and it looks like progress.
+
+And not one real person has seen any of it.
+
+That week is the failure this chapter is about — and the tools that made the artifacts so easy to
+produce are the reason it now takes real discipline not to have it.
+
 ## Why this matters now
 
-Chapter 09 built a system for keeping what you learn. This chapter is about the other direction: using
-what you have to **act** — to make something, ship it, and find out whether you were right, for as
-little cost as possible.
+Chapter 09 built a system for keeping what you learn. This chapter is the other direction: using what you
+have to **act** — to make something, ship it, and find out whether you were right, for as little cost as
+possible.
 
-The chapter's title carries a piece of advice as old as the lean-startup movement: in the age of AI,
-*let the model do the thinking and you do the trying.* On the surface it is the practical, humble
-version of this book's whole argument. Models are tireless and cheap; you are neither. So let them
-generate, and spend yourself on execution.
+The chapter's title carries a piece of advice as old as the lean-startup movement: in the age of AI, *let
+the model do the thinking and you do the trying.* On the surface it is the practical, humble version of
+this book's whole argument. Models are tireless and cheap; you are neither. So let them generate, and
+spend yourself on execution.
 
-I want to separate two things in that sentence, because one of them is right and one of them is a trap,
-and the trap is the reason most people waste the opportunity.
+I want to separate two things in that sentence, because one is right and one is a trap, and the trap is
+why most people waste the opportunity.
 
-**The instinct that is right:** stop trying to *think your way* to certainty before you act. That is
-real. You cannot reason a new product or a career change into safety, and the people who try spend years
+**The instinct that is right:** stop trying to *think your way* to certainty before you act. No model and
+no plan can reason a new product or a career change into safety, and the people who try spend years
 producing a plan that is wrong in ways no plan could have caught.
 
 **The trap:** concluding that because you cannot think your way to certainty, thinking is the cheap part
@@ -47,10 +55,10 @@ were wrong cheaply.** That is a much harder claim, and it is what the rest of th
 For once, this is a claim with a randomized control trial behind it, and from an unexpected direction.
 
 Researchers took a set of early-stage startups and randomly assigned some to a training programme. Both
-groups learned how to get feedback from the market. The difference was the instruction: the treated
-group was taught to build explicit hypotheses about how their idea would perform and to "conduct
-rigorous tests of their hypotheses, **very much as scientists do in their research**." The control group
-kept following its intuition.
+groups learned how to get feedback from the market. The difference was the instruction: the treated group
+was taught to build explicit hypotheses about how their idea would perform and to "conduct rigorous tests
+of their hypotheses, **very much as scientists do in their research**." The control group kept following
+its intuition.
 
 The result:
 
@@ -63,23 +71,22 @@ Read what that is *not*. It is not "the scientists had better ideas." It is not 
 harder." Every group was trying to succeed. The only thing that changed was whether the trying was
 structured as a test of a stated belief.
 
-Now the mechanism, in the authors' own summary, because this is where the chapter's argument actually
-lives:
+Now the mechanism, in the authors' own summary, because this is where the chapter's argument lives:
 
 > a scientific approach improves **precision** — it **reduces the odds of pursuing projects with false
 > positive returns** and **increases the odds of pursuing projects with false negative returns.**
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1287/mnsc.2018.3249 -->
 
-That sentence is doing something subtle and worth slowing down for. The scientific approach does not
+That sentence does something subtle, and it is worth slowing down for. The scientific approach does not
 make you **right**. It does not raise your hit rate. It changes your **error profile in both
 directions** — you stop chasing things that were never going to work, *and* you stop throwing away things
 that would have.
 
 Almost all advice about decision-making is about avoiding the first error: don't chase bad ideas. This is
 the rare piece of evidence that also counts the second: **how many good ideas did you abandon because you
-never gave them a fair test?** That error is invisible. A bad idea you pursued leaves a wreck you can
-see; a good idea you never tried leaves nothing at all. The structured approach makes both visible.
+never gave them a fair test?** That error is invisible. A bad idea you pursued leaves a wreck you can see;
+a good idea you never tried leaves nothing at all. The structured approach makes both visible.
 
 And that is why the thinking cannot be delegated. A model can generate ideas, sharpen a plan, and argue
 any side. What it cannot do is tell you **what you are actually testing** — because that depends on what
@@ -96,8 +103,8 @@ sharpened the result in a way that cuts against the obvious lesson.
 <!-- verified 2026-10-01 — source: https://doi.org/10.1002/smj.3580 -->
 
 If you came into this chapter expecting "experiments will tell you to change direction," that is not what
-the evidence says. The disciplined firms did not pivot constantly. They landed in a middle band:
-**more than the firms that never questioned anything, and fewer than the ones thrashing between ideas.**
+the evidence says. The disciplined firms did not pivot constantly. They landed in a middle band: **more
+than the firms that never questioned anything, and fewer than the ones thrashing between ideas.**
 
 The replication's own explanation is that the approach "enhances entrepreneurs' **efficiency in searching
 for viable ideas**" and raises "**methodic doubt**."
@@ -105,37 +112,36 @@ for viable ideas**" and raises "**methodic doubt**."
 <!-- verified 2026-10-01 — source: https://doi.org/10.1002/smj.3580 -->
 
 Methodic doubt. Not paralysis, not constant reinvention — a working scepticism about your own idea that
-is *specific enough to test*. And notice the connection to everything upstream in this book: a pivot
-without a test is just a mood change, and it is the same failure as a decision without a falsifier
-(Chapter 06) or a belief without a disconfirming observation (Chapter 07). **The discipline is one
-discipline, applied at the speed of doing.**
+is *specific enough to test*. And notice the connection to everything upstream: a pivot without a test is
+just a mood change, the same failure as a decision without a falsifier (Chapter 06) or a belief without a
+disconfirming observation (Chapter 07). **The discipline is one discipline, applied at the speed of
+doing.**
 
 ## Why your forecasts will be wrong, in two directions
 
-If structured thinking is the lever, the natural next question is what it is protecting you from. The
-research on large-project forecasting gives an answer that is more useful than "people are overoptimistic,"
-because it splits the cause in two.
+If structured thinking is the lever, the next question is what it protects you from. The research on
+large-project forecasting gives an answer more useful than "people are overoptimistic," because it splits
+the cause in two.
 
 > it explains inaccuracy in terms of **optimism bias** and **strategic misrepresentation**
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1177/875697280603700302 -->
 
-**Optimism bias is a cognitive error.** You genuinely believe it will take four months, because your
-model of the task is missing the parts you have not thought about. No dishonesty anywhere.
+**Optimism bias is a cognitive error.** You genuinely believe it will take four months, because your model
+of the task is missing the parts you have not thought about. No dishonesty anywhere.
 
 **Strategic misrepresentation is an incentive problem.** You know it will take eight months. You say
 four. Because the four-month version gets approved, and the eight-month version does not.
 
-That distinction matters more in this book than in a project-management text, and here is why. **A model
-is very good at helping with the first and useless against the second.** Ask a language model to
-critique your plan and it can surface the missing steps you didn't consider — that is genuine help with
-optimism bias. But ask it to forecast *your* project, and it will produce whatever forecast the framing
-invites, fluently and at length. If your unconscious goal is the four-month number that gets approved,
-you have just built a machine that manufactures strategic misrepresentation and hands it back to you with
-a confident tone.
+That distinction matters more here than in a project-management text, and here is why. **A model is very
+good at helping with the first and useless against the second.** Ask a language model to critique your
+plan and it can surface the missing steps you didn't consider — genuine help with optimism bias. But ask
+it to forecast *your* project, and it will produce whatever forecast the framing invites, fluently and at
+length. If your unconscious goal is the four-month number that gets approved, you have just built a
+machine that manufactures strategic misrepresentation and hands it back to you with a confident tone.
 
-This is Chapter 02's sycophancy arriving in a place you did not expect. The model is not lying to you. It
-is reflecting the frame you brought — and if the frame is "tell me this is feasible," you will get it.
+This is Chapter 02's sycophancy arriving where you did not expect it. The model is not lying to you. It is
+reflecting the frame you brought — and if the frame is "tell me this is feasible," you will get it.
 
 The remedy the research names is the **outside view**:
 
@@ -144,11 +150,11 @@ The remedy the research names is the **outside view**:
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1177/875697280603700302 -->
 
-Which is, in one line, the whole discipline of this chapter. Stop forecasting from **inside** your
-project — your plan, your energy, your special circumstances. Forecast from **outside** it: what happened
-to other people who tried comparable things? The model is good at this too, and it is worth being precise
+Which is, in one line, the whole discipline of this chapter. Stop forecasting from **inside** your project
+— your plan, your energy, your special circumstances. Forecast from **outside** it: what happened to
+other people who tried comparable things? The model is good at this too, and it is worth being precise
 about *why*, because it is the same reason the adversarial pass works. The model has no stake in your
-project's feasibility. Its lack of a stake, a defect everywhere else in this book, is exactly what
+project's feasibility. Its lack of a stake — a defect everywhere else in this book — is exactly what
 qualifies it for the outside view.
 
 ## The thing experiments will not tell you
@@ -156,7 +162,7 @@ qualifies it for the outside view.
 Before the method, the counter-argument, because this book does not sell systems it cannot defend.
 
 The lean-startup tradition has a serious academic critique, and its three complaints are worth knowing
-precisely, because each one corresponds to a failure this chapter has to avoid:
+precisely, because each corresponds to a failure this chapter has to avoid:
 
 > **inadequate guidance provided for hypotheses generation**; **limits of experiential learning from
 > customer feedback**; and the **incremental nature of experimentation outcomes**
@@ -165,12 +171,12 @@ precisely, because each one corresponds to a failure this chapter has to avoid:
 
 Read the first one slowly, because it is the whole chapter. **The critique is not that experiments fail.
 It is that the method does not tell you what to test.** "Build an MVP and learn" is silent on the only
-question that matters: *which hypothesis is worth the build?* A cheap experiment into a worthless
-question is still wasted — it is just wasted cheaply.
+question that matters: *which hypothesis is worth the build?* A cheap experiment into a worthless question
+is still wasted — it is just wasted cheaply.
 
-The second complaint matters just as much for this book. **Customers tell you what they want, not what
-they would buy**, and they are famously bad witnesses to their own future behaviour. A model trained on
-that feedback can amplify it — generating confident conclusions from soft input, faster.
+The second complaint matters just as much. **Customers tell you what they want, not what they would buy**,
+and they are famously bad witnesses to their own future behaviour. A model trained on that feedback can
+amplify it — generating confident conclusions from soft input, faster.
 
 And the third: experiments produce **incremental** answers. They tell you whether to adjust a thing, not
 whether the whole idea is dead. Which means they cannot substitute for the judgement Chapters 06 and 07
@@ -180,15 +186,15 @@ were about. They inform it. They do not replace it.
 
 So here is what is actually being asked of you. It is small, and the thinking is the hard part.
 
-**One: write the belief as a testable claim.** Not "I think this could work." A specific claim about
-what will happen that could be false. "People in this role will pay for the report more than once a
-quarter." This is Chapter 07's falsifier, aimed at a project instead of a belief. The critique above says
-the method won't do this for you — and it won't, because it depends on what you actually believe.
+**One: write the belief as a testable claim.** Not "I think this could work." A specific claim about what
+will happen that could be false. "People in this role will pay for the report more than once a quarter."
+This is Chapter 07's falsifier, aimed at a project instead of a belief. The critique above says the method
+won't do this for you — and it won't, because it depends on what you actually believe.
 
 **Two: ask what the cheapest thing is that would tell you.** Not the best test. The cheapest informative
-one. This is where the model earns its place: it is genuinely good at generating ten low-cost ways to
-test a claim, and at listing the ways a test could mislead you. You are asking it to expand your options,
-not to give you an answer.
+one. This is where the model earns its place: it is genuinely good at generating ten low-cost ways to test
+a claim, and at listing the ways a test could mislead you. You are asking it to expand your options, not
+to give you an answer.
 
 **Three: set the decision rule before you run it.** *If I see X, I continue. If I see Y, I stop or
 change.* Written down first, because this is the moment you are least able to be honest and the rule is
@@ -203,19 +209,19 @@ and that it is "**attenuated by time**" — strongest right after you commit, fa
 <!-- verified 2026-10-01 — source: https://doi.org/10.1007/s40685-014-0014-8 -->
 
 That is a practical fact with a scheduling consequence. **The moment right after you have invested is the
-moment you are least able to judge whether to continue.** So the decision rule is not a formality to
-write later. It is the only instrument you have at the exact moment your judgement is worst.
+moment you are least able to judge whether to continue.** So the decision rule is not a formality to write
+later. It is the only instrument you have at the exact moment your judgement is worst.
 
 ### What this looks like
 
 The loop above is abstract, so here it is on a real-sized decision.
 
-**The claim.** You believe a weekly newsletter about your field would attract paying subscribers, and
-your evidence is that people engage with your posts.
+**The claim.** You believe a weekly newsletter about your field would attract paying subscribers, and your
+evidence is that people engage with your posts.
 
-**The cheapest informative test.** Not a website, not a logo — a single issue, sent to a list, with a
-real price on a real checkout page, to see whether anyone's card comes out. Your belief is about *paying*,
-so the test has to involve paying. A survey of interest would be cheaper and would tell you nothing.
+**The cheapest informative test.** Not a website, not a logo — a single issue, sent to a list, with a real
+price on a real checkout page, to see whether anyone's card comes out. Your belief is about *paying*, so
+the test has to involve paying. A survey of interest would be cheaper and would tell you nothing.
 
 **The decision rule, written first.** *If 2% of the list pays for issue two, continue for four more
 issues. If fewer than 0.5% do, the newsletter is not a product — the writing can continue as writing.
@@ -226,10 +232,10 @@ wrong, or the list was small, or you didn't promote it properly — every one of
 of which are reasons you wrote the rule in advance. The rule says stop the *product*, not the *writing*.
 
 Read what the thinking did there, because none of it was delegated. The model could have drafted the
-landing page, brainstormed ten test designs, and argued both sides. What it could not do is know that
-your belief was about *paying* rather than *interest* — that required understanding your own claim well
-enough to test the right one. **The thinking was the whole game, and the trying was how it got settled
-for the price of one issue.**
+landing page, brainstormed ten test designs, and argued both sides. What it could not do is know that your
+belief was about *paying* rather than *interest* — that required understanding your own claim well enough
+to test the right one. **The thinking was the whole game, and the trying was how it got settled for the
+price of one issue.**
 
 ### The temptation to skip straight to building
 
@@ -244,10 +250,9 @@ The evidence above is the antidote, and it is specific. The firms that did bette
 better materials. They were the ones whose materials were **tests**. A deck is not a test. A prototype
 shown to five real users and modified afterwards is.
 
-And the honest note here, because this is the chapter where it is easiest to fool yourself: **the model
-will never be the thing that stops you from doing this.** It will help you build the artifact forever. The
-judgement to stop building and go get an answer is yours, and it is the same judgement every earlier
-chapter has been pointing at.
+And the honest note here: **the model will never be the thing that stops you from doing this.** It will
+help you build the artifact forever. The judgement to stop building and go get an answer is yours, and it
+is the same judgement every earlier chapter has been pointing at.
 
 ## What the machine does here, and what it cannot
 
@@ -255,8 +260,8 @@ The book's usual division of labour, applied to acting.
 
 **What it is genuinely good at:** generating cheap test designs you would not have thought of; critiquing
 your plan for the steps you left out, which is direct help with optimism bias; supplying the outside view
-from comparable cases, because it has no stake in yours; drafting the artifacts so that the test costs
-hours instead of weeks; and playing adversary to your own reasoning about the results.
+from comparable cases, because it has no stake in yours; drafting the artifacts so the test costs hours
+instead of weeks; and playing adversary to your own reasoning about the results.
 
 **What it cannot do, and this is the chapter's claim:** it cannot tell you what you believe, so it cannot
 tell you what to test. It cannot know which hypothesis is load-bearing in *your* situation. And it cannot
@@ -266,8 +271,8 @@ and it will do it as long as you ask.
 ## The honest caveats
 
 **The chapter rests on abstracts, as Chapter 09's did.** PMC, PubMed, Europe PMC and the publisher
-platforms all blocked automated access during this research, and the findings here come from the
-authors' own abstract text retrieved through the OpenAlex and Crossref APIs by DOI — a genuine source,
+platforms all blocked automated access during this research, and the findings here come from the authors'
+own abstract text retrieved through the OpenAlex and Crossref APIs by DOI — a genuine source,
 cross-checked across both APIs, but **not the same as opening the papers.**
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1287/mnsc.2018.3249 -->
@@ -278,7 +283,7 @@ book is an extrapolation — a reasonable one, and one I have not verified. The 
 should survive; the specifics may not.
 
 **The field does not agree with itself here.** There is a whole tradition — effectuation, from Sarasvathy's
-work with expert entrepreneurs — that argues experienced founders *do not predict*, they act on means they
+work with expert entrepreneurs — that argues experienced founders *do not predict*; they act on means they
 already control and let the goal emerge. That is in genuine tension with the approach this chapter just
 recommended. The same comparative review that documents the tension also observes that the entrepreneurial
 method space is "a **proliferation of relatively unrelated methods** with **varying degrees of rigor and
@@ -332,7 +337,7 @@ method.
   <https://doi.org/10.1016/j.lrp.2019.101953>
 
 ---
-📅 Last updated: 2026-10-01
+📅 Last updated: 2026-10-02
 🤖 Assisted by: DeepSeek + Reasonix
 ✍️  Edited by: Human (that's me)
 ⚠️  Verify critical facts yourself — AI moves fast, I do my best.

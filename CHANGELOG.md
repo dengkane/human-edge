@@ -103,7 +103,8 @@ and warns if a new chapter arrives without one.
   the thinking is what makes the trying informative. The larger replication complicated it: a
   **nonlinear** effect on pivots, so the lesson is neither "pivot more" nor "never pivot." Flyvbjerg's
   split — **optimism bias vs strategic misrepresentation** — is used to show where a model helps (the
-  outside view) and where it cannot (your incentives).
+  outside view) and where it cannot (your incentives). Rewritten to the *story first* standard (opens on
+  a week of polished artifacts that no real user ever saw).
 
   **A citation defect was caught mechanically before publish:** a marker's DOI was mistyped
   (`…3241` vs `…3249`), and both resolve — the wrong one to an unrelated paper on hiring discrimination.
