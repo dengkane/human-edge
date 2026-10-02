@@ -207,26 +207,50 @@ else
 fi
 
 # --- length -----------------------------------------------------------------
-# Target is ~3500 words of body, inside the 2,500–5,000 range non-fiction
-# chapters normally run. Warn below 2500 and above 4500 — the target is a
-# landing zone, not a quota (see the LENGTH note in templates/chapter-template.md).
+# Story-first chapters run shorter and looser than the old essay format. English
+# is counted in words, 2000–4000 of body. Chinese has no inter-word whitespace,
+# so `wc -w` is meaningless there — it is counted in non-whitespace characters,
+# 3200–6400 (roughly 1.6× the English word count, the usual zh/en ratio). The
+# range is a corridor, not a quota: a tight chapter that lands its argument is
+# finished. See the LENGTH note in templates/chapter-template.md.
+fm_language="$(grep -E '^language:' <<<"$fm" | head -1 | sed 's/^language: *//; s/"//g' | tr -d ' ')"
+body_text="$(awk 'NR==1 && $0=="---"{inside=1;next} inside && $0=="---"{inside=0;next} !inside' "$file")"
 words="$(wc -w < "$file" | tr -d ' ')"
-body_words="$(awk 'NR==1 && $0=="---"{inside=1;next} inside && $0=="---"{inside=0;next} !inside' "$file" | wc -w | tr -d ' ')"
+
+if [[ "${fm_language:-en}" == "zh" ]]; then
+  if command -v python3 >/dev/null 2>&1; then
+    body_metric="$(printf '%s' "$body_text" | python3 -c '
+import re, sys
+t = sys.stdin.read()
+t = re.sub(r"<!--.*?-->", "", t, flags=re.S)
+print(len(re.sub(r"\s", "", t)))
+')"
+  else
+    body_metric="$(printf '%s' "$body_text" | grep -v '<!--' | tr -d '[:space:]' | wc -m | tr -d ' ')"
+  fi
+  unit="characters"
+  lo=3200; hi=6400
+else
+  body_metric="$(printf '%s' "$body_text" | wc -w | tr -d ' ')"
+  unit="words"
+  lo=2000; hi=4000
+fi
+
 echo
-echo "  Length: $words words total, $body_words words of body (target ~3500)"
-if [[ "$body_words" -lt 2500 ]]; then
-  warn "body is short — under 2500 words is thin for a book chapter (target ~3500)"
-elif [[ "$body_words" -gt 4500 ]]; then
-  warn "body is long — over 4500 words, consider splitting or trimming"
+echo "  Length: $words words total, $body_metric $unit of body (target $lo–$hi)"
+if [[ "$body_metric" -lt "$lo" ]]; then
+  warn "body is short — under $lo $unit is thin for a chapter (target $lo–$hi)"
+elif [[ "$body_metric" -gt "$hi" ]]; then
+  warn "body is long — over $hi $unit, consider splitting or trimming"
 fi
 
 # If the author declared a target, flag a large gap between declared and actual.
 declared_target="$(awk 'NR==1 && $0=="---"{inside=1;next} inside && $0=="---"{exit} inside && /^word_target:/{sub(/^word_target: */,"");gsub(/[^0-9]/,"");print;exit}' "$file")"
 if [[ -n "$declared_target" && "$declared_target" -gt 0 ]]; then
-  delta=$(( body_words - declared_target ))
+  delta=$(( body_metric - declared_target ))
   abs_delta=${delta#-}
   if [[ "$abs_delta" -gt 400 ]]; then
-    warn "body is $body_words words but front matter declares word_target: $declared_target"
+    warn "body is $body_metric $unit but front matter declares word_target: $declared_target"
   fi
 fi
 

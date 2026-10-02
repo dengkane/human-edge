@@ -8,7 +8,7 @@ created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 assisted_by: "<model> + Reasonix"
 edited_by: "Ken Deng"
-word_target: 3500
+word_target: 3000
 tags: []
 ---
 
@@ -17,10 +17,9 @@ tags: []
   Delete every HTML comment (including this one) before opening the PR.
   See WORKFLOW.md for the drafting → review → publish flow.
 
-  Target length: ~3500 words, the middle of what non-fiction chapters normally
-  run (2,500–5,000). Thirteen chapters at that length is a short book rather
-  than a long one, so the length is a floor on seriousness, not a size to hit.
-  See "Length" at the bottom of this file for the arithmetic.
+  Target length: 2000–4000 words of body. A corridor, not a quota — a tight
+  2200 that lands its argument is a finished chapter. See "Length" and
+  "Story first" at the bottom of this file.
 
   This comment sits AFTER the front matter on purpose. check-chapter.sh
   requires the file to start with '---', so anything above it breaks the
@@ -30,8 +29,9 @@ tags: []
 # <NN>. Chapter Title Here
 
 <!--
-  OPENING: one concrete scene, number, or question. The reader should feel the
-  problem within three sentences. No "In the age of AI, ..." openings.
+  OPENING: a person, a moment, a date. Start inside a scene and let the reader
+  feel the problem before you name it. No "In the age of AI, ..." openings, no
+  thesis-first paragraph. See "Story first" at the bottom of this file.
 -->
 
 > **The one thing to take away:** <!-- one sentence the reader should still remember tomorrow -->
@@ -39,12 +39,14 @@ tags: []
 ## Why this matters now
 
 <!--
-  The stakes, grounded in something that actually happened: a layoff, a price
-  change, a launch, a hiring shift. If you cannot point at a date or a number,
-  the section is probably filler.
+  The stakes, shown through one story that actually happened: someone lost a
+  job, a price moved, a launch failed. If you cannot point at a date, a number,
+  or a name, the section is probably filler.
 
   Every concrete, checkable claim — an amount, a percentage, a dated event —
-  carries a marker underneath it. See "Factual claims" in chapters/en/README.md.
+  carries a marker underneath it. Storytelling changes how a claim arrives,
+  never whether it needs a source. See "Factual claims" in
+  chapters/en/README.md.
 -->
 
 <!-- verified YYYY-MM-DD — source: <URL> -->
@@ -52,16 +54,18 @@ tags: []
 ## <Body section — name it after the idea, not "Section 2">
 
 <!--
-  TWO OR THREE body sections, each roughly 900–1200 words. Every section carries
-  its own argument and its own example. If two sections are making the same
-  point, that is one section, not two.
+  TWO OR THREE body sections, each reached through a scene and each carrying its
+  own argument and example. Length follows what the section has to say; there is
+  no 900–1200-word shape to hit. If two sections make the same point, that is one
+  section, not two.
 
   Name each one after its argument ("A species, not a screwdriver"), never after
   its position. The heading should tell the reader what it claims.
 
-  Concrete over abstract: named tools, real prices, actual job titles, specific
-  years. Every concrete, checkable claim gets a source marker — see the
-  "verified" notes further down.
+  Write it in short paragraphs — two or three sentences, one idea each. Concrete
+  over abstract: named tools, real prices, actual job titles, specific years.
+  Every concrete, checkable claim gets a source marker — see the "verified"
+  notes further down.
 -->
 
 ## <Body section — the framework or method>
@@ -140,23 +144,39 @@ tags: []
 ---
 
 <!--
-  LENGTH — why ~3500 words
+  LENGTH — why 2000–4000 words
 
-  Non-fiction chapters normally run 2,500–5,000 words, averaging around
-  4,000. 3500 sits in the middle of that convention. At roughly 230 words a
-  minute, it is a fifteen-minute read.
+  The book used to ask for ~3500 words, the middle of the non-fiction
+  convention. That made chapters that defended a thesis for fifteen minutes —
+  correct, and boring. Readers now arrive from short-form video and decide in a
+  screen or two whether to stay.
 
-  The other half of the reason is the book as a whole. Thirteen chapters at
-  3500 words is roughly 45,000 words — a short non-fiction book, the length of a
-  focused argument rather than a survey. That is the right size for this book's
-  thirteen claims, but it does mean every chapter has to carry weight: there is
-  no room for a chapter that restates the one before it.
+  So the target is a corridor, not a quota. 2000 words that land the argument
+  are a finished chapter. 4000 is the ceiling for a chapter carrying three
+  scenes. The Chinese edition is counted in characters instead — roughly
+  3200–6400, at the usual zh/en ratio of about 1.6×; check-chapter.sh reads
+  `language:` and counts accordingly.
 
-  What not to do to reach the target: restate the heading, open with "with the
-  development of AI", or pad the caveats. Length is not the goal. A chapter
-  carrying two or three distinct arguments, each with its own example and its
-  own honest limits, lands here on its own. If you find yourself stretching a
-  single idea to 3500 words, the chapter is missing an argument, not words.
+  What not to do to reach the floor: restate the heading, open with "with the
+  development of AI", or pad the caveats. Length is not the goal. A chapter that
+  opens on a person, shows two or three turns, and lands its argument will reach
+  the range on its own. If you find yourself stretching one idea, the chapter is
+  missing a story, not words.
 
-  check-chapter.sh warns below 2500 and above 4500 words of body text.
+  check-chapter.sh warns below 2000 or above 4000 words of body for English, and
+  below 3200 or above 6400 characters for Chinese.
+
+  STORY FIRST — the standard the whole book is held to
+
+  - Open on a scene: one person, one moment, a date or a number that lands.
+  - Short paragraphs: two or three sentences, one idea each.
+  - Concrete nouns and verbs: a job title, a price, a model name, a year.
+  - Show the turn: the scene ends somewhere the reader did not expect, and that
+    is where the argument goes.
+  - Say it plainly: if a sentence needs a second read to parse, rewrite it.
+
+  What does not change: every concrete claim still carries its source marker,
+  the research trail and fixed headings still apply, and the chapter still has
+  to be worth the reader's time. A short chapter is fine. An empty one dressed
+  as a story is not.
 -->

@@ -143,6 +143,19 @@ and warns if a new chapter arrives without one.
 
 ### Changed
 
+- **Writing style changed from essay to story, and the length corridor widened.** The book's chapters
+  were argued like essays — thesis first, defended for ~3,500 words — and read as correct but dull.
+  Readers arrive from short-form video and decide within a screen or two, so the standard is now
+  *story first*: open on a person, a moment, a date; short paragraphs of two or three sentences;
+  concrete nouns; let the argument arrive through the turn in a scene. Length is now **2000–4000 words
+  of body** for English and **3200–6400 characters** for Chinese — a corridor, not a quota.
+  `scripts/check-chapter.sh` reads `language:` and counts accordingly, which also removes the
+  whitespace-tokenisation warnings that always fired on Chinese chapters. Updated in the same pass:
+  `AGENTS.md` (new *Story first* section), `WORKFLOW.md`, `chapters/en/README.md` (*Length*, new
+  *Story first*, *Structure*, *Voice*), `chapters/zh/README.md` (story rules for translation, the
+  character-count note that replaces the old "known linter limitations"), and
+  `templates/chapter-template.md`. The thirteen existing chapters are being rewritten to the new
+  standard, starting with Ch. 01 and Ch. 03 as the style reference.
 - Chapter directory settled as `chapters/` (`book/` was dropped before any chapter existed), so the
   tooling and the documentation agree.
 - Homepages now state that **all thirteen chapters are open source**; the paid tier is the Premium

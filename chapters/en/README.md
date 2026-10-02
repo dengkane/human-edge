@@ -95,21 +95,52 @@ commit, because nothing checks it for you.
 
 ### Length
 
-**~3500 words of body.** The linter warns below 2500 and above 4500. Thirteen chapters at 3500 is
-about 45,000 words — a short book, the length of a sustained argument rather than a survey. It is
-deliberately *not* a quota: length is a consequence of having two or three real arguments, each with
-its own example and its own limits. A chapter stretching one idea to 3500 words is a chapter missing an argument, not
-missing 1200 words. See the LENGTH note at the bottom of
-[`../../templates/chapter-template.md`](../../templates/chapter-template.md).
+**2000–4000 words of body.** The linter warns outside that range. It is a corridor, not a target: a
+tight 2200 that lands its argument is a finished chapter, and 3800 padded to look substantial is not.
+The range exists so a chapter can be as long as its story needs and no longer.
 
-Declare `word_target:` in front matter. The linter cross-checks it against the body and warns if they
-are more than 400 words apart — that check is how a template placeholder left at the default gets
-caught.
+The old guidance here asked for ~3500 words, the middle of the non-fiction convention. That produced
+chapters that defended a thesis for fifteen minutes. The book now opens on a person, a moment, a
+date, and lets the argument arrive through the scene — which is shorter to write well and much harder
+to pad. If you find yourself stretching, the chapter is missing a story, not words.
+
+**The Chinese edition is counted in characters, not words** — roughly 3200–6400, at the usual zh/en
+ratio of about 1.6×. `check-chapter.sh` reads `language:` and counts accordingly. See
+[`../zh/README.md`](../zh/README.md).
+
+Declare `word_target:` in front matter — the number you actually landed on, inside `2000`–`4000`. The
+linter cross-checks it against the body and warns if they are more than 400 apart, which is how a
+template placeholder left at the default gets caught.
+
+### Story first
+
+**Tell it, don't argue it.** The reader is deciding whether to keep reading on every screen, and a
+chapter that opens with a thesis loses them in the first paragraph. This is the standard the whole
+book is now held to:
+
+- **Open on a scene.** One person, one moment, a date or a number that lands. Not "In the age of AI",
+  not "As we all know" — a reader who meets Chen, 29, three weeks after a layoff, is already in the
+  chapter.
+- **Short paragraphs.** Two or three sentences, one idea each. A blank line is a breath. If a
+  paragraph fills a screen, it is two paragraphs.
+- **Concrete nouns and verbs.** A job title, a price, a model name, a year. Not "leverage", not "the
+  evolving landscape".
+- **Show the turn.** A scene earns its place by ending somewhere the reader did not expect. That is
+  where the argument goes — after the surprise, not before it.
+- **Say it plainly.** If a sentence needs a second read to parse, rewrite it. Plain language is not
+  dumbing down; it is harder to write than jargon, which is why jargon wins by default.
+- **Facts stay facts.** Storytelling changes *how* a claim arrives, never whether it needs a source
+  marker. Every number in a scene carries its marker like any other.
+
+Two failure modes to avoid, both of which read as "the AI wrote this": the breathless ("AI changes
+everything!") and the vague ("in today's fast-moving world"). If a sentence would survive being moved
+to a different chapter unchanged, delete it.
 
 ### Structure
 
-- **Two or three body sections of 900–1200 words each.** Each carries its own argument and its own
-  example. If two sections make the same point, that is one section — merge them.
+- **Two or three body sections**, each reached through a scene and each carrying its own argument and
+  example. If two sections make the same point, that is one section — merge them. How long each runs
+  follows what it has to say; there is no 900–1200-word shape to hit.
 - **Name sections after their argument**, never after their position: "A species, not a screwdriver",
   not "Section 2". A heading that could sit on any chapter in the book is a heading that says
   nothing.
@@ -144,9 +175,8 @@ Second person, direct, concrete. Named tools, real prices, actual job titles, sp
 book's claim is that ordinary people can build something AI cannot copy, so the prose should sound
 like someone who has done it talking to someone who has not — not like a report about them.
 
-Avoid the two failure modes this genre runs on: the breathless ("AI changes everything!") and the
-vague ("in today's fast-moving world"). If a sentence would survive being moved to a different
-chapter unchanged, delete it.
+Practical test before you hand a chapter off: read the opening two paragraphs aloud. If they could
+open any other chapter in this book, they are the wrong two paragraphs.
 
 ## Factual claims
 
@@ -276,10 +306,10 @@ promise and the outline, and 11 because a book that only argues one direction is
 READMEs, the filename table, the part lists, and the length arithmetic were updated in the same pass —
 see the git history.
 
-Not a boundary, but worth stating: 13 is an epilogue and is shorter than the rest. The linter's
-length warnings are calibrated for body chapters — a deliberate ~1500-word epilogue will warn, and
-that warning is expected. Note the reason in the chapter's own front matter so the next person does
-not "fix" it.
+Not a boundary, but worth stating: 13 is an epilogue and is written to land the book rather than to
+carry a new argument. It is the one chapter allowed to run under 2000 words without the length
+warning meaning anything — note the reason in its own front matter so the next person does not "fix"
+it.
 
 ## Status
 

@@ -157,23 +157,26 @@ The linter requires these fields: `chapter`, `title`, `part`, `status`, `languag
 `status` is one of `planned` / `draft` / `review` / `stable`.
 
 `part` must be one of the four names listed in
-[`chapters/en/README.md`](chapters/en/README.md#chapter-index). Also fill in `word_target` (use
-`3500`) and `tags`. The linter cross-checks `word_target` against the actual body length and warns if
-they are more than 400 words apart.
+[`chapters/en/README.md`](chapters/en/README.md#chapter-index). Also fill in `word_target` (a number
+inside `2000`–`4000` that reflects what you actually wrote) and `tags`. The linter cross-checks
+`word_target` against the actual body length and warns if they are more than 400 words apart.
 
-Target **~3500 words of body**, inside the 2,500–5,000-word range non-fiction chapters normally run.
+Target **2000–4000 words of body**. That is a corridor, not a quota: 2200 words that land their
+argument are a finished chapter, and 3800 padded to look substantial are not.
 
-- two or three body sections of roughly 900–1200 words each, each with its own argument and example;
+- **story first** — open on a person, a moment, a date. The reader should feel the problem before you
+  name it;
+- short paragraphs, two or three sentences, one idea each; everyday words; concrete nouns and verbs;
+- two or three body sections, each reached through a scene and each with its own argument and example;
 - **named after their arguments**, not "Section 2";
 - finishes with `## The honest caveats` and `## Do this today`.
 
-Ch. 13 is an epilogue and is deliberately shorter. The linter's length warnings are calibrated for
-body chapters, so a deliberate ~1500-word epilogue will warn — note the reason in the front matter so
-the next person does not "fix" it.
+Ch. 13 is an epilogue and is deliberately shorter; note the reason in the front matter so the next
+person does not "fix" it.
 
-The full spec lives in [`chapters/en/README.md`](chapters/en/README.md#writing-standards), and the
-template encodes it with worked examples. Length is a consequence of the arguments, not a target to
-hit — a chapter that needs a second argument is short of an argument, not of words.
+The full spec lives in [`chapters/en/README.md`](chapters/en/README.md#writing-standards) — including
+[Story first](chapters/en/README.md#story-first) — and the template encodes it with worked examples.
+Length is a consequence of the arguments, not a target to hit.
 
 ### 5. Delete the HTML comments
 
@@ -199,9 +202,9 @@ and becomes an **error** at `review`. See
 ```
 
 Errors block publishing. Warnings are judgement calls. The check covers filename, front matter,
-footer markers, leftover scaffolding, `TODO` markers, source markers, and length (warns below 2500
-or above 4500 words of body, and flags a gap over 400 words between the body and the declared
-`word_target`).
+footer markers, leftover scaffolding, `TODO` markers, source markers, and length (warns below 2000 or
+above 4000 words of body — and for Chinese, below 3200 or above 6400 characters — and flags a gap
+over 400 words between the body and the declared `word_target`).
 
 Two of the source checks are **errors**, not warnings: a `verified` marker with no `source:`, and any
 `unverified` claim once `status` is `review` or `stable`.

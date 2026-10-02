@@ -32,12 +32,15 @@ them.
 `scripts/check-chapter.sh` enforces these. Get them wrong and it fails, so they are the cheapest
 things to know up front.
 
-- **~3500 words of body.** Warns below 2500 or above 4500. That is the middle of the non-fiction
-  convention, and what makes thirteen chapters a short book rather than a pamphlet — not a target to
-  pad to. (Ch. 13 is an epilogue and is deliberately shorter; see the note in
-  `chapters/en/README.md`.)
-- **Two or three body sections of 900–1200 words**, named after their arguments ("A species, not a
-  screwdriver"), never "Section 2".
+- **2000–4000 words of body.** English counts words; the Chinese edition counts characters, roughly
+  3200–6400 (see the note in `chapters/zh/README.md`). A corridor, not a target: a tight 2200 that
+  lands its argument beats a padded 3800. (Ch. 13 is an epilogue and is deliberately shorter; see the
+  note in `chapters/en/README.md`.)
+- **Told as story, not argued as essay.** A named person or a specific moment opens every chapter,
+  paragraphs run two or three sentences, and everyday words carry the argument. The reader feels the
+  problem before being told what it is. See [Story first](#story-first).
+- **Two or three body sections**, named after their arguments ("A species, not a screwdriver"), never
+  "Section 2". How long each runs follows what it has to say.
 - **At least 5 independent sources per chapter.** Independent means separate origins, not one report
   reprinted five times.
 - **Every source cited in a chapter must appear in its research notes**, and the notes' `sources_kept`
@@ -45,6 +48,28 @@ things to know up front.
   sources that were read and rejected.
 - Every chapter ends with `## The honest caveats` and `## Do this today`. The linter checks the
   disclosure footer in this repo's exact format.
+
+## Story first
+
+The reader is deciding whether to keep reading on every screen. A chapter that opens with a thesis
+and defends it for 3500 words loses them in the first paragraph. So the rule is story first, argument
+second:
+
+- **Open on a scene.** One person, one moment, a date or a number that lands. Not "In the age of AI",
+  not "As we all know".
+- **Short paragraphs.** Two or three sentences. One idea per paragraph. A white gap is a breath.
+- **Concrete nouns and verbs.** A job title, a price, a model name, a year. Not "leverage", not
+  "the evolving landscape".
+- **Show the turn.** A scene earns its place by ending somewhere the reader did not expect — that is
+  where the argument goes.
+- **Say it plainly.** If a sentence needs a second read to parse, it is the wrong sentence. Plain
+  language is not dumbed down; it is harder to write than jargon.
+- **Story carries structure.** The two or three body sections still exist, still named after their
+  arguments — but each one is reached through a narrative, not announced as a claim.
+
+What this does not change: the factual-claims rules, the research trail, the fixed headings, the
+disclosure footer, and the requirement that every chapter has something worth the reader's time. A
+short chapter is fine. An empty one dressed as a story is not.
 
 ## Research comes before drafting
 
