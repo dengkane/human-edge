@@ -50,7 +50,8 @@ and warns if a new chapter arrives without one.
   refuted. The chapter instead splits two questions — *is this good empathy?* (the machine often wins)
   from *is someone there?* (it cannot be) — grounded in nine studies / 6,000+ participants where
   identical text was rated more resonant when attributed to a human. Second half adds story *structure*,
-  which the title promised and the first draft omitted.
+  which the title promised and the first draft omitted. Rewritten to the *story first* standard (opens
+  on the worst week of your life, and the kindest reply turning out to be machine-written).
 
 - **Ch. 05, *Cross-Domain Thinking*** — 3,211 words of body, 5 independent sources, 10 sourced claims.
   The "no outside" capability, and the book's most exposed claim. `chapters/en/README.md` had
