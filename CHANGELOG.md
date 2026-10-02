@@ -26,12 +26,14 @@ and warns if a new chapter arrives without one.
   across one-for-one, written as Chinese rather than translated word for word. Rewritten to the
   *story first* standard (opens on the METR developers' speed-up experiment).
 
-- **Ch. 02, *AI's Blind Spots*** — 3,892 words of body, 7 independent sources, 14 sourced claims.
+- **Ch. 02, *AI's Blind Spots*** — 3,721 words of body, 7 independent sources, 14 sourced claims.
   Names the four blind spots (no preference / no experience / no outside / no commitment) and argues
   they are four consequences of one root: a model's output costs it nothing. Research again changed the
   chapter — the Cambridge *Bot or not* study (AI stories rated higher than human ones, identification
   below chance) forced the experience claim to be narrowed to "a model cannot give you a reason to care
-  that came from having been there", and the counter-evidence is stated rather than buried.
+  that came from having been there", and the counter-evidence is stated rather than buried. Rewritten to
+  the *story first* standard (opens on the same question — quitting vs. staying — drawing two opposite
+  lists, neither of which costs the model anything).
 
 - **Ch. 03, *Taste*** — 3,367 words of body, 6 independent sources, 16 sourced claims. The first
   Part II capability. Research again redirected the chapter: the instinctive version ("AI output is
