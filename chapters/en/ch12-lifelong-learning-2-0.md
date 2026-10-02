@@ -5,10 +5,10 @@ part: "Part V — The Future of Growth"
 status: draft
 language: en
 created: 2026-10-01
-last_updated: 2026-10-01
+last_updated: 2026-10-02
 assisted_by: "DeepSeek + Reasonix"
 edited_by: "Ken Deng"
-word_target: 3500
+word_target: 3350
 tags: [learning, tutoring, transfer, deliberate-practice, decay]
 ---
 
@@ -17,15 +17,24 @@ tags: [learning, tutoring, transfer, deliberate-practice, decay]
 > **The one thing to take away:** a tutor makes you perform better. You have to make yourself learn —
 > and those turn out to be different projects.
 
+You sit down to learn something and you ask the model to help. Three hours later you have a finished
+piece of work you are genuinely proud of: well-organised, well-written, correct.
+
+Then the useful question, and you may not have asked it: could you do that again next week, without the
+model?
+
+The gap between those two answers is this chapter. One of them went up. The other may not have moved at
+all.
+
 ## Why this matters now
 
 Chapter 11 established the problem: hand over a task and the cognitive layer underneath it quietly
 decays, while the part you can feel stays fine. This chapter is the response.
 
-I am not going to restate the diagnosis. Take it as given: **the layer that decays is the one you have to
-keep training, and the whole difficulty is that nothing in your experience tells you when it is going.**
-The question here is what training it actually looks like over years rather than afternoons — and
-whether the obvious answer, *get an AI tutor*, is the answer.
+I will not restate the diagnosis. Take it as given: **the layer that decays is the one you have to keep
+training, and the whole difficulty is that nothing in your experience tells you when it is going.** The
+question here is what training it looks like over years rather than afternoons — and whether the obvious
+answer, *get an AI tutor*, is the answer.
 
 It is a good answer. It is also, in the way this book keeps finding, not the whole answer, and the reason
 it is incomplete is more interesting than the recommendation.
@@ -36,8 +45,8 @@ Start with the myth, because this is a book about thinking and it should not bui
 falsehood.
 
 The story you have heard is that one-on-one tutoring is transformative — that the average tutored
-student ends up roughly **two standard deviations** above the average classroom student. That is
-Benjamin Bloom's "two-sigma problem," from 1984, and it is one of the most repeated facts in education.
+student ends up roughly **two standard deviations** above the average classroom student. That is Benjamin
+Bloom's "two-sigma problem," from 1984, and it is one of the most repeated facts in education.
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.3102/0013189X013006004 -->
 
@@ -85,8 +94,8 @@ beat a good active-learning class, and the students learned more in less time.**
 Now the part that makes this chapter more than a product recommendation. Why did it work? The researchers
 are unusually explicit, and the answer is not "because AI."
 
-> The AI tutor was designed with a system prompt with guidelines to facilitate **active engagement, manage
-> cognitive load, and promote a growth mindset**.
+> The AI tutor was designed with a system prompt with guidelines to facilitate **active engagement,
+> manage cognitive load, and promote a growth mindset**.
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1038/s41598-025-97652-6 -->
 
@@ -102,7 +111,7 @@ Sit with the direction of that arrow, because it is the opposite of what the mar
 worked because someone who understood teaching carefully engineered a learning environment and used a
 model as the delivery mechanism. The model was not the pedagogy. **It was the pipe.**
 
-And one more line from the paper, which is the most useful sentence in it for anyone who wants to do this
+And one more line from the paper, the most useful sentence in it for anyone who wants to do this
 themselves:
 
 > **AI chatbots are generally designed to be helpful, not to promote learning.**
@@ -130,18 +139,18 @@ course, on topics the students had not studied before, at the levels of understa
 analysing.
 
 So the honest position is narrow and useful. **AI tutoring is excellent at bringing you up a slope that
-has a known top** — a body of material with right answers, where the goal is mastery. It is *unproven*
-at the thing the rest of this book asks for. The tutor that made the students learn surface tension twice
-as fast is not evidence that a tutor will make you a better judge of a market, a better writer, or a
-better decision-maker under uncertainty.
+has a known top** — a body of material with right answers, where the goal is mastery. It is *unproven* at
+the thing the rest of this book asks for. The tutor that made the students learn surface tension twice as
+fast is not evidence that a tutor will make you a better judge of a market, a better writer, or a better
+decision-maker under uncertainty.
 
 ## The finding that should worry you
 
 Now the study to hold next to the Harvard one, because together they describe the actual situation.
 
-Researchers randomized 117 university students across four conditions for a writing task: ChatGPT, a human
-expert, writing-analytics tools, and no tool at all. They measured motivation, the self-regulated learning
-process, and performance.
+Researchers randomized 117 university students across four conditions for a writing task: ChatGPT, a
+human expert, writing-analytics tools, and no tool at all. They measured motivation, the self-regulated
+learning process, and performance.
 
 The result, in the authors' summary:
 
@@ -152,10 +161,10 @@ The result, in the authors' summary:
 
 **The essay got better. The learning did not.**
 
-Stop on that, because it is Chapter 11's hand/head split appearing in an education study, and it is the
-reason this chapter exists in the form it does. The output improved. The knowledge gain — did they
-understand more? — and the transfer — can they do this elsewhere? — did not move. The students produced
-better artifacts while learning no more than the group with no tool at all.
+Stop on that, because it is Chapter 11's hand/head split appearing in an education study, and it is why
+this chapter exists in the form it does. The output improved. The knowledge gain — did they understand
+more? — and the transfer — can they do this elsewhere? — did not move. The students produced better
+artifacts while learning no more than the group with no tool at all.
 
 And the mechanism the authors name is precisely the one Chapter 11 predicted:
 
@@ -166,8 +175,8 @@ And the mechanism the authors name is precisely the one Chapter 11 predicted:
 
 Metacognitive laziness. Not laziness in the ordinary sense — these students were working. It is laziness
 in the layer that *supervises* thinking: the part that decides whether you understand something, notices
-that you are confused, and chooses to struggle rather than accept a fluent answer. That layer is what
-decides whether a task teaches you anything, and a helpful system gives it nothing to do.
+that you are confused, and chooses to struggle rather than accept a fluent answer. That layer decides
+whether a task teaches you anything, and a helpful system gives it nothing to do.
 
 The same paper found "significant differences in the frequency and sequences of the self-regulated
 learning processes among groups" — meaning the AI group *did things differently* on the way to a better
@@ -214,8 +223,8 @@ that is a decision, made repeatedly, which is why it belongs in a book about jud
 So here is the method. It follows from everything above and it is deliberately not a curriculum.
 
 **One: separate performance from learning, out loud.** This is the correction that comes out of the two
-studies together, and it is the single most useful habit in this chapter. When you finish something,
-ask the two questions separately: *did this turn out well?* and *can I do more than I could before?* The
+studies together, and it is the single most useful habit in this chapter. When you finish something, ask
+the two questions separately: *did this turn out well?* and *can I do more than I could before?* The
 essay-score finding is that these come apart, and that AI in particular widens the gap — it improves the
 first while leaving the second flat. If you never ask the second question, the drift is invisible. Ask it.
 
@@ -236,28 +245,28 @@ assistant will never do on its own.
 **Three: practise where there is a top.** Be honest about the shape of the terrain. AI tutoring has
 demonstrated effects where the material has right answers and a known ceiling — a language, a
 qualification, a technical body of knowledge. That is a legitimate and valuable use of the tool, and you
-should use it hard. But do not confuse it with training the layers the rest of this book cares about.
-For taste, judgement and connection, there is no syllabus and no post-test, which means those are trained
-by **doing the thing in public and living with the result** — the loop from Chapter 10, at the scale of
+should use it hard. But do not confuse it with training the layers the rest of this book cares about. For
+taste, judgement and connection, there is no syllabus and no post-test, which means those are trained by
+**doing the thing in public and living with the result** — the loop from Chapter 10, at the scale of
 years.
 
 **Four: keep it in the loop, permanently.** Chapter 11's finding was that retention of the cognitive
-skill "may depend on the degree to which pilots remain **actively engaged in supervising the automation**."
-Training is not a phase you complete and then automate. The engagement is the training, and it is
-required continuously — not as a discipline you impose on yourself through willpower, but as a property
-of how you have arranged the work.
+skill "may depend on the degree to which pilots remain **actively engaged in supervising the
+automation**." Training is not a phase you complete and then automate. The engagement is the training, and
+it is required continuously — not as a discipline you impose through willpower, but as a property of how
+you have arranged the work.
 
 ### About plateaus
 
 Which brings us to the thing nobody warns you about, and the reason Ch. 07 sent this material forward.
 
-Progress is not linear and the flat parts are where people quit. The evidence above says why the flat
+Progress is not linear, and the flat parts are where people quit. The evidence above says why the flat
 parts are especially dangerous in the AI era: **you can be on a plateau and not know it, because your
 output keeps improving.** The essay scores climb. The sense of competence rises. And the underlying
 capability — the thing that would let you do this unaided, in a new domain, next year — is exactly where
 it was, or worse.
 
-That is a plateau with a receipt showing improvement. Which is the hardest kind to notice and the reason
+That is a plateau with a receipt showing improvement. Which is the hardest kind to notice, and the reason
 rule one comes first: the *performance* signal is the one that stays comfortable, so it is the one you
 must learn to distrust.
 
@@ -265,11 +274,11 @@ must learn to distrust.
 
 The usual split, applied to learning.
 
-**What it is genuinely good at:** being patient in a way no human can afford to be — infinite repetitions,
-no judgement, available at eleven at night. Explaining the same idea five ways until one lands. Generating
-practice problems at exactly your level. Giving fast feedback, which is one of the best-evidenced
-ingredients in all of instruction. And, used properly, being the scaffold the Harvard team built: an
-environment that makes you do the work.
+**What it is genuinely good at:** being patient in a way no human can afford to be — infinite
+repetitions, no judgement, available at eleven at night. Explaining the same idea five ways until one
+lands. Generating practice problems at exactly your level. Giving fast feedback, one of the
+best-evidenced ingredients in all of instruction. And, used properly, being the scaffold the Harvard team
+built: an environment that makes you do the work.
 
 **What it cannot do:** it cannot make you learn. The randomized evidence is that a helpful model improves
 your artifacts and leaves your knowledge gain and transfer where they were. It cannot want you to
@@ -306,8 +315,8 @@ with the instruction rather than from learning that travels.
 <!-- verified 2026-10-01 — source: https://doi.org/10.3102/0034654315581420 -->
 
 That applies to the Harvard result too: the gain was large and the test was course-specific. The
-Steenbergen-Hu finding is the reason I describe that result as "beat active learning on a course test"
-rather than as "learned more, full stop."
+Steenbergen-Hu finding is why I describe that result as "beat active learning on a course test" rather
+than as "learned more, full stop."
 
 **The deliberate-practice debate is not settled.** The meta-analysis I quote drew a formal reply from
 Ericsson and colleagues arguing the estimate understates practice by misdefining it. I am using the
@@ -318,8 +327,8 @@ dispute is real. I did not open the original 1993 paper, so it carries no marker
 
 **And one thing I am deliberately not claiming.** This chapter is not "AI makes a good tutor, therefore
 use AI." The randomized evidence shows the effect depends on an environment that forces engagement, and
-that the same tool produces no learning when the environment does not. The tool is not the finding.
-**The design is the finding** — which is less exciting and more actionable, since the design is yours.
+that the same tool produces no learning when the environment does not. The tool is not the finding. **The
+design is the finding** — which is less exciting and more actionable, since the design is yours.
 
 ## Do this today
 
@@ -327,10 +336,10 @@ that the same tool produces no learning when the environment does not. The tool 
    separately and in writing: *was the output good?* and *can I do more than I could before?* Notice how
    easy the first is to answer and how slippery the second is. That asymmetry is the metacognitive
    laziness, and it is not a character flaw — it is what a helpful system does.
-2. **This week.** Take one thing you want to be able to do unaided in a year, and set up the
-   environment rather than the answer. Open a session with the explicit instruction: *do not give me the
-   answer; ask me the next question, make me produce each step, and confirm only what I get right.* Then
-   do one round. It will feel worse than being helped. That is the entire point, and it is the 4.5.
+2. **This week.** Take one thing you want to be able to do unaided in a year, and set up the environment
+   rather than the answer. Open a session with the explicit instruction: *do not give me the answer; ask
+   me the next question, make me produce each step, and confirm only what I get right.* Then do one round.
+   It will feel worse than being helped. That is the entire point, and it is the 4.5.
 3. **This quarter.** Pick the layer you named in Chapter 11's exercise — the cognitive skill under the
    task you handed over — and put one hour on the calendar for **doing it by hand**, with no tool. Not
    because the tool is bad. Because the evidence on retention says the engagement *is* the training, and
@@ -354,7 +363,7 @@ that the same tool produces no learning when the environment does not. The tool 
   <https://doi.org/10.1080/00461520.2011.611369>
 
 ---
-📅 Last updated: 2026-10-01
+📅 Last updated: 2026-10-02
 🤖 Assisted by: DeepSeek + Reasonix
 ✍️  Edited by: Human (that's me)
 ⚠️  Verify critical facts yourself — AI moves fast, I do my best.
