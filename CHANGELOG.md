@@ -84,7 +84,8 @@ and warns if a new chapter arrives without one.
   (Schulhoff et al.), which is an argument against memorising them, not for it. So the thesis became the
   opposite of a listicle — *wording is unstable; the thinking is what transfers* — and the chapter
   delivers the four parts of a briefing (intent, context, constraints, standard of done), each
-  demonstrated on a worked example.
+  demonstrated on a worked example. Rewritten to the *story first* standard (opens on the same question
+  rephrased three times, with the intent never once stated).
 
 - **Ch. 09, *Your Second Brain and Your First Brain*** — 3,327 words of body, 6 independent sources,
   10 sourced claims. Opens Part IV. Research **inverted the chapter**: the "second brain" pitch says
