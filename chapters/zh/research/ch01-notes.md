@@ -37,7 +37,7 @@ sources_rejected: 0
 
 ## 与英文版的关系
 
-- **27 个 `<!-- verified -->` 标记连 URL 一起逐字搬运，与英文一一对应、顺序一致。**已验证：
+- **28 个 `<!-- verified -->` 标记连 URL 一起逐字搬运，与英文一一对应、顺序一致。**已验证：
   `diff` 两份文件的 `source:` 序列为空。
 - 译文**不重新验证任何论断**。
 - 页脚五行保持英文，逐字符一致。
@@ -74,13 +74,15 @@ sources_rejected: 0
 
 按 `chapters/zh/README.md` 的标准，不逐字翻译：
 
-- **拆句。**英文用冒号和破折号组织的长句，中文多数拆成独立短句。例如英文首段
-  "In February 2020, if you wanted a job writing software, the market was yours." 拆成
-  "2020 年 2 月，如果你想找一份写代码的工作，市场是你的。"
+- **拆句。**英文用冒号和破折号组织的长句，中文多数拆成独立短句。例如
+  "In February 2020, the market was theirs." 拆成
+  "2020 年 2 月，市场是他们的。"
+- **短段落。**按 `AGENTS.md` 的 Story first 要求，中文同样以两三个短句为一段，信息密度高的
+  长段拆成多个段落。
 - **少破折号。**英文原文破折号很多，中文里压缩为冒号、句号或独立分句。保留了少数几处，用在
   确实需要插入补充说明的地方。
-- **去被动式。**"the failure is no longer hypothetical and no longer invisible to the client"
-  → "这种失效不再是假设，而且客户已经看得见了"。
+- **去被动式。**"the failure is no longer hypothetical — and no longer invisible to the client"
+  → "这种失效不再是假设，客户也已经看得见"。
 - **名词化拉回动词。**"adjustment is showing up primarily in employment" → "调整体现在就业上"。
 - **避开译文腔词。**未使用"作为一个""进行""在……的情况下""不仅……而且"这类结构。
 
@@ -90,8 +92,7 @@ sources_rejected: 0
 NBER、METR），这些在中文语境下同样成立、也同样可查。按 `chapters/zh/README.md` 的规定，
 产品名、机构名、英文标识符不翻译：
 
-- 保留英文：**ChatGPT**、**Android / Java / .NET / iOS / Web**（岗位方向名）、
-  **ADP**、**ChatGPT**
+- 保留英文：**ChatGPT**、**Android / Java / .NET / iOS / Web**（岗位方向名）
 - 机构首次出现给中文全称并附英文：达拉斯联邦储备银行、美国人口普查局、美国劳工统计局、
   斯坦福数字经济实验室、耶鲁预算实验室
 - **METR** 保留原文缩写（正文以英文名出现，因为那是论文名的一部分）
