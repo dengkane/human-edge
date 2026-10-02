@@ -33,13 +33,14 @@ and warns if a new chapter arrives without one.
   below chance) forced the experience claim to be narrowed to "a model cannot give you a reason to care
   that came from having been there", and the counter-evidence is stated rather than buried.
 
-- **Ch. 03, *Taste*** — 3,340 words of body, 6 independent sources, 14 sourced claims. The first
+- **Ch. 03, *Taste*** — 3,367 words of body, 6 independent sources, 16 sourced claims. The first
   Part II capability. Research again redirected the chapter: the instinctive version ("AI output is
   generic") is false — web design converged 44% between 2010 and 2019 with no generative AI in the loop.
   The chapter relocates the claim onto the mechanism both human and model share (processing fluency /
   beauty-in-averageness) and on the Science Advances finding that AI raises individual creativity while
   making collective output more similar. Its two honest gaps — no peer-reviewed study of taste training,
-  and the 44% figure cited second-hand — are stated in the caveats.
+  and the 44% figure cited second-hand — are stated in the caveats. Rewritten to the *story first*
+  standard (opens on the Indian writer whose "S" the assistant completes as "Shaquille O'Neal").
 
 - **Ch. 04, *Story & Emotion*** — 3,457 words of body, 6 independent sources, 16 sourced claims. The
   "no experience" capability. Research forced the chapter away from its obvious form: AI-written empathy
