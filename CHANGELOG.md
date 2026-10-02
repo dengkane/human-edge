@@ -63,7 +63,8 @@ and warns if a new chapter arrives without one.
   improves judgment quality while outcome accountability degrades it, pushing people into heuristic
   processing. A second finding (Sheridan & Reingold, PLOS ONE) added the half the first draft lacked:
   people abandon a course of action on a **blunder** but not on a slow disappointment, which is exactly
-  what "no right answer" looks like from inside.
+  what "no right answer" looks like from inside. Rewritten to the *story first* standard (opens on the
+  Thursday deadline, the model's steady recommendation, and the feeling of having decided).
 
 - **Ch. 07, *Deep Thinking*** — 3,656 words of body, 9 independent sources, 17 sourced claims. Opens
   Part III. Research **inverted the chapter a second time**: the title promises escaping the filter
