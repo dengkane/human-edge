@@ -5,10 +5,10 @@ part: "Part IV — Systems and Their Costs"
 status: draft
 language: en
 created: 2026-10-01
-last_updated: 2026-10-01
+last_updated: 2026-10-02
 assisted_by: "DeepSeek + Reasonix"
 edited_by: "Ken Deng"
-word_target: 3500
+word_target: 3450
 tags: [deskilling, automation, cognitive-offloading, craft, skill-decay]
 ---
 
@@ -17,22 +17,31 @@ tags: [deskilling, automation, cognitive-offloading, craft, skill-decay]
 > **The one thing to take away:** the skill that decays is not the one you offloaded. It is the one
 > underneath it — and it decays silently, because the part that stays working is the part you can feel.
 
+Put an experienced pilot in a 747 simulator. Take the automation away, mid-flight, and ask them to fly
+by hand.
+
+Their hands are fine. That is the surprising part. What fails is something they cannot feel from the
+inside — and by the time they notice, the thing they would have used to notice it is gone.
+
+This chapter is about that. It was documented forty years ago, it has nothing to do with AI, and it is
+the reason this book has to argue with itself.
+
 ## Why this matters now
 
 This is the chapter that argues against the rest of the book, and I want to be honest about why it exists
 rather than let it read as a lawyer's footnote.
 
 Chapters 09 and 10 told you to build a system: externalise what you learn, let the model draft, hand off
-the generation, keep the retrieval. Everything in it is real advice and I stand behind it. But a book that
-only says "here is how to use the tool" is not a book about judgement. It is a sales pitch with a
+the generation, keep the retrieval. Every word of it is real advice and I stand behind it. But a book
+that only says "here is how to use the tool" is not a book about judgement. It is a sales pitch with a
 bibliography.
 
-So this chapter prices the system. Not with a warning — warnings are cheap and this book has spent ten
-chapters showing you that they do not work — but with the specific, documented case of what happens to
-people who handed the work over and did not notice what it cost.
+So this chapter prices the system. Not with a warning — warnings are cheap, and this book has spent ten
+chapters showing you they do not work — but with the specific, documented case of what happens to people
+who handed the work over and did not notice the cost.
 
-And here is the uncomfortable thing: the evidence is not new. It is forty years old, it is peer-reviewed,
-and it was not about AI at all.
+And the uncomfortable part: the evidence is not new. It is forty years old, it is peer-reviewed, and it
+was never about AI.
 
 ## The machine did not start this
 
@@ -52,7 +61,7 @@ instead of doing the work:
 
 Read the end of that again. A *formerly experienced* operator. The automation did not remove their
 experience. It let the experience lapse while they were busy monitoring — and then left them responsible
-for the abnormal situations that the monitoring was supposed to catch.
+for the abnormal situations the monitoring was supposed to catch.
 
 And Bainbridge states the paradox that makes the whole thing vicious, in a single line:
 
@@ -66,9 +75,9 @@ and those emergencies are rare enough that the skill never gets practised — wh
 that it had better be there. She called it irony because the result is the direct opposite of what you
 would expect.
 
-Forty years later, the same structure is applied to work that used to feel like thinking. The details are
-different. The shape is identical. Which means we have four decades of evidence about how this goes, and
-we are currently ignoring all of it.
+Forty years later, the same structure applies to work that used to feel like thinking. The details differ.
+The shape is identical. Which means we have four decades of evidence about how this goes, and we are
+currently ignoring all of it.
 
 ## What actually decays
 
@@ -88,21 +97,21 @@ Here is the result that should reorganise how you think about your own skills:
 <!-- verified 2026-10-01 — source: https://doi.org/10.1177/0018720814535628 -->
 
 Sit with how strange that is. The pilots had not practised, and their **hands** were fine. The hand-eye
-skills the researchers expected to find rusty were "mostly intact." What degraded was the part you
-cannot see: recalling the procedural steps, keeping track of what had been done and what remained,
-visualising the aircraft's position without a map, doing the mental arithmetic, recognising that an
-instrument was failing.
+skills the researchers expected to find rusty were "mostly intact." What degraded was the part you cannot
+see: recalling the procedural steps, keeping track of what had been done and what remained, visualising
+the aircraft's position without a map, doing the mental arithmetic, recognising that an instrument was
+failing.
 
 **The hand stays. The head goes.**
 
-That single split explains everything the rest of this chapter has to do, so let me state it as plainly as
-I can. When you hand a task to a tool, you stop practising the task. But "the task" is not one skill. It
-is a physical layer — the mechanics, the routine, the thing your fingers know — sitting on top of a
-cognitive layer: the judgement, the mental model, the ability to hold the situation in your head.
+That split explains everything the rest of this chapter has to do, so let me state it plainly. When you
+hand a task to a tool, you stop practising the task. But "the task" is not one skill. It is a physical
+layer — the mechanics, the routine, the thing your fingers know — sitting on top of a cognitive layer:
+the judgement, the mental model, the ability to hold the situation in your head.
 
-The physical layer is durable. It survives disuse for months; it comes back fast when you need it. So
-when you stop doing the task by hand and start supervising a tool that does it, **the part you would
-notice failing keeps working.** You feel competent. Nothing is obviously wrong.
+The physical layer is durable. It survives disuse for months; it comes back fast when you need it. So when
+you stop doing the task by hand and start supervising a tool that does it, **the part you would notice
+failing keeps working.** You feel competent. Nothing is obviously wrong.
 
 The cognitive layer is not durable, and it is exactly the part your sense of competence was built from.
 
@@ -111,15 +120,15 @@ The cognitive layer is not durable, and it is exactly the part your sense of com
 Here is the specific story, assembled only from what those researchers measured.
 
 Sixteen experienced airline pilots. Automation that flies the aircraft well — better than they do, in
-normal conditions, which is why it is there. They supervise. Their manual control stays sharp because
-they still take the controls often enough, and because hand-eye skill is stubborn. If you asked them,
-they would say — and they did say — that they were flying less. But they were competent, checked out,
-current. Their hands worked.
+normal conditions, which is why it is there. They supervise. Their manual control stays sharp because they
+still take the controls often enough, and because hand-eye skill is stubborn. If you asked them, they
+would say — and they did say — that they were flying less. But they were competent, checked out, current.
+Their hands worked.
 
-Now put them in the situation the automation cannot handle: something abnormal, quickly, with the autopilot
-disengaged. That is when the researchers found "more frequent anomalies" — in recalling sequence, in
-tracking state, in visualising position, in recognising the failure for what it was. Not in their
-hands. In the part underneath.
+Now put them in the situation the automation cannot handle: something abnormal, quickly, with the
+autopilot disengaged. That is when the researchers found "more frequent anomalies" — in recalling
+sequence, in tracking state, in visualising position, in recognising the failure for what it was. Not in
+their hands. In the part underneath.
 
 **And here is the mechanism of invisibility, which is the actual point.** The pilots could not have
 detected this from the inside, because the instrument they would use to detect it is the thing that
@@ -136,12 +145,12 @@ The researchers' own conclusion names the variable that decides it:
 
 Note what that is *not*. It is not "use less automation." It is not "practise more." It is **engagement** —
 whether the person stayed mentally in the loop rather than handing over the loop entirely. Two pilots
-using identical automation, one of whom is thinking along and one of whom is watching, end up in
-different places.
+using identical automation, one of whom is thinking along and one of whom is watching, end up in different
+places.
 
-That is the design variable for the rest of this chapter, and it is the reason 11 is not a retraction of
-09 and 10. The question was never *whether* to offload. It is *which layer you hand over* — and whether
-you stay in the loop on the layer that decays.
+That is the design variable for the rest of this chapter, and it is why 11 is not a retraction of 09 and
+10. The question was never *whether* to offload. It is *which layer you hand over* — and whether you stay
+in the loop on the layer that decays.
 
 ## This is not a correlation
 
@@ -174,9 +183,9 @@ And the longitudinal half gives the direction of travel over time:
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1038/s41598-020-62877-0 -->
 
-That is the same structure as the cockpit, in a domain you have personally experienced. Handing navigation
-to a tool preserves your ability to *arrive*. It costs you the mental map that would let you know where
-you are — and if you have ever driven somewhere with GPS and then been unable to describe the route
+That is the cockpit structure again, in a domain you have personally experienced. Handing navigation to a
+tool preserves your ability to *arrive*. It costs you the mental map that would let you know where you
+are — and if you have ever driven somewhere with GPS and then been unable to describe the route
 afterwards, you have met this in your own life and did not think of it as a cost.
 
 I have to give the authors' own hedge, because it is real and this chapter does not get to skip the
@@ -186,7 +195,7 @@ caveats just because its conclusion is inconvenient:
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1038/s41598-020-62877-0 -->
 
-Fair. The follow-up sample is thirteen people. Treat "may cause" as the claim and not the headline.
+Fair. The follow-up sample is thirteen people. Treat "may cause" as the claim, not the headline.
 
 ### The AI-specific evidence, and its rebuttal, together
 
@@ -203,7 +212,7 @@ work."
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.48550/arxiv.2506.08872 -->
 
-That is the "worked case" problem arriving in a lab. People produced essays they did not feel were theirs
+That is the worked-case problem arriving in a lab. People produced essays they did not feel were theirs
 and could not reliably reproduce. Which is the cognitive layer, degrading, while the artifact on the page
 looked fine.
 
@@ -217,11 +226,11 @@ raising methodological objections — "the limited sample size," "the reproducib
 I am citing the study and its criticism in the same breath, deliberately, because that is the only honest
 way to use it. It went viral. The objections did not.
 
-**And notice what that means for this chapter's argument.** The weakest evidence in this chapter is the
-evidence about AI. The strong evidence is from 1983, 2014 and 2020 — factories, cockpits and cars — none
-of it about this tool at all. If the AI-specific finding turns out to be thin, **the chapter survives**,
-because the mechanism was established before the tool existed. That asymmetry is the argument, not a
-weakness in it.
+**And notice what that means for this chapter's argument.** The weakest evidence here is the evidence
+about AI. The strong evidence is from 1983, 2014 and 2020 — factories, cockpits and cars — none of it
+about this tool at all. If the AI-specific finding turns out to be thin, **the chapter survives**, because
+the mechanism was established before the tool existed. That asymmetry is the argument, not a weakness in
+it.
 
 ## What you have to keep by hand
 
@@ -233,20 +242,19 @@ parts cannot be automated away, and it is not the parts you would guess. **You d
 type, or to draft, or to operate the tool. You lose the cognitive layer underneath** — and the system has
 to be built so that the layer you are not practising is the layer you are not depending on.
 
-Concretely, three rules, and each one is a specific part of the earlier chapters marked *keep by hand*.
+Concretely, three rules, each a specific part of the earlier chapters marked *keep by hand*.
 
 **One: keep retrieval by hand.** This is Chapter 09's pointer rule, and the price of breaking it is now
-documented. Recall the finding from that chapter — that offloading improved performance and damaged
-memory for the offloaded content. GPS is the same finding in a car. So: the note stays a pointer, *you*
-do the recall, and the tool that would answer instantly is the tool you do not use for the things you
-need your memory to hold. Not because answering is wrong. Because **being answered for is how the map
-goes away.**
+documented. Recall that chapter's finding — that offloading improved performance and damaged memory for
+the offloaded content. GPS is the same finding in a car. So: the note stays a pointer, *you* do the recall,
+and the tool that would answer instantly is the tool you do not use for the things you need your memory
+to hold. Not because answering is wrong. Because **being answered for is how the map goes away.**
 
 **Two: keep hypothesis formation by hand.** This is Chapter 10's weak link, and its critique said so
-before I did: the method gives "inadequate guidance provided for hypotheses generation." What you must
-not hand over is what you are actually testing — what you believe, and what evidence would change it.
-The model can generate ten tests, critique your plan, supply the outside view. **The moment you ask it
-what you should believe, you have made the cockpit decision in the cockpit's absence.**
+before I did: the method gives "inadequate guidance provided for hypotheses generation." What you must not
+hand over is what you are actually testing — what you believe, and what evidence would change it. The
+model can generate ten tests, critique your plan, supply the outside view. **The moment you ask it what
+you should believe, you have made the cockpit decision in the cockpit's absence.**
 
 **Three: keep the falsifier, and check it yourself.** Chapters 06, 07, 09 and 10 all circle this, and here
 is why it belongs on the do-not-delegate list permanently. A falsifier is the instrument you use to detect
@@ -259,8 +267,8 @@ That is the whole chapter in one sentence, so let me put it on its own line:
 > You cannot supervise your own judgement with the part of your judgement you outsourced.
 
 Which is why the tools have to live outside your head. The written falsifier, the decision rule, the dated
-review, the note that says "go back to §3" — every one of those is a check that does not depend on the
-faculty that is quietly weakening. That is not caution. That is instrumentation.
+review, the note that says "go back to §3" — every one is a check that does not depend on the faculty that
+is quietly weakening. That is not caution. That is instrumentation.
 
 ## What the machine does, and what it costs
 
@@ -279,9 +287,9 @@ the moment, because detection is what you gave away.
 **And the reason this is so much harder than the cockpit case**, which is the thing I want to leave you
 with. An airline pilot has a captain, a simulator, a six-month check, a regulator, and an entire
 profession whose job is to notice. There is a hierarchy and a schedule and someone whose name is on the
-sign-off. **You have none of that.** Nobody is going to put you in a simulator next quarter to see
-whether your judgement still works. Which is why the external instrumentation is not a nice-to-have: for
-you, it is the only captain there is.
+sign-off. **You have none of that.** Nobody is going to put you in a simulator next quarter to see whether
+your judgement still works. Which is why the external instrumentation is not a nice-to-have: for you, it
+is the only captain there is.
 
 ## The honest caveats
 
@@ -293,19 +301,19 @@ remember that the chapter's strongest evidence does not come from AI research.
 <!-- verified 2026-10-01 — source: https://doi.org/10.48550/arxiv.2601.00856 -->
 
 **Every study here is from a different domain than yours.** Industrial process control, airline cockpits,
-car navigation. Applying them to knowledge work is an extrapolation, and the burden of proof is on me —
-I have not found a peer-reviewed study that measures cognitive skill decay in *knowledge* work over years.
+car navigation. Applying them to knowledge work is an extrapolation, and the burden of proof is on me — I
+have not found a peer-reviewed study that measures cognitive skill decay in *knowledge* work over years.
 The mechanism is well established; the transfer to your job is an inference.
 
 <!-- verified 2026-10-01 — source: https://doi.org/10.1177/0018720814535628 -->
 
 **And the transfer probably has a limit in the other direction.** Casner's pilots kept their hand skills
 intact. That is a partial reassurance, and the honest reading of this chapter is not "everything decays."
-It is "a specific layer decays, in a way that is hard to see." If you have ever suspected that the
+It is "a specific layer decays, in a way that is hard to see." If you have ever suspected the
 physical-skill half of this worry is overblown, the evidence agrees with you.
 
-**The GPS longitudinal sample is thirteen people.** The authors' own hedge is quoted above and it
-applies. The direction of the finding is more trustworthy than its size.
+**The GPS longitudinal sample is thirteen people.** The authors' own hedge is quoted above and it applies.
+The direction of the finding is more trustworthy than its size.
 
 **One more thing about the sunk-cost research.** Chapter 10 used it, and its role here is small but worth
 naming: the pull to continue after investing is "contingent on the respective decision type" and
@@ -323,14 +331,13 @@ that degrades under a bias you cannot feel from inside. Not a coincidence. The s
    choice was made, being able to do it unaided. Write that down. That layer is what the evidence says is
    going. Naming it is the whole point, because you cannot protect a thing you have not identified.
 2. **This week.** Pick the thing you named and do it **once by hand.** Not as a test. As practice — the
-   same way a pilot hand-flies. Retrieve the note instead of searching. Form the hypothesis before asking.
+   way a pilot hand-flies. Retrieve the note instead of searching. Form the hypothesis before asking.
    Write the falsifier before you look. Notice whether it feels harder than it used to. The feeling of
    difficulty is the data, and it is the only instrument you have that reports on the layer that hides.
-3. **This quarter.** Build the external check you do not have and no one is going to build for you:
-   put one decision on a calendar for a date in the future, with the reasoning and the falsifier written
-   down now. Then actually look at it. You are being your own captain and your own check, and the reason
-   it has to be written is that the part of you that would have remembered is the part this chapter is
-   about.
+3. **This quarter.** Build the external check you do not have and no one is going to build for you: put
+   one decision on a calendar for a date in the future, with the reasoning and the falsifier written down
+   now. Then actually look at it. You are being your own captain and your own check, and the reason it has
+   to be written is that the part of you that would have remembered is the part this chapter is about.
 
 ## Further reading
 
@@ -352,7 +359,7 @@ that degrades under a bias you cannot feel from inside. Not a coincidence. The s
   <https://doi.org/10.48550/arxiv.2601.00856>
 
 ---
-📅 Last updated: 2026-10-01
+📅 Last updated: 2026-10-02
 🤖 Assisted by: DeepSeek + Reasonix
 ✍️  Edited by: Human (that's me)
 ⚠️  Verify critical facts yourself — AI moves fast, I do my best.

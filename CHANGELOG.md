@@ -119,7 +119,8 @@ and warns if a new chapter arrives without one.
   AI-specific MIT study is cited **together with its published methodological critique**, and the chapter
   states plainly that its weakest evidence is the AI evidence and its strongest is forty years old.
   Satisfies the strict contract: a worked case (the cockpit), no retraction of 09–10, and an explicit
-  refusal to end on "be careful."
+  refusal to end on "be careful." Rewritten to the *story first* standard (opens on an experienced pilot
+  in a 747 simulator whose hands are fine and whose head is not).
 
 - **Ch. 12, *Lifelong Learning 2.0*** — 3,348 words of body, 6 independent sources, 17 sourced claims.
   Opens Part V, and answers Ch. 11's diagnosis. Research corrected the chapter's premise twice: the
